@@ -7,17 +7,21 @@ from Env import Agent
 from Env import findbestfeatures
 from data_process import importData
 import numpy as np
+import random
 
+random.seed(2023)
+np.random.seed(2023)
+xPath = "./data/data05.csv"
+yPath = "./data/T35111A.csv"
 # 按间距中的绿色按钮以运行脚本。
 if __name__ == '__main__':
-    dataframe = importData("/Users/somac/Library/Mobile Documents/com~apple~CloudDocs/Code/SoftSensor_python/data/data05.csv",
-                   "/Users/somac/Library/Mobile Documents/com~apple~CloudDocs/Code/SoftSensor_python/data/T35111A.csv")
+    dataframe = importData(xPath,yPath)
     data = np.array(dataframe)[:,:-1]
-    fsenv = Environment(data)
-    fsagent = Agent(data.shape[1]-1)
-    AOR = findbestfeatures(fsagent,fsenv)
+    FS_env = Environment(data)
+    FS_agent = Agent(data.shape[1]-1,2,reward_K=100)
+    AOR = findbestfeatures(FS_agent,FS_env,1000000)
 
-    print(AOR)
+    print(np.array2string(AOR, precision=5, suppress_small=True))
     # FS = Environment('./')
 
 # 访问 https://www.jetbrains.com/help/pycharm/ 获取 PyCharm 帮助
