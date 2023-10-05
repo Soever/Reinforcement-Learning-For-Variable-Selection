@@ -7,14 +7,26 @@ from Env import Agent
 from Env import findbestfeatures
 from data_process import importData
 import numpy as np
+from data_process import save
+import random
+import torch
 import random
 
-random.seed(2023)
-np.random.seed(2023)
-xPath = "./data/data05.csv"
-yPath = "./data/T35111A.csv"
+def set_seed(seed_value=2023):
+    """Set seed for reproducibility."""
+    random.seed(seed_value)
+    np.random.seed(seed_value)
+    torch.manual_seed(seed_value)
+    torch.cuda.manual_seed(seed_value)
+    torch.backends.cudnn.deterministic = True
+xPath = './data/data05.csv'
+yPath = './data/T35111A.csv'
+
+
 # 按间距中的绿色按钮以运行脚本。
 if __name__ == '__main__':
+    set_seed(2023)
+    dataframe = importData(xPath,yPath)
     dataframe = importData(xPath,yPath)
     data = np.array(dataframe)[:,:-1]
     FS_env = Environment(data)

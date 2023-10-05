@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import datetime
 
 def excel2np(path):
     df = pd.read_excel(path, header=[0, 1])
@@ -75,3 +76,24 @@ def importData(xDataPath, yDataPath):
     # 重置索引为默认索引
     # df = df.reset_index()
     return df
+
+
+def save(ind:list):
+    now = datetime.datetime.now()
+    time_suffix = now.strftime('%Y%m%d%H%M')
+    filename = f'./result/{time_suffix}.txt'
+    with open(filename, 'w') as f:
+        # 保存numpy数组
+        for i in ind:
+            if isinstance(i, np.ndarray):
+                np.savetxt(f, i, fmt='%s')
+                f.write("\n")
+
+            # 保存整数
+            if isinstance(ind, int):
+                f.write(f"{i}\n")
+
+            # 保存numpy浮点数
+            if isinstance(ind, (np.float64, float)):
+                f.write(f"{i}\n")
+    return filename
