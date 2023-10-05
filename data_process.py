@@ -2,6 +2,9 @@ import pandas as pd
 import numpy as np
 import datetime
 
+
+xPath = './data/data05.csv'
+yPath = './data/T35111A.csv'
 def excel2np(path):
     df = pd.read_excel(path, header=[0, 1])
     # 转换为 Numpy 数组
@@ -45,7 +48,7 @@ def normalize(X, Y):
 
     return stdX, stdY, mean, STD
 
-def importData(xDataPath, yDataPath):
+def importData(xDataPath=xPath, yDataPath=yPath):
     # 读取数据集X，Y
     dfx = pd.read_csv(xDataPath, low_memory=False)
     dfy = pd.read_csv(yDataPath, low_memory=False)

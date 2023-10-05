@@ -4,10 +4,10 @@
 # 按 双击 ⇧ 在所有地方搜索类、文件、工具窗口、操作和设置。
 from Env import Environment
 from Env import Agent
-from Env import findbestfeatures
+from Env import find_best_features
 from data_process import importData
 import numpy as np
-from data_process import save
+from data_process import save,xPath,yPath
 import random
 import torch
 import random
@@ -19,19 +19,23 @@ def set_seed(seed_value=2023):
     torch.manual_seed(seed_value)
     torch.cuda.manual_seed(seed_value)
     torch.backends.cudnn.deterministic = True
-xPath = './data/data05.csv'
-yPath = './data/T35111A.csv'
 
 
-# 按间距中的绿色按钮以运行脚本。
+
 if __name__ == '__main__':
     set_seed(2023)
     dataframe = importData(xPath,yPath)
-    dataframe = importData(xPath,yPath)
     data = np.array(dataframe)[:,:-1]
-    FS_env = Environment(data)
-    FS_agent = Agent(data.shape[1]-1,2,reward_K=100)
-    AOR = findbestfeatures(FS_agent,FS_env,1000000)
+    FS_env = Environment(data,
+                         reward_K = 1) # 奖励放大系数 ，由于增加一个特征带来的R2普遍偏低时可设置，目前不需要
+
+    FS_agent = Agent(m=data.shape[1]-1,  # 特征个数
+                     policy=1,           # 搜寻策略 0：随机  1：贪婪  2：e-贪婪
+                     epsilon=0.25,       # policy = 2 时 参数e的值
+                     pre_evaluate=False, # 是否预评估
+                     AOR=None            # 初始特征分数
+                     )
+    AOR = find_best_features(FS_agent,FS_env,1000)
 
     print(np.array2string(AOR, precision=5, suppress_small=True))
     # FS = Environment('./')
