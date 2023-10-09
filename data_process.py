@@ -1,10 +1,81 @@
 import pandas as pd
 import numpy as np
 import datetime
+from sklearn.preprocessing import StandardScaler
+XPATH = './data/data05.csv'
+YPATH = './data/T35111A.csv'
 
 
-xPath = './data/data05.csv'
-yPath = './data/T35111A.csv'
+class DataClass():
+    def __init__(self, xDataPath=XPATH, yDataPath=YPATH):
+        """
+        :param xDataPath:
+        :param yDataPath:
+        orign_X(n,m)
+        orign_Y(n,1)
+        """
+        self.xDataPath = xDataPath
+        self.yDataPath = yDataPath
+        self.orign_df  = self.importData()
+        # 生成numpy数据
+        self.orign_X   = np.array(self.orign_df.iloc[:,:-1])
+        self.orign_Y = np.array(self.orign_df.iloc[:, -1].dropna()).reshape(-1,1)
+        #计算特征数、样本数
+        self.features_num = self.orign_df.shape[1]-1
+        self.lab_samples_num = self.orign_df.iloc[:, -1].notna().sum()
+        # 初始化标准化工具
+        self.scalerX = StandardScaler().fit(self.orign_X )
+        self.scalerY = StandardScaler().fit(self.orign_Y)
+        # 生成标准化数据
+        self.orign_X_std = self.scalerX.transform(self.orign_X)
+        self.orign_Y_std = self.scalerY.transform(self.orign_Y)
+
+    def importData(self):
+        """
+
+        :param xDataPath:
+        :param yDataPath:
+        :param mode: mode=1 : 得到有标签样本行的X，Y
+                     mode=2 ：
+        :return:
+        """
+        # 读取数据集X，Y
+        dfx = pd.read_csv(self.xDataPath, low_memory=False)
+        dfy = pd.read_csv(self.yDataPath, low_memory=False)
+
+        # 读取X采样时间
+        timex = dfx.loc[0, "Time"]
+
+        # 删除X，Y前两行
+        dfx.drop(dfx.head(2).index, inplace=True)
+        dfx = dfx.reset_index(drop=True)
+        dfy.drop(dfx.head(2).index, inplace=True)
+        dfy = dfy.reset_index(drop=True)
+
+        # 将Time转为时间戳
+        dfx['Time'] = pd.to_datetime(dfx['Time'])
+        dfy['Time'] = pd.to_datetime(dfy['Time'])
+        # 将Time设置为索引
+        dfx = dfx.set_index('Time')
+        dfy = dfy.set_index('Time')
+        # 将y采样变成30s，其余时间变成NAN
+        dfy = dfy.resample('30S').asfreq()
+        # 按照时间戳合并X，Y
+        df = pd.merge(left=dfx, right=dfy, how='outer', on='Time')
+        df = df.dropna(subset=df.columns[:-2]).iloc[:, :-1]
+        # 重置索引为默认索引
+        # df = df.reset_index()
+
+        return df.astype(float)
+
+    def get_Shift_data(self,shiftList):
+        tmpDF = self.orign_df.copy()
+        # 对每行分别做延迟
+        for i in range(len(shiftList)):
+            tmpDF.iloc[:, i] = tmpDF.iloc[:, i].shift(int(shiftList[i]))
+        tmpDF.dropna(inplace=True)
+        return tmpDF
+
 def excel2np(path):
     df = pd.read_excel(path, header=[0, 1])
     # 转换为 Numpy 数组
@@ -48,7 +119,15 @@ def normalize(X, Y):
 
     return stdX, stdY, mean, STD
 
-def importData(xDataPath=xPath, yDataPath=yPath):
+def importData(xDataPath=XPATH, yDataPath=YPATH, mode = 1):
+    """
+
+    :param xDataPath:
+    :param yDataPath:
+    :param mode: mode=1 : 得到有标签样本行的X，Y
+                 mode=2 ：
+    :return:
+    """
     # 读取数据集X，Y
     dfx = pd.read_csv(xDataPath, low_memory=False)
     dfy = pd.read_csv(yDataPath, low_memory=False)
@@ -73,9 +152,9 @@ def importData(xDataPath=xPath, yDataPath=yPath):
     # 按照时间戳合并X，Y
     df = pd.merge(left=dfx, right=dfy, how='outer', on='Time')
 
-    # 除掉包含任何包含Nan的行
+        # 除掉包含任何包含Nan的行
     df = df.dropna(axis=0, how='any')
-
+    df = df.dropna(subset=df.columns[:-2]).iloc[:, :-1]
     # 重置索引为默认索引
     # df = df.reset_index()
     return df

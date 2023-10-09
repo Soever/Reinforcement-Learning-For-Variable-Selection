@@ -174,7 +174,7 @@ def find_best_features(agent, env, iterations):
             reward = env.get_reward(agent.state, agent.AOR)  # 获得奖励       #############
             agent.update_AOR(action, reward)  # 更新动作函数
 
-        if i % 999 == 0:
+        if i % 99 == 0:
             index = np.argsort(agent.AOR)[::-1]
             print(' -> '.join(map(str, index + 1)))
             print(np.array2string(agent.AOR, precision=5, suppress_small=True))

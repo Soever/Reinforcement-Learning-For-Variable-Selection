@@ -5,10 +5,9 @@
 from Env import Environment
 from Env import Agent
 from Env import find_best_features
-from data_process import importData
+from data_process import importData,XPATH,YPATH,DataClass
 import numpy as np
-from data_process import save,xPath,yPath
-import random
+
 import torch
 import random
 
@@ -24,10 +23,12 @@ def set_seed(seed_value=2023):
 
 if __name__ == '__main__':
     set_seed(2023)
-    dataframe = importData(xPath,yPath)
+    df = DataClass(XPATH, YPATH)
+
+    dataframe = importData(XPATH, YPATH)
     data = np.array(dataframe)[:,:-1]
     FS_env = Environment(data,
-                         reward_K = 1) # 奖励放大系数 ，由于增加一个特征带来的R2普遍偏低时可设置，目前不需要
+                         reward_K = 10) # 奖励放大系数 ，由于增加一个特征带来的R2普遍偏低时可设置，目前不需要
 
     FS_agent = Agent(m=data.shape[1]-1,  # 特征个数
                      policy=1,           # 搜寻策略 0：随机  1：贪婪  2：e-贪婪
@@ -35,7 +36,7 @@ if __name__ == '__main__':
                      pre_evaluate=False, # 是否预评估
                      AOR=None            # 初始特征分数
                      )
-    AOR = find_best_features(FS_agent,FS_env,1000)
+    AOR = find_best_features(FS_agent,FS_env,10000)
 
     print(np.array2string(AOR, precision=5, suppress_small=True))
     # FS = Environment('./')
