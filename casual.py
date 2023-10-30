@@ -1,4 +1,4 @@
-from data_process import importData,XPATH,YPATH,DataClass
+from data_process import importData,X1PATH,Y1PATH,DataClass
 import numpy as np
 import matplotlib.pyplot as plt
 from  sklearn.feature_selection import mutual_info_regression
@@ -8,12 +8,17 @@ from lingam.utils import make_prior_knowledge, make_dot
 if __name__ == "__main__":
     DFcls = DataClass()
     MAX_DELAY = 480
+    DFcls.orign_df.to_csv('./to_csv/data05_T35111A.csv')
 
-    temp_data = DFcls.orign_df.dropna()
+
+    temp_data = DFcls.orign_df.iloc[:,:-1]
+
     model = lingam.DirectLiNGAM()
-    model.fit(temp_data)
+    model.fit(temp_data[:])
     a = model.adjacency_matrix_
-    make_dot(model.adjacency_matrix_)
+    make_dot(model.adjacency_matrix_).view()
+
+
 
 
 
