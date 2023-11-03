@@ -2,7 +2,7 @@ import numpy as np
 from sklearn.datasets import make_regression
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.metrics import mean_squared_error
-from data_process import importData,XPATH,YPATH,DataClass
+from data_process import importData,X1PATH,Y1PATH,DataClass
 
 # 定义节点类
 class Node:

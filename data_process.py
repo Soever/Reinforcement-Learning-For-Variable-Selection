@@ -2,36 +2,37 @@ import pandas as pd
 import numpy as np
 import datetime
 from sklearn.preprocessing import StandardScaler
-XPATH = './data/2014/data05.csv'
-YPATH = './data/2014/T35111A.csv'
+X1PATH = './data/data05.csv'
+Y1PATH = './data/T35111A.csv'
 X2PATH = './data/2017/data2017412-20170609.csv'
 Y2PATH = './data/2017/T35111A20170412-20170609.csv'
-XPATH2016 = './data/2016/data20161018-1112.csv'
-YPATH2016 = './data/2016/T35111A.csv'
-if __name__  == "__main__":
-    dfx = pd.read_csv( './data/2017/data2017412.csv', skipinitialspace=True, low_memory=False)
-    dfx1 = pd.read_csv('./data/2017/data2017502.csv', skipinitialspace=True,low_memory=False)
-    dfx2 = pd.read_csv('./data/2017/data2017522.csv', skipinitialspace=True,low_memory=False)
-    df  = pd.concat([dfx, dfx1, dfx2], ignore_index=True)
-    df['Time'] = pd.to_datetime(df['Time'])
-
 
 class DataClass():
-    def __init__(self, xDataPath=XPATH, yDataPath=YPATH):
+    def __init__(self, xDataPath=X1PATH, yDataPath=Y1PATH,labindex=None,drop_last_col=None):
         """
         :param xDataPath:
         :param yDataPath:
         orign_X(n,m)
         orign_Y(n,1)
         """
+        self.Y_num = None
+        self.features_num = None
+
         self.xDataPath = xDataPath
         self.yDataPath = yDataPath
-        self.orign_df  = self.importData()
+        self.orign_df  = self.importData(drop_last_col)
+
+
+        if labindex is not None:
+            self.lab_index =self.Y_num+labindex-1
+        else :
+            self.lab_index = 1
         # 生成numpy数据
-        self.orign_X   = np.array(self.orign_df.iloc[:,:-1])
-        self.orign_Y = np.array(self.orign_df.iloc[:, -1].dropna()).reshape(-1,1)
+
+        self.orign_X   = np.array(self.orign_df.iloc[:,:-self.lab_index])
+        self.orign_Y = np.array(self.orign_df.iloc[:, -self.lab_index].dropna()).reshape(-1,1)
         #计算特征数、样本数
-        self.features_num = self.orign_df.shape[1]-1
+
         self.lab_samples_num = self.orign_df.iloc[:, -1].notna().sum()
         # 初始化标准化工具
         self.scalerX = StandardScaler().fit(self.orign_X )
@@ -40,7 +41,7 @@ class DataClass():
         self.orign_X_std = self.scalerX.transform(self.orign_X)
         self.orign_Y_std = self.scalerY.transform(self.orign_Y)
 
-    def importData(self):
+    def importData(self,drop):
         """
 
         :param xDataPath:
@@ -50,8 +51,8 @@ class DataClass():
         :return:
         """
         # 读取数据集X，Y
-        dfx = pd.read_csv(self.xDataPath,skipinitialspace=True, low_memory=False)
-        dfy = pd.read_csv(self.yDataPath,skipinitialspace=True, low_memory=False)
+        dfx = pd.read_csv(self.xDataPath, skipinitialspace=True, low_memory=False)
+        dfy = pd.read_csv(self.yDataPath, skipinitialspace=True, low_memory=False)
 
         # 读取X采样时间
         timex = dfx.loc[0, "Time"]
@@ -65,14 +66,20 @@ class DataClass():
         # 将Time转为时间戳
         dfx['Time'] = pd.to_datetime(dfx['Time'])
         dfy['Time'] = pd.to_datetime(dfy['Time'])
+
         # 将Time设置为索引
         dfx = dfx.set_index('Time')
         dfy = dfy.set_index('Time')
+        self.features_num  = dfx.shape[1]
+        self.Y_num= dfy.shape[1]
         # 将y采样变成30s，其余时间变成NAN
         dfy = dfy.resample('30S').asfreq()
         # 按照时间戳合并X，Y
         df = pd.merge(left=dfx, right=dfy, how='outer', on='Time')
-        df = df.dropna(subset=df.columns[:-2]).iloc[:, :-1]
+        df = df.dropna(subset=df.columns[:-2])
+        if drop is not None:
+            df= df.iloc[:, :-1]
+            self.Y_num -= 1
         # 重置索引为默认索引
         # df = df.reset_index()
 
@@ -129,7 +136,7 @@ def normalize(X, Y):
 
     return stdX, stdY, mean, STD
 
-def importData(xDataPath=XPATH, yDataPath=YPATH, mode = 1):
+def importData(xDataPath=X1PATH, yDataPath=Y1PATH, mode = 1):
     """
 
     :param xDataPath:
@@ -139,8 +146,8 @@ def importData(xDataPath=XPATH, yDataPath=YPATH, mode = 1):
     :return:
     """
     # 读取数据集X，Y
-    dfx = pd.read_csv(xDataPath, low_memory=False)
-    dfy = pd.read_csv(yDataPath, low_memory=False)
+    dfx = pd.read_csv(xDataPath,skipinitialspace=True, low_memory=False)
+    dfy = pd.read_csv(yDataPath, skipinitialspace=True,low_memory=False)
 
     # 读取X采样时间
     timex = dfx.loc[0, "Time"]
