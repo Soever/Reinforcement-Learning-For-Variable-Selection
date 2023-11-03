@@ -1,11 +1,12 @@
-from data_process import importData,XPATH,YPATH,DataClass
+from data_process import importData,XPATH,YPATH,X2PATH,Y2PATH,DataClass
 import numpy as np
 import matplotlib.pyplot as plt
 from  sklearn.feature_selection import mutual_info_regression
 
 if __name__ == "__main__":
-    DFcls = DataClass()
-    MAX_DELAY = 480
+    DFcls = DataClass(xDataPath=X2PATH,
+                      yDataPath=Y2PATH)
+    MAX_DELAY = 240
     cor = np.zeros((MAX_DELAY,DFcls.features_num))
     for i in range(MAX_DELAY):
         delaylist = [i] * DFcls.features_num
@@ -27,7 +28,7 @@ if __name__ == "__main__":
     colors = plt.cm.tab10(np.linspace(0, 1, DFcls.features_num))
     # 绘制8张图
     for i in range( DFcls.features_num):  # 选择8和特征数m中的较小值作为绘图的上限
-        plt.subplot(3, 3, i + 1)  # 2行4列的子图布局
+        plt.subplot(7, 5, i + 1)  # 2行4列的子图布局
         plt.plot(X[:, i],  color=colors[i],label=f'Feature {i + 1}')  # 绘制每个特征的图形
         plt.annotate(f'Feature {i + 1}',
                      (0, X[0, i]),  # 文本的位置

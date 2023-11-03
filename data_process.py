@@ -2,8 +2,18 @@ import pandas as pd
 import numpy as np
 import datetime
 from sklearn.preprocessing import StandardScaler
-XPATH = './data/data05.csv'
-YPATH = './data/T35111A.csv'
+XPATH = './data/2014/data05.csv'
+YPATH = './data/2014/T35111A.csv'
+X2PATH = './data/2017/data2017412-20170609.csv'
+Y2PATH = './data/2017/T35111A20170412-20170609.csv'
+XPATH2016 = './data/2016/data20161018-1112.csv'
+YPATH2016 = './data/2016/T35111A.csv'
+if __name__  == "__main__":
+    dfx = pd.read_csv( './data/2017/data2017412.csv', skipinitialspace=True, low_memory=False)
+    dfx1 = pd.read_csv('./data/2017/data2017502.csv', skipinitialspace=True,low_memory=False)
+    dfx2 = pd.read_csv('./data/2017/data2017522.csv', skipinitialspace=True,low_memory=False)
+    df  = pd.concat([dfx, dfx1, dfx2], ignore_index=True)
+    df['Time'] = pd.to_datetime(df['Time'])
 
 
 class DataClass():
@@ -40,8 +50,8 @@ class DataClass():
         :return:
         """
         # 读取数据集X，Y
-        dfx = pd.read_csv(self.xDataPath, low_memory=False)
-        dfy = pd.read_csv(self.yDataPath, low_memory=False)
+        dfx = pd.read_csv(self.xDataPath,skipinitialspace=True, low_memory=False)
+        dfy = pd.read_csv(self.yDataPath,skipinitialspace=True, low_memory=False)
 
         # 读取X采样时间
         timex = dfx.loc[0, "Time"]

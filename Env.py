@@ -8,7 +8,7 @@ from model_evaluation import R2
 from sklearn.metrics import r2_score
 import sys
 import random
-
+import matplotlib.pyplot as plt
 
 class Environment():
     def __init__(self, data, update_method=1, gamma=0, reward_K=1, ycol=-1):
@@ -179,4 +179,19 @@ def find_best_features(agent, env, iterations):
             print(' -> '.join(map(str, index + 1)))
             print(np.array2string(agent.AOR, precision=5, suppress_small=True))
 
+    r2list = []
+    agent.init()  # 初始化智能体状态
+    env.init()
+    while agent.action_space:
+        action = agent.get_action(1)  # agent从特征空间选择特征  #############
+        agent.act(action)  # agent 执行动作
+        r2 = env.calculate_accuracy(agent.state)  # 获得奖励       #############
+        r2list.append(r2)
+    r2data = np.array(r2list)
+    x_values = np.arange(1, len(r2data) + 1)
+    plt.scatter(x_values, r2data)
+    for i, value in enumerate(r2data):
+        plt.text(i+1, value, f'{value:.3f}', ha='center', va='bottom')
+    plt.plot(x_values,r2data)
+    plt.show()
     return agent.AOR
