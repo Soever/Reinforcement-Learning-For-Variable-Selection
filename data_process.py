@@ -3,21 +3,25 @@ import numpy as np
 import datetime
 import os
 from sklearn.preprocessing import StandardScaler
+import warnings
 X1PATH = 'data/data05.csv'
 Y1PATH = 'data/T35111A.csv'
 X2PATH = 'data/2017/data2017412-20170609.csv'
 Y2PATH = 'data/2017/T35111A20170412-20170609.csv'
-
+XPATH2016merge = "data/2016/mergin/2016_x_data.csv"
+YPATH2016merge = "data/2016/mergin/2016_y_data.csv"
+XPATH2016CLEAN = "data/2016/clean/data20161018-1112.csv"
+YPATH2016CLEAN = "data/2016/clean/T35111A.csv"
 class DataClass():
-    def __init__(self, xDataPath=X1PATH, yDataPath=Y1PATH,labindex=None,drop_last_col=None):
+    def __init__(self, xDataPath=X1PATH, yDataPath=Y1PATH,drop_last_col=None,labindex=None):
         """
         :param xDataPath:
         :param yDataPath:
-        orign_X(n,m)
-        orign_Y(n,1)
+        :param labindex:y变量中的第几列是当前建模变量
+        :param drop_last_col: 是否舍弃最后一列
         """
         self.Y_num = None
-        self.features_num = None
+        self.feature_num = None
 
         self.xDataPath = xDataPath
         self.yDataPath = yDataPath
@@ -73,7 +77,7 @@ class DataClass():
         # 将Time设置为索引
         dfx = dfx.set_index('Time')
         dfy = dfy.set_index('Time')
-        self.features_num  = dfx.shape[1]
+        self.feature_num  = dfx.shape[1]
         self.Y_num= dfy.shape[1]
         # 将y采样变成30s，其余时间变成NAN
         dfy = dfy.resample('30S').asfreq()
@@ -201,3 +205,62 @@ def save(ind:list):
             if isinstance(ind, (np.float64, float)):
                 f.write(f"{i}\n")
     return filename
+
+def dataShift(df, shiftList):
+    """
+    对数据做延迟操作，往后移为正数
+    df: 变量选择后的dataframe
+    shiftList: 对应变量的延迟参数
+    """
+    # 复制原始表格
+    tmpDF = df.copy()
+    # 对每行分别做延迟
+    for i in range(len(shiftList)):
+        tmpDF.iloc[:, i] = tmpDF.iloc[:, i].shift(int(shiftList[i]))
+    # 删除延迟后表格的空缺部分
+    # tmpDF.dropna(inplace=True)
+    return tmpDF
+
+def dataFilter(df, filter_values):
+    """
+    对数据做滤波操作
+    df: 变量选择、延迟后的dataframe
+    filter_values: 滤波值
+    """
+    # 将表格设置为行索引，原始为时间索引
+    tmpdf = df.reset_index(drop=True)
+    # 得到不包含任何NAN行的索引，即有标签的样本的索引
+    idxlist = tmpdf.dropna(axis=0, how='any').index.to_list()
+    # 从有标签的第一行开始，转化为numpy类型，得到辅助变量数据
+    x_origin = np.array(tmpdf.iloc[idxlist[0]:idxlist[-1]+1,:-1])
+    # 得到第一个有标签行的索引，将索引更新以便与nupmy数据对应，因为numpy数据删了表格第一行以前的数据
+    a = idxlist[0]
+    idxlistx = [x - a for x in idxlist]
+    # 根据索引得到表格里的y数据
+    y = np.array(tmpdf.iloc[idxlist,-1])
+    # 计算滤波系数
+    # 时间常数越大，系统惯性越强，越取决于上一时刻的输出
+    delta = 1e-10
+    alpha = np.zeros_like(filter_values, dtype=float)
+    non_zero_indices = filter_values != 0
+    alpha[non_zero_indices] = np.exp(-1 / filter_values[non_zero_indices])
+    # 使用该警告处理函数
+
+    # 计算x滤波值
+    filtered_x = np.zeros_like(x_origin)
+    filtered_x[0, :] = x_origin[0, :]
+    for i in range(1, x_origin.shape[0]):
+        filtered_x[i, :] = alpha * filtered_x[i - 1, :] + (1 - alpha) * x_origin[i, :]
+    # 得到有标签样本
+    x = filtered_x[idxlistx]
+    return x, y
+
+def varSelection(df, selector):
+    tmpDF = df.copy(deep=True)
+    col = []
+    # 如果值为0表示未被选中，则从表格中删除该列
+    for i in range(len(selector)):
+        if selector[i] == 0:
+            col.append(i)
+    tmpDF.drop(df.columns[col], axis=1, inplace=True)
+    return tmpDF

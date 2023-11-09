@@ -24,8 +24,8 @@ if __name__ == "__main__":
     dfy[dfy.columns[1]] = dfy[dfy.columns[1]].astype(float)
     dfy
 
-    dfx.to_csv('2017_x_data.csv', index=False)
-    dfy.to_csv('2017_y_data.csv', index=False)
+    dfx.to_csv('./data/2016/mergin/2016_x_data.csv', index=False)
+    dfy.to_csv('./data/2016/mergin/2016_y_data.csv', index=False)
 
 
 

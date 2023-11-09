@@ -1,5 +1,3 @@
-
-
 from data_process import normalize
 import numpy as np
 from sklearn import preprocessing
@@ -87,6 +85,8 @@ class Environment():
                 TD_target = AOR[indices].max()
 
         return TD_target
+
+
 
 
 class Agent():
