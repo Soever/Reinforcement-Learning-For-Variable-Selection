@@ -5,10 +5,12 @@
 from Env import Environment,Agent,find_best_features
 from data_process import importData,X1PATH,Y1PATH,X2PATH,Y2PATH,DataClass,XPATH2016merge,YPATH2016merge,XPATH2016CLEAN,YPATH2016CLEAN
 import numpy as np
-
+import rl_utils
 import torch
 import random
-from DQN_AGENT import DQNAgent,DQNEnv,train_dqn
+from AGENT_PPO import FSEnv,PPO
+
+from AGENT_DQN import DQNAgent,DQNEnv,train_dqn
 def set_seed(seed_value=2023):
     """Set seed for reproducibility."""
     random.seed(seed_value)
@@ -52,6 +54,7 @@ def DQN_learn(df_class):
     lr = 0.01
     num_episodes = 1000
 
+
     # 创建环境和智能体
     env = DQNEnv(df_class,state_size, action_size)
     agent = DQNAgent(state_size, action_size, replay_memory_size, batch_size, gamma, epsilon, epsilon_min,
@@ -60,6 +63,32 @@ def DQN_learn(df_class):
 
     # 训练DQN智能体
     train_dqn(env, agent, num_episodes)
+
+def PPO_learn(df_class):
+    state_size = df_class.feature_num * 3  # 每个变量有3个参数
+    action_size = df_class.feature_num * 6  # 每个参数有两个动作，增或减
+    actor_lr = 1e-3
+    critic_lr = 1e-2
+    num_episodes =10
+    hidden_dim = 128
+    gamma = 0.98
+    lmbda = 0.95
+    epochs = 10
+    eps = 0.2
+    device = torch.device("cuda") if torch.cuda.is_available() else torch.device(
+        "cpu")
+
+    env = FSEnv(df_class, state_size, action_size)
+    # env.seed(0)
+    torch.manual_seed(0)
+    state_dim = state_size
+    action_dim = action_size
+    agent = PPO(state_dim, hidden_dim, action_dim, actor_lr, critic_lr, lmbda,
+                epochs, eps, gamma, device)
+
+    return_list = rl_utils.train_on_policy_agent(env, agent, num_episodes)
+
+
 
 
 
@@ -71,8 +100,9 @@ if __name__ == '__main__':
     df_class = DataClass(XPATH2016CLEAN, YPATH2016CLEAN,
                          drop_last_col=True,
                          labindex=None)
-    # q_table_learn(df_class)
-    DQN_learn(df_class)
+    #q_table_learn(df_class)
+    #DQN_learn(df_class)
+    PPO_learn(df_class)
 
 
 # 访问 https://www.jetbrains.com/help/pycharm/ 获取 PyCharm 帮助
