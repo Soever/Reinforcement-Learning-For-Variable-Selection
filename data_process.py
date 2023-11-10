@@ -12,6 +12,7 @@ XPATH2016merge = "data/2016/mergin/2016_x_data.csv"
 YPATH2016merge = "data/2016/mergin/2016_y_data.csv"
 XPATH2016CLEAN = "data/2016/clean/data20161018-1112.csv"
 YPATH2016CLEAN = "data/2016/clean/T35111A.csv"
+import multiprocessing
 class DataClass():
     def __init__(self, xDataPath=X1PATH, yDataPath=Y1PATH,drop_last_col=None,labindex=None):
         """
@@ -244,7 +245,9 @@ def dataFilter(df, filter_values):
     alpha = np.zeros_like(filter_values, dtype=float)
     non_zero_indices = filter_values != 0
     alpha[non_zero_indices] = np.exp(-1 / filter_values[non_zero_indices])
-    # 使用该警告处理函数
+
+
+
 
     # 计算x滤波值
     filtered_x = np.zeros_like(x_origin)
@@ -254,6 +257,21 @@ def dataFilter(df, filter_values):
     # 得到有标签样本
     x = filtered_x[idxlistx]
     return x, y
+
+
+def filter_column(data_column, alpha):
+    filtered_column = np.zeros_like(data_column)
+    filtered_column[0] = data_column[0]
+    for i in range(1, len(data_column)):
+        filtered_column[i] = alpha * filtered_column[i - 1] + (1 - alpha) * data_column[i]
+    return filtered_column
+
+def parallel_filter(data, alpha_values):
+    # 创建一个进程池
+    with multiprocessing.Pool() as pool:
+        # 使用进程池并行处理每列
+        results = pool.starmap(filter_column, zip(data.T, alpha_values))
+    return np.array(results).T
 
 def varSelection(df, selector):
     tmpDF = df.copy(deep=True)

@@ -8,6 +8,7 @@ import numpy as np
 import rl_utils
 import torch
 import random
+import matplotlib.pyplot as plt
 from AGENT_PPO import FSEnv,PPO
 
 from AGENT_DQN import DQNAgent,DQNEnv,train_dqn
@@ -69,7 +70,7 @@ def PPO_learn(df_class):
     action_size = df_class.feature_num * 6  # 每个参数有两个动作，增或减
     actor_lr = 1e-3
     critic_lr = 1e-2
-    num_episodes =10
+    num_episodes = 1000
     hidden_dim = 128
     gamma = 0.98
     lmbda = 0.95
@@ -80,7 +81,7 @@ def PPO_learn(df_class):
 
     env = FSEnv(df_class, state_size, action_size)
     # env.seed(0)
-    torch.manual_seed(0)
+    torch.manual_seed(2023)
     state_dim = state_size
     action_dim = action_size
     agent = PPO(state_dim, hidden_dim, action_dim, actor_lr, critic_lr, lmbda,
@@ -88,6 +89,22 @@ def PPO_learn(df_class):
 
     return_list = rl_utils.train_on_policy_agent(env, agent, num_episodes)
 
+    episodes_list = list(range(len(return_list)))
+    plt.plot(episodes_list, return_list)
+    plt.xlabel('Episodes')
+    plt.ylabel('Returns')
+    plt.title('PPO on {}'.format("Variable Selection"))
+    plt.show()
+
+    mv_return = rl_utils.moving_average(return_list, 9) #9
+    plt.plot(episodes_list, mv_return)
+    plt.xlabel('Episodes')
+    plt.ylabel('Returns')
+    plt.title('PPO on {}'.format("Variable Selection"))
+    plt.show()
+    with open('./result/PPO_1111.txt', 'w') as file:
+        for item in return_list:
+            file.write(f"{item}\n")
 
 
 
