@@ -27,7 +27,12 @@ def moving_average(a, window_size):
     end = (np.cumsum(a[:-window_size:-1])[::2] / r)[::-1]
     return np.concatenate((begin, middle, end))
 
-
+def save_sample(transition_dict,state,action,next_state,reward,done):
+    transition_dict['states'].append(state)
+    transition_dict['actions'].append(action)
+    transition_dict['next_states'].append(next_state)
+    transition_dict['rewards'].append(reward)
+    transition_dict['dones'].append(done)
 
 
 
@@ -43,11 +48,7 @@ def train_on_policy_agent(env, agent, num_episodes):
                 while not done:
                     action = agent.take_action(state)
                     next_state, reward, done,info= env.step(action)
-                    transition_dict['states'].append(state)
-                    transition_dict['actions'].append(action)
-                    transition_dict['next_states'].append(next_state)
-                    transition_dict['rewards'].append(reward)
-                    transition_dict['dones'].append(done)
+                    save_sample(transition_dict,state,action,next_state,reward,done)
                     state = next_state
                     episode_return += reward
                 return_list.append(episode_return)
