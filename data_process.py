@@ -29,6 +29,8 @@ class DataClass():
         self.orign_df  = self.importData(drop_last_col)
 
 
+
+
         if labindex is not None:
             self.lab_index =self.Y_num+labindex-1
         else :
@@ -58,7 +60,8 @@ class DataClass():
         # 读取数据集X，Y
         xPath = os.path.join(os.path.dirname(__file__),self.xDataPath)
         yPath = os.path.join(os.path.dirname(__file__),self.yDataPath)
-
+        # xPath = self.xDataPath
+        # yPath = self.yDataPath
         dfx = pd.read_csv(xPath, skipinitialspace=True, low_memory=False)
         dfy = pd.read_csv(yPath, skipinitialspace=True, low_memory=False)
 
@@ -232,6 +235,7 @@ def dataFilter(df, filter_values):
     tmpdf = df.reset_index(drop=True)
     # 得到不包含任何NAN行的索引，即有标签的样本的索引
     idxlist = tmpdf.dropna(axis=0, how='any').index.to_list()
+
     # 从有标签的第一行开始，转化为numpy类型，得到辅助变量数据
     x_origin = np.array(tmpdf.iloc[idxlist[0]:idxlist[-1]+1,:-1])
     # 得到第一个有标签行的索引，将索引更新以便与nupmy数据对应，因为numpy数据删了表格第一行以前的数据

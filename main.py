@@ -91,7 +91,7 @@ def PPO_learn(df_class):
 
 
     plot_PPO(return_list)
-    with open('./result/PPO_1111.txt', 'w') as file:
+    with open('./result/PPO_1112.txt', 'w') as file:
         for item in return_list:
             file.write(f"{item}\n")
 
@@ -110,6 +110,7 @@ if __name__ == '__main__':
     #q_table_learn(df_class)
     #DQN_learn(df_class)
     PPO_learn(df_class)
+
 
 
 # 访问 https://www.jetbrains.com/help/pycharm/ 获取 PyCharm 帮助

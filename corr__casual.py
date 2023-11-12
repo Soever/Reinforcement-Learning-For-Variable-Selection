@@ -1,4 +1,4 @@
-from code.tool.data_process import importData,X1PATH,Y1PATH,DataClass
+from data_process import importData,X1PATH,Y1PATH,DataClass
 import numpy as np
 import matplotlib.pyplot as plt
 from  sklearn.feature_selection import mutual_info_regression
