@@ -14,7 +14,7 @@ def plot_PPO(file_path):
         print("格式不正确")
         return
     # 计算移动平均
-    mv_return = moving_average(return_list, 9)  # 使用窗口大小为9
+    mv_return = moving_average(return_list, 19)  # 使用窗口大小为9
 
     # 准备绘图
     episodes_list = list(range(len(return_list)))

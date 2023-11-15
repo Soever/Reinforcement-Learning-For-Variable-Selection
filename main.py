@@ -11,6 +11,7 @@ import random
 import matplotlib.pyplot as plt
 from AGENT_PPO import FSEnv,PPO
 from plot import plot_PPO
+import logging
 
 from AGENT_DQN import DQNAgent,DQNEnv,train_dqn
 def set_seed(seed_value=2023):
@@ -71,14 +72,13 @@ def PPO_learn(df_class):
     action_size = df_class.feature_num * 6  # 每个参数有两个动作，增或减
     actor_lr = 1e-3
     critic_lr = 1e-2
-    num_episodes = 500
+    num_episodes = 1000
     hidden_dim = 128
     gamma = 0.98
     lmbda = 0.95
     epochs = 10
     eps = 0.2
-    device = torch.device("cuda") if torch.cuda.is_available() else torch.device(
-        "cpu")
+    device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
 
     env = FSEnv(df_class, state_size, action_size)
     # env.seed(0)
@@ -96,19 +96,18 @@ def PPO_learn(df_class):
             file.write(f"{item}\n")
 
 
-
-
-
 if __name__ == '__main__':
     set_seed(2023)
     # df_class = DataClass(XPATH2016merge,YPATH2016merge,
     #                drop_last_col=None,
     #                labindex=None)
+    logging.basicConfig(filename='./result/debuglog.log', level=logging.DEBUG)
     df_class = DataClass(XPATH2016CLEAN, YPATH2016CLEAN,
                          drop_last_col=True,
                          labindex=None)
     #q_table_learn(df_class)
     #DQN_learn(df_class)
+
     PPO_learn(df_class)
 
 

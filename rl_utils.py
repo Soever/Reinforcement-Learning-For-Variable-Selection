@@ -3,7 +3,7 @@ import numpy as np
 import torch
 import collections
 import random
-
+import logging
 class ReplayBuffer:
     def __init__(self, capacity):
         self.buffer = collections.deque(maxlen=capacity) 
@@ -47,6 +47,7 @@ def train_on_policy_agent(env, agent, num_episodes):
                 done = False
                 while not done:
                     action = agent.take_action(state)
+                    logging.debug(f"action: {action}")
                     next_state, reward, done,info= env.step(action)
                     save_sample(transition_dict,state,action,next_state,reward,done)
                     state = next_state

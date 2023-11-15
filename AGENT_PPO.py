@@ -5,8 +5,13 @@ import numpy as np
 import matplotlib.pyplot as plt
 import rl_utils
 from data_process import varSelection, dataShift, dataFilter,filter_column
-from model_evaluation import R2, calculate_best_R2
+from model_evaluation import R2, calculate_best_R2,calculate_best_R2_Parrel
 import random
+import logging
+
+from joblib import Parallel, delayed
+
+
 class FSEnv():
     def __init__(self, df_class, state_size, action_size, update_method=1, reward_K=1):
         self.df_class = df_class
@@ -25,6 +30,8 @@ class FSEnv():
 
         self.lb = [0] * self.feature_num + [0] * self.feature_num + [0] * self.feature_num  # 决策变量下界
         self.ub = [60] * self.feature_num + [60] * self.feature_num + [1] * self.feature_num  # 决策变量上界
+
+
         self.done_count = 0
 
         #记录上一状态的数据
@@ -82,12 +89,12 @@ class FSEnv():
                     # 更新历史data
                     self.dataX_history[:,feature_index]=single_X.reshape(-1)
                     X = self.dataX_history[:, varSelect]
-                    bestR2, latent_var_num = calculate_best_R2(X, y)
+                    bestR2, latent_var_num = calculate_best_R2_Parrel(X, y)
                 else:  # c 的动作
                     if varSelect.sum() > 0:
                         X = self.dataX_history[:,varSelect]
                         y = self.dataY_history
-                        bestR2, latent_var_num = calculate_best_R2(X, y)
+                        bestR2, latent_var_num = calculate_best_R2_Parrel(X, y)
         else:
             p = varSelect.sum()
             if p > 0:
@@ -97,11 +104,12 @@ class FSEnv():
                 df = dataShift(df, delayvalue[varSelect])
                 # 一阶滤波
                 X, y = dataFilter(df, filtervalue[varSelect])
-                bestR2, latent_var_num = calculate_best_R2(X, y)
+                bestR2, latent_var_num = calculate_best_R2_Parrel(X, y)
 
         if self.best_R2 < bestR2:
             self.best_R2 = bestR2
             self.best_state = state
+            logging.debug(f"bestR2: {self.best_R2},best_state: {self.best_state}")
             # print("最好的R2:" + str(self.best_R2))
             # print("当前最优的状态为：" + str(self.best_state))
         return bestR2
@@ -155,6 +163,14 @@ class FSEnv():
             c_value = state[2 * self.feature_num + feature_index]
             if c_value == 0:
                 return False  # 如果 c 为 0，则对 t 或 tao 的任何操作都是无效的
+            else :
+                if is_increment :
+                    if state[param_type* self.feature_num + feature_index] +1 > self.ub[param_type* self.feature_num + feature_index] :
+                        return False
+                else:
+                    if state[param_type* self.feature_num + feature_index] -1 < self.lb[param_type* self.feature_num + feature_index] :
+                        return False
+
         elif param_type == 2:  # 假设 t, tao, c 分别对应 0, 1, 2
             current_c_value = state[2 * self.feature_num + feature_index]
             if (current_c_value == 1 and is_increment) or (current_c_value == 0 and not is_increment):
@@ -169,6 +185,7 @@ class FSEnv():
         # 得到特征的下标
         feature_index = (action // 2) % self.feature_num
         is_valid = self.is_valid_action(action,self.state)
+
         if is_valid:
             # 判断动作属于t、tao还是c的动作
             if action < 2 * self.feature_num:  # t 的动作
@@ -179,8 +196,7 @@ class FSEnv():
             elif action < 4 * self.feature_num:  # tao 的动作
                 feature_index -= self.feature_num
                 if action % 2 == 0:# 减少 tao
-                    self.state[self.feature_num + feature_index] = max(0, int(
-                        self.state[self.feature_num + feature_index] - 1))
+                    self.state[self.feature_num + feature_index] = max(0, int(self.state[self.feature_num + feature_index] - 1))
                 else:# 增加tao
                     self.state[self.feature_num + feature_index] = self.state[self.feature_num + feature_index] + 1  # 增加 tao
             else:  # c 的动作
@@ -190,7 +206,8 @@ class FSEnv():
             reward = -1
 
         # 判断是否连续n次reward提升都很小，如果是就停止迭代
-        done = True if self.done_count > self.state_size else False
+        logging.debug(f"is_valid: {is_valid},count: {self.done_count },reward:{reward}")
+        done = True if self.done_count > 20 else False
         # 调试信息可以包括额外的数据，这里我们不包括任何额外信息
         info = {}
 
@@ -237,9 +254,13 @@ class PPO:
         self.device = device
 
     def take_action(self, state):
-        state = torch.tensor([state], dtype=torch.float).to(self.device)
+        logging.debug(f"Original state: {state}")
+        state = torch.tensor(state.reshape(1,-1), dtype=torch.float).to(self.device)
+        logging.debug(f"Tensor state: {state}")
         probs = self.actor(state)
+        logging.debug(f"Probabilities: {probs}")
         action_dist = torch.distributions.Categorical(probs)
+        logging.debug(f"action_dist: {action_dist}")
         action = action_dist.sample()
         return action.item()
 
