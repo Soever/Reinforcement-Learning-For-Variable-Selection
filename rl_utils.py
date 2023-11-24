@@ -46,10 +46,13 @@ def train_on_policy_agent(env, agent, num_episodes):
                 state = env.reset()
                 done = False
                 while not done:
-                    action = agent.take_action(state)
-                    logging.debug(f"action: {action}")
+                    scale_state  = state/env.ub# 防止输入差别过大神经网络出现错误，因此对输入做归一化
+                    action = agent.take_action(scale_state)
+                    # while env.is_valid_action(action,state) is False:
+                    #     action = agent.take_action(state)
+                    # logging.debug(f"action: {action}")
                     next_state, reward, done,info= env.step(action)
-                    save_sample(transition_dict,state,action,next_state,reward,done)
+                    save_sample(transition_dict,scale_state,action,next_state,reward,done)
                     state = next_state
                     episode_return += reward
                 return_list.append(episode_return)

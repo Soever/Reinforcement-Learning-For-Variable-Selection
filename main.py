@@ -9,7 +9,8 @@ import rl_utils
 import torch
 import random
 import matplotlib.pyplot as plt
-from AGENT_PPO import FSEnv,PPO
+from AGENT_PPO import PPO
+from ENV2 import FSEnv
 from plot import plot_PPO
 import logging
 
@@ -80,7 +81,11 @@ def PPO_learn(df_class):
     eps = 0.2
     device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
 
-    env = FSEnv(df_class, state_size, action_size)
+    env = FSEnv(df_class=df_class, state_size=state_size, action_size=action_size,
+                invalid_action_reward = -0.1 , # 违反约束时的奖励
+                min_score =  0, #视为有提升的最小阈值
+                max_stop_step=state_size,# 最大停滞步数 智能体n步都不提升时停止
+                )
     # env.seed(0)
     torch.manual_seed(2023)
     state_dim = state_size
@@ -90,8 +95,9 @@ def PPO_learn(df_class):
     return_list = rl_utils.train_on_policy_agent(env, agent, num_episodes)
 
 
-    plot_PPO(return_list)
-    with open('./result/PPO_1112.txt', 'w') as file:
+    plot_PPO(np.array(return_list))
+
+    with open('./result/PPO_1124.txt', 'w') as file:
         for item in return_list:
             file.write(f"{item}\n")
 
@@ -101,7 +107,7 @@ if __name__ == '__main__':
     # df_class = DataClass(XPATH2016merge,YPATH2016merge,
     #                drop_last_col=None,
     #                labindex=None)
-    logging.basicConfig(filename='./result/debuglog.log', level=logging.DEBUG)
+    logging.basicConfig(filename='result/reward-1_debuglog.log', level=logging.DEBUG)
     df_class = DataClass(XPATH2016CLEAN, YPATH2016CLEAN,
                          drop_last_col=True,
                          labindex=None)
