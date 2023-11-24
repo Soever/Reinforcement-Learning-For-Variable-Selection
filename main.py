@@ -73,7 +73,7 @@ def PPO_learn(df_class):
     action_size = df_class.feature_num * 6  # 每个参数有两个动作，增或减
     actor_lr = 1e-3
     critic_lr = 1e-2
-    num_episodes = 1000
+    num_episodes = 5000
     hidden_dim = 128
     gamma = 0.98
     lmbda = 0.95
@@ -92,7 +92,7 @@ def PPO_learn(df_class):
     action_dim = action_size
     agent = PPO(state_dim, hidden_dim, action_dim, actor_lr, critic_lr, lmbda,
                 epochs, eps, gamma, device)
-    return_list = rl_utils.train_on_policy_agent(env, agent, num_episodes)
+    return_list,r2_list ,state_list= rl_utils.train_on_policy_agent(env, agent, num_episodes,epochs)
 
 
     plot_PPO(np.array(return_list))
@@ -100,14 +100,22 @@ def PPO_learn(df_class):
     with open('./result/PPO_1124.txt', 'w') as file:
         for item in return_list:
             file.write(f"{item}\n")
+    with open('./result/PPO_1116r2.txt', 'w') as file:
+        for item in r2_list:
+            file.write(f"{item}\n")
+    with open('./result/PPO_1116state.txt', 'w') as file:
+        for item in state_list:
+            np.savetxt(file,item.reshape(1,-1) ,fmt='%s')
 
 
+bestR = 0
+bestState  = None
 if __name__ == '__main__':
     set_seed(2023)
     # df_class = DataClass(XPATH2016merge,YPATH2016merge,
     #                drop_last_col=None,
     #                labindex=None)
-    logging.basicConfig(filename='result/reward-1_debuglog.log', level=logging.DEBUG)
+    logging.basicConfig(filename='./result/debuglog.log', level=logging.DEBUG)
     df_class = DataClass(XPATH2016CLEAN, YPATH2016CLEAN,
                          drop_last_col=True,
                          labindex=None)

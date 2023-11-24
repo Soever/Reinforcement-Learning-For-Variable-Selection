@@ -70,6 +70,6 @@ if __name__ == "__main__":
     #     i+=1# 显示图表
     # plt.show()
     # 绘制PPO训练结果
-    return_list = np.loadtxt('./result/PPO_1111.txt', dtype=float)
+    return_list = np.loadtxt('./result/PPO_1116reward.txt', dtype=float)
     plot_PPO(return_list)
 

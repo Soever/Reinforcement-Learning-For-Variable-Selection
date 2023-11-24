@@ -36,11 +36,14 @@ def save_sample(transition_dict,state,action,next_state,reward,done):
 
 
 
-def train_on_policy_agent(env, agent, num_episodes):
+def train_on_policy_agent(env, agent, num_episodes,epochs):
     return_list = []
-    for i in range(10):
-        with tqdm(total=int(num_episodes/10), desc='Iteration %d' % i) as pbar:
-            for i_episode in range(int(num_episodes/10)):
+    bestr2_list =[]
+    best_state_list =[]
+
+    for i in range(epochs):
+        with tqdm(total=int(num_episodes/epochs), desc='Iteration %d' % i) as pbar:
+            for i_episode in range(int(num_episodes/epochs)):
                 episode_return = 0
                 transition_dict = {'states': [], 'actions': [], 'next_states': [], 'rewards': [], 'dones': []}
                 state = env.reset()
@@ -57,10 +60,12 @@ def train_on_policy_agent(env, agent, num_episodes):
                     episode_return += reward
                 return_list.append(episode_return)
                 agent.update(transition_dict)
-                if (i_episode+1) % 10 == 0:
-                    pbar.set_postfix({'episode': '%d' % (num_episodes/10 * i + i_episode+1), 'return': '%.3f' % np.mean(return_list[-10:])})
+                if (i_episode+1) % epochs == 0:
+                    pbar.set_postfix({'episode': '%d' % (num_episodes/epochs * i + i_episode+1), 'return': '%.3f' % np.mean(return_list[-10:])})
                 pbar.update(1)
-    return return_list
+                bestr2_list.append(env.best_R2)
+                best_state_list.append(env.best_state)
+    return return_list,bestr2_list,best_state_list
 
 def train_off_policy_agent(env, agent, num_episodes, replay_buffer, minimal_size, batch_size):
     return_list = []
