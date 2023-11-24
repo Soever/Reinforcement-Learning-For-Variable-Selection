@@ -13,7 +13,7 @@ from AGENT_PPO import PPO
 from ENV2 import FSEnv
 from plot import plot_PPO
 import logging
-
+import datetime
 from AGENT_DQN import DQNAgent,DQNEnv,train_dqn
 def set_seed(seed_value=2023):
     """Set seed for reproducibility."""
@@ -22,7 +22,6 @@ def set_seed(seed_value=2023):
     torch.manual_seed(seed_value)
     torch.cuda.manual_seed(seed_value)
     torch.backends.cudnn.deterministic = True
-
 
 
 def q_table_learn(df_class):
@@ -73,7 +72,7 @@ def PPO_learn(df_class):
     action_size = df_class.feature_num * 6  # 每个参数有两个动作，增或减
     actor_lr = 1e-3
     critic_lr = 1e-2
-    num_episodes = 5000
+    num_episodes = 1000
     hidden_dim = 128
     gamma = 0.98
     lmbda = 0.95
@@ -96,16 +95,33 @@ def PPO_learn(df_class):
 
 
     plot_PPO(np.array(return_list))
+    save_result(return_list,r2_list ,state_list)
 
-    with open('./result/PPO_1124.txt', 'w') as file:
-        for item in return_list:
-            file.write(f"{item}\n")
-    with open('./result/PPO_1116r2.txt', 'w') as file:
-        for item in r2_list:
-            file.write(f"{item}\n")
-    with open('./result/PPO_1116state.txt', 'w') as file:
-        for item in state_list:
-            np.savetxt(file,item.reshape(1,-1) ,fmt='%s')
+
+
+
+
+
+def save_result(return_list,r2_list ,state_list):
+    current_datetime =datetime.now()
+    datetime_str = current_datetime.strftime("%Y-%m-%d_%H_%M")
+    directory = f'./result/{datetime_str}'
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+    try:
+        with open('./result/'+datetime_str+'/return.txt', 'w') as file:
+            for item in return_list:
+                file.write(f"{item}\n")
+        with open('./result/'+datetime_str+'/r2.txt', 'w') as file:
+            for item in r2_list:
+                file.write(f"{item}\n")
+        with open('./result/'+datetime_str+'/state.txt', 'w') as file:
+            for item in state_list:
+                if item is not None:
+                    np.savetxt(file, item.reshape(1, -1), fmt='%s')
+    finally:
+        pass
+
 
 
 bestR = 0
