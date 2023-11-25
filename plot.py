@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from rl_utils import moving_average
 import os
-def plot_PPO(file_path):
+def plot_PPO(file_path,name):
 
     if isinstance(file_path, np.ndarray):
         return_list = file_path
@@ -28,7 +28,7 @@ def plot_PPO(file_path):
 
     # 设置坐标轴标签和图表标题
     plt.xlabel('Episodes')
-    plt.ylabel('Returns')
+    plt.ylabel(name)
     plt.title('PPO on Variable Selection')
 
     # 显示图例
@@ -71,7 +71,7 @@ if __name__ == "__main__":
     # plt.show()
     # 绘制PPO训练结果
 
-    return_list = np.loadtxt('./result/PPO_1116r2.txt', dtype=float)
-    plot_PPO(return_list)
+    return_list = np.loadtxt('./result/2023-11-25_10_19/r2.txt', dtype=float)
+    plot_PPO(return_list,name='R2')
 
 

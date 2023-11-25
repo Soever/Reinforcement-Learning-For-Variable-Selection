@@ -2,8 +2,9 @@
 
 # 按 ⌃R 执行或将其替换为您的代码。
 # 按 双击 ⇧ 在所有地方搜索类、文件、工具窗口、操作和设置。
-from Env import Environment,Agent,find_best_features
-from data_process import importData,X1PATH,Y1PATH,X2PATH,Y2PATH,DataClass,XPATH2016merge,YPATH2016merge,XPATH2016CLEAN,YPATH2016CLEAN
+from Env import Environment, Agent, find_best_features
+from data_process import importData, X1PATH, Y1PATH, X2PATH, Y2PATH, DataClass, XPATH2016merge, YPATH2016merge, \
+    XPATH2016CLEAN, YPATH2016CLEAN
 import numpy as np
 import rl_utils
 import torch
@@ -13,8 +14,11 @@ from AGENT_PPO import PPO
 from ENV2 import FSEnv
 from plot import plot_PPO
 import logging
-import datetime
-from AGENT_DQN import DQNAgent,DQNEnv,train_dqn
+from datetime import datetime
+from AGENT_DQN import DQNAgent, DQNEnv, train_dqn
+import os
+
+
 def set_seed(seed_value=2023):
     """Set seed for reproducibility."""
     random.seed(seed_value)
@@ -44,10 +48,11 @@ def q_table_learn(df_class):
     print(np.array2string(AOR, precision=5, suppress_small=True))
     # FS = Environment('./')
 
+
 def DQN_learn(df_class):
     # 设置参数
-    state_size = df_class.feature_num *3 # 每个变量有3个参数
-    action_size = df_class.feature_num *6 # 每个参数有两个动作，增或减
+    state_size = df_class.feature_num * 3  # 每个变量有3个参数
+    action_size = df_class.feature_num * 6  # 每个参数有两个动作，增或减
     replay_memory_size = 1000
     batch_size = 20
     gamma = 0.95
@@ -57,22 +62,21 @@ def DQN_learn(df_class):
     lr = 0.01
     num_episodes = 1000
 
-
     # 创建环境和智能体
-    env = DQNEnv(df_class,state_size, action_size)
+    env = DQNEnv(df_class, state_size, action_size)
     agent = DQNAgent(state_size, action_size, replay_memory_size, batch_size, gamma, epsilon, epsilon_min,
                      epsilon_decay, lr)
 
-
     # 训练DQN智能体
     train_dqn(env, agent, num_episodes)
+
 
 def PPO_learn(df_class):
     state_size = df_class.feature_num * 3  # 每个变量有3个参数
     action_size = df_class.feature_num * 6  # 每个参数有两个动作，增或减
     actor_lr = 1e-3
     critic_lr = 1e-2
-    num_episodes = 1000
+    num_episodes = 500
     hidden_dim = 128
     gamma = 0.98
     lmbda = 0.95
@@ -81,9 +85,9 @@ def PPO_learn(df_class):
     device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
 
     env = FSEnv(df_class=df_class, state_size=state_size, action_size=action_size,
-                invalid_action_reward = -0.1 , # 违反约束时的奖励
-                min_score =  0, #视为有提升的最小阈值
-                max_stop_step=state_size,# 最大停滞步数 智能体n步都不提升时停止
+                invalid_action_reward=0,  # 违反约束时的奖励
+                min_score=0,  # 视为有提升的最小阈值
+                max_stop_step=action_size,  # 最大停滞步数 智能体n步都不提升时停止
                 )
     # env.seed(0)
     torch.manual_seed(2023)
@@ -91,31 +95,27 @@ def PPO_learn(df_class):
     action_dim = action_size
     agent = PPO(state_dim, hidden_dim, action_dim, actor_lr, critic_lr, lmbda,
                 epochs, eps, gamma, device)
-    return_list,r2_list ,state_list= rl_utils.train_on_policy_agent(env, agent, num_episodes,epochs)
+    return_list, r2_list, state_list = rl_utils.train_on_policy_agent(env, agent, num_episodes, epochs)
+
+    plot_PPO(np.array(return_list),name='Returns')
+
+    save_result(return_list, r2_list, state_list)
 
 
-    plot_PPO(np.array(return_list))
-    save_result(return_list,r2_list ,state_list)
-
-
-
-
-
-
-def save_result(return_list,r2_list ,state_list):
-    current_datetime =datetime.now()
+def save_result(return_list, r2_list, state_list):
+    current_datetime = datetime.now()
     datetime_str = current_datetime.strftime("%Y-%m-%d_%H_%M")
     directory = f'./result/{datetime_str}'
     if not os.path.exists(directory):
         os.makedirs(directory)
     try:
-        with open('./result/'+datetime_str+'/return.txt', 'w') as file:
+        with open('./result/' + datetime_str + '/return.txt', 'w') as file:
             for item in return_list:
                 file.write(f"{item}\n")
-        with open('./result/'+datetime_str+'/r2.txt', 'w') as file:
+        with open('./result/' + datetime_str + '/r2.txt', 'w') as file:
             for item in r2_list:
                 file.write(f"{item}\n")
-        with open('./result/'+datetime_str+'/state.txt', 'w') as file:
+        with open('./result/' + datetime_str + '/state.txt', 'w') as file:
             for item in state_list:
                 if item is not None:
                     np.savetxt(file, item.reshape(1, -1), fmt='%s')
@@ -123,9 +123,8 @@ def save_result(return_list,r2_list ,state_list):
         pass
 
 
-
 bestR = 0
-bestState  = None
+bestState = None
 if __name__ == '__main__':
     set_seed(2023)
     # df_class = DataClass(XPATH2016merge,YPATH2016merge,
@@ -135,11 +134,9 @@ if __name__ == '__main__':
     df_class = DataClass(XPATH2016CLEAN, YPATH2016CLEAN,
                          drop_last_col=True,
                          labindex=None)
-    #q_table_learn(df_class)
-    #DQN_learn(df_class)
+    # q_table_learn(df_class)
+    # DQN_learn(df_class)
 
     PPO_learn(df_class)
-
-
 
 # 访问 https://www.jetbrains.com/help/pycharm/ 获取 PyCharm 帮助

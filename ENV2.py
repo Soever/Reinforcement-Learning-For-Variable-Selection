@@ -47,10 +47,6 @@ class FSEnv():
 
 
 
-    def init(self):
-        self.acc_old = 0
-        self.acc_new = 0
-
     def get_reward(self, state,action):
         """
         :param state:当前状态
@@ -62,7 +58,7 @@ class FSEnv():
 
         # 计算和上个状态的差值
         acc_diff = self.acc_new - self.acc_old
-        if acc_diff < 0.001:
+        if acc_diff < self.min_score:
             self.done_count += 1
         else:
             self.done_count = 0
@@ -123,6 +119,7 @@ class FSEnv():
         self.state = self.init_state_to_zero()
         self.state_last = self.state.copy()
         self.acc_old = 0
+        self.acc_new = 0
         self.best_R2 = 0
         self.best_state = None
         self.done_count = 0
