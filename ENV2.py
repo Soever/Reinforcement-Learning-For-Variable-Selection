@@ -152,7 +152,6 @@ class FSEnv():
         # 实现动作有效性的检查逻辑
         # 例如: 如果是 c 参数的动作，确保不会增加已经是 1 的 c 或减少已经是 0 的 c
 
-        # 示例逻辑（需要根据你的环境具体实现进行修改）
         param_type = action // (2 * self.feature_num)  # 确定是 t, tao 还是 c
         is_increment = action % 2 == 1  # 判断是否为增加参数的动作
         feature_index = (action // 2) % self.feature_num  # 确定是哪一个特征的参数
@@ -169,7 +168,7 @@ class FSEnv():
                     if state[param_type* self.feature_num + feature_index] -1 < self.lb[param_type* self.feature_num + feature_index] :
                         return False
 
-        elif param_type == 2:  # 假设 t, tao, c 分别对应 0, 1, 2
+        elif param_type == 2:
             current_c_value = state[2 * self.feature_num + feature_index]
             if (current_c_value == 1 and is_increment) or (current_c_value == 0 and not is_increment):
                 return False  # 动作无效
@@ -184,7 +183,7 @@ class FSEnv():
         feature_index = (action // 2) % self.feature_num
         is_valid = self.is_valid_action(action,self.state)
 
-        if is_valid:
+        if is_valid is True:
             # 判断动作属于t、tao还是c的动作
             if action < 2 * self.feature_num:  # t 的动作
                 if action % 2 == 0:# 减少 t
@@ -192,7 +191,7 @@ class FSEnv():
                 else:#增加t
                     self.state[feature_index] = self.state[feature_index] + 1  # 增加 t
             elif action < 4 * self.feature_num:  # tao 的动作
-                feature_index -= self.feature_num
+
                 if action % 2 == 0:# 减少 tao
                     self.state[self.feature_num + feature_index] = max(0, int(self.state[self.feature_num + feature_index] - 1))
                 else:# 增加tao

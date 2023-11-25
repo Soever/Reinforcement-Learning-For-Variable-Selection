@@ -49,13 +49,12 @@ class PPO:
         self.device = device
 
     def take_action(self, state):
-        logging.debug(f"Original state: {state}")
+
         state = torch.tensor(state.reshape(1,-1), dtype=torch.float).to(self.device)
-        logging.debug(f"Tensor state: {state}")
+        # logging.debug(f"Tensor state: {state}")
         probs = self.actor(state)
-        logging.debug(f"Probabilities: {probs}")
+        # logging.debug(f"Probabilities: {probs}")
         action_dist = torch.distributions.Categorical(probs)
-        logging.debug(f"action_dist: {action_dist}")
         action = action_dist.sample()
         return action.item()
 
