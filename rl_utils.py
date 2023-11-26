@@ -55,16 +55,17 @@ def train_on_policy_agent(env, agent, num_episodes,epochs):
                     #     action = agent.take_action(state)
                     # logging.debug(f"action: {action}")
                     next_state, reward, done,info= env.step(action)
-                    save_sample(transition_dict,scale_state,action,next_state,reward,done)
+                    save_sample(transition_dict,scale_state,action,next_state/env.ub,reward,done)
                     state = next_state
                     episode_return += reward
                 return_list.append(episode_return)
-                agent.update(transition_dict)
-                if (i_episode+1) % epochs == 0:
-                    pbar.set_postfix({'episode': '%d' % (num_episodes/epochs * i + i_episode+1), 'return': '%.3f' % np.mean(return_list[-10:])})
-                pbar.update(1)
                 bestr2_list.append(env.best_R2)
                 best_state_list.append(env.best_state)
+                agent.update(transition_dict)
+                if (i_episode+1) % epochs == 0:
+                    pbar.set_postfix({'episode': '%d' % (num_episodes/epochs * i + i_episode+1), 'return': '%.3f' % np.mean(return_list[-10:]),'R2': '%.3f' % np.mean(bestr2_list[-10:])})
+                pbar.update(1)
+
     return return_list,bestr2_list,best_state_list
 
 def train_off_policy_agent(env, agent, num_episodes, replay_buffer, minimal_size, batch_size):
