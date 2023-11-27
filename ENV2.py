@@ -196,6 +196,7 @@ class FSEnv():
             if c_value == 0:
                 return False  # 如果 c 为 0，则对 t 或 tao 的任何操作都是无效的
             else :
+                #
                 if is_increment :
                     if state[param_type* self.feature_num + feature_index] +1 > self.ub[param_type* self.feature_num + feature_index] :
                         return False
