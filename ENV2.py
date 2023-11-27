@@ -13,7 +13,7 @@ from joblib import Parallel, delayed
 
 
 class FSEnv():
-    def __init__(self, df_class, state_size, action_size,invalid_action_reward=0, min_score=0,max_stop_step=None):
+    def __init__(self, df_class, state_size, action_size,invalid_action_reward=0, min_score=0,min_step_size = 1,max_stop_step=None):
         self.df_class = df_class
         self.invalid_action_reward = invalid_action_reward
         self.min_score = min_score
@@ -23,6 +23,7 @@ class FSEnv():
         self.state = np.array([0] * self.feature_num * 3)  # 当前状态
         self.action = np.array([0] * self.feature_num * 3 * 2)  # 当前状态可以采取的动作，1为可以采取，0不可采取
         self.max_stop_step = self.state_size if max_stop_step is None else max_stop_step
+        self.min_step_size = min_step_size
         self.acc_new = 0
         self.acc_old = 0
         self.best_R2 = 0
@@ -198,10 +199,10 @@ class FSEnv():
             else :
                 #
                 if is_increment :
-                    if state[param_type* self.feature_num + feature_index] +1 > self.ub[param_type* self.feature_num + feature_index] :
+                    if state[param_type* self.feature_num + feature_index] +self.min_step_size > self.ub[param_type* self.feature_num + feature_index] :
                         return False
                 else:
-                    if state[param_type* self.feature_num + feature_index] -1 < self.lb[param_type* self.feature_num + feature_index] :
+                    if state[param_type* self.feature_num + feature_index] -self.min_step_size < self.lb[param_type* self.feature_num + feature_index] :
                         return False
 
         elif param_type == 2:
@@ -223,15 +224,15 @@ class FSEnv():
             # 判断动作属于t、tao还是c的动作
             if action < 2 * self.feature_num:  # t 的动作
                 if action % 2 == 0:# 减少 t
-                    self.state[feature_index] = max(0, int(self.state[feature_index] - 1))
+                    self.state[feature_index] = max(0, int(self.state[feature_index] - self.min_step_size))
                 else:#增加t
-                    self.state[feature_index] = self.state[feature_index] + 1  # 增加 t
+                    self.state[feature_index] = self.state[feature_index] + self.min_step_size  # 增加 t
             elif action < 4 * self.feature_num:  # tao 的动作
 
                 if action % 2 == 0:# 减少 tao
-                    self.state[self.feature_num + feature_index] = max(0, int(self.state[self.feature_num + feature_index] - 1))
+                    self.state[self.feature_num + feature_index] = max(0, int(self.state[self.feature_num + feature_index] - self.min_step_size))
                 else:# 增加tao
-                    self.state[self.feature_num + feature_index] = self.state[self.feature_num + feature_index] + 1  # 增加 tao
+                    self.state[self.feature_num + feature_index] = self.state[self.feature_num + feature_index] + self.min_step_size # 增加 tao
             else:  # c 的动作
                 self.state[2 * self.feature_num + feature_index] = action % 2  # 设置 c
             reward = self.get_reward(self.state,action)

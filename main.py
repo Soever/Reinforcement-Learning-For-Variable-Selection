@@ -87,6 +87,7 @@ def PPO_learn(df_class,directory):
     env = FSEnv(df_class=df_class, state_size=state_size, action_size=action_size,
                 invalid_action_reward=0,  # 违反约束时的奖励
                 min_score=0,  # 视为有提升的最小阈值
+                min_step_size=2 ,
                 max_stop_step=5,  # 最大停滞步数 智能体n步都不提升时停止
                 )
     # env.seed(0)
