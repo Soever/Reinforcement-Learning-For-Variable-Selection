@@ -76,7 +76,7 @@ def PPO_learn(df_class,directory):
     action_size = df_class.feature_num * 6  # 每个参数有两个动作，增或减
     actor_lr = 1e-3
     critic_lr = 1e-2
-    num_episodes = 1000
+    num_episodes = 500
     hidden_dim = 128
     gamma = 0.98
     lmbda = 0.95
@@ -87,7 +87,6 @@ def PPO_learn(df_class,directory):
     env = FSEnv(df_class=df_class, state_size=state_size, action_size=action_size,
                 invalid_action_reward=0,  # 违反约束时的奖励
                 min_score=0,  # 视为有提升的最小阈值
-                min_step_size= 2 , # 最小步长 参数每次更新得步长
                 max_stop_step=5,  # 最大停滞步数 智能体n步都不提升时停止
                 )
     # env.seed(0)
@@ -99,7 +98,7 @@ def PPO_learn(df_class,directory):
 
     try :
         return_list, r2_list, state_list = rl_utils.train_on_policy_agent(env, agent, num_episodes, epochs)
-        plot_PPO(np.array(return_list),name='Returns',directory=directory)
+        plot_PPO(np.array(return_list),name='Returns')
         save_result(return_list, r2_list, state_list, directory)
     except KeyboardInterrupt:
         save_result(return_list, r2_list, state_list,directory)

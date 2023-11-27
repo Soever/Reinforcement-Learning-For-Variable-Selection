@@ -44,9 +44,10 @@ def train_on_policy_agent(env, agent, num_episodes,epochs):
     for i in range(epochs):
         with tqdm(total=int(num_episodes/epochs), desc='Iteration %d' % i) as pbar:
             for i_episode in range(int(num_episodes/epochs)):
-                episode_return = 0
+
                 transition_dict = {'states': [], 'actions': [], 'next_states': [], 'rewards': [], 'dones': []}
-                state = env.reset()
+                state = env.reset(mode = 'random')
+                episode_return = env.best_R2
                 done = False
                 while not done:
                     scale_state  = state/env.ub# 防止输入差别过大神经网络出现错误，因此对输入做归一化

@@ -1,0 +1,2815 @@
+DEBUG:root:bestR2: 0.08376368719177463,best_state: [24 44 28 54 24 20 39 36 59 21 40  6 50  7 41 19 54 44 34 45 33 19 11 14
+ 58 59  0  0  0  1  0  0  0  0  0  1  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:6.781194897731435e-05
+DEBUG:root:bestR2: 0.10411942818615305,best_state: [24 44 28 54 24 20 39 36 59 21 40  6 50  7 41 19 54 44 34 45 33 19 11 14
+ 58 59  0  0  0  1  1  0  0  0  0  1  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.020355740994378424
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:bestR2: 0.10524568249530553,best_state: [24 44 28 54 24 20 39 36 59 21 40  6 50  7 41 19 54 44 34 45 33 19 11 14
+ 58 59  0  0  0  1  1  0  0  0  0  1  0  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.0011262543091524746
+DEBUG:root:bestR2: 0.10912790757523805,best_state: [24 44 28 54 24 20 39 36 59 21 40  5 50  7 41 19 54 44 34 45 33 19 11 14
+ 58 59  0  0  0  1  1  0  0  0  0  1  0  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.003882225079932522
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: True,count: 4,reward:-0.05289360907309559
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: True,count: 6,reward:-0.010656323457466033
+DEBUG:root:is_valid: True,count: 1,reward:-0.0315376322186236
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:7.061620501236376e-05
+DEBUG:root:is_valid: True,count: 1,reward:-0.0004593825798997475
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: True,count: 3,reward:-5.569854615750103e-06
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:0.00014778370182744194
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 2,reward:-5.586847025651487e-05
+DEBUG:root:is_valid: True,count: 0,reward:0.0009647349881304335
+DEBUG:root:is_valid: True,count: 1,reward:-0.014683482749640153
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:3.96258986223863e-05
+DEBUG:root:is_valid: True,count: 0,reward:0.0024050643741716504
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: True,count: 4,reward:-0.025504579770750158
+DEBUG:root:is_valid: True,count: 5,reward:-0.6145787242822754
+DEBUG:root:bestR2: 0.08376368719177463,best_state: [24 44 28 54 24 20 39 36 59 21 40  6 50  7 41 19 54 44 34 45 33 19 11 14
+ 58 59  0  0  0  1  0  0  0  0  0  1  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:6.781194897731435e-05
+DEBUG:root:bestR2: 0.10411942818615305,best_state: [24 44 28 54 24 20 39 36 59 21 40  6 50  7 41 19 54 44 34 45 33 19 11 14
+ 58 59  0  0  0  1  1  0  0  0  0  1  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.020355740994378424
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:bestR2: 0.10524568249530553,best_state: [24 44 28 54 24 20 39 36 59 21 40  6 50  7 41 19 54 44 34 45 33 19 11 14
+ 58 59  0  0  0  1  1  0  0  0  0  1  0  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.0011262543091524746
+DEBUG:root:bestR2: 0.10912790757523805,best_state: [24 44 28 54 24 20 39 36 59 21 40  5 50  7 41 19 54 44 34 45 33 19 11 14
+ 58 59  0  0  0  1  1  0  0  0  0  1  0  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.003882225079932522
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: True,count: 4,reward:-0.05289360907309559
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: True,count: 6,reward:-0.010656323457466033
+DEBUG:root:is_valid: True,count: 1,reward:-0.0315376322186236
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:7.061620501236376e-05
+DEBUG:root:is_valid: True,count: 1,reward:-0.0004593825798997475
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: True,count: 3,reward:-5.569854615750103e-06
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:0.00014778370182744194
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 2,reward:-5.586847025651487e-05
+DEBUG:root:is_valid: True,count: 0,reward:0.0009647349881304335
+DEBUG:root:is_valid: True,count: 1,reward:-0.014683482749640153
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:3.96258986223863e-05
+DEBUG:root:is_valid: True,count: 0,reward:0.0024050643741716504
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: True,count: 4,reward:-0.025504579770750158
+DEBUG:root:is_valid: True,count: 5,reward:-0.6145787242822754
+DEBUG:root:is_valid: True,count: 6,reward:-0.0005973860865193803
+DEBUG:root:is_valid: True,count: 1,reward:-9.747646860791548e-07
+DEBUG:root:is_valid: True,count: 2,reward:-0.003613894661478212
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: True,count: 5,reward:-2.6681830982422383e-05
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: 0.17102777791410972,best_state: [ 4 31 57 30 31  4 36 37 24 56 15  1 27 55 38 37 42 12 22 55  2 12  6 54
+ 60  4  1  0  1  0  0  1  0  1  1  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.048526833250796764
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.20091571254740126,best_state: [ 4 31 57 30 31  4 36 37 24 56 15  2 27 55 38 37 42 12 22 55  2 12  6 54
+ 60  4  1  0  1  0  0  1  0  1  1  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.029887934633291535
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.2310636466333349,best_state: [ 4 31 57 30 31  4 36 37 24 56 15  3 27 55 38 37 42 12 22 55  2 12  6 54
+ 60  4  1  0  1  0  0  1  0  1  1  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.030147934085933636
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 2,reward:-0.03904796739465377
+DEBUG:root:is_valid: True,count: 0,reward:0.0006439790028268666
+DEBUG:root:is_valid: True,count: 1,reward:-0.03285441740902639
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: True,count: 4,reward:-0.00013191014570201887
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: True,count: 6,reward:-0.0007483711575897445
+DEBUG:root:bestR2: 0.3468825952289126,best_state: [42 43  7 44 54 22 37 48 32  7 17 18  2 14 33 13 23 18  9 10 57 34  5  5
+ 50 14  0  0  0  1  0  1  0  1  1  1  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.20925734968637355
+DEBUG:root:is_valid: True,count: 1,reward:-0.016167195256992506
+DEBUG:root:is_valid: True,count: 2,reward:-0.0006210410692443213
+DEBUG:root:is_valid: True,count: 0,reward:0.009991693743058527
+DEBUG:root:is_valid: True,count: 0,reward:1.3511607764749023e-05
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:0.0004741676170539888
+DEBUG:root:is_valid: True,count: 0,reward:7.77141269248105e-06
+DEBUG:root:bestR2: 0.34913654489361357,best_state: [42 43  7 45 54 21 37 48 32  7 16 18  2 14 33 13 24 18  9 10 57 34  6  4
+ 51 14  0  0  0  1  0  1  0  1  1  1  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.00855504161036802
+DEBUG:root:is_valid: True,count: 1,reward:-1.2843061428235991e-05
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:bestR2: 0.3537638990872912,best_state: [42 43  7 45 54 21 37 48 32  7 16 18  2 14 33 13 23 18  9 10 57 34  7  4
+ 51 14  0  0  0  1  0  1  0  1  1  1  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.004640197255105893
+DEBUG:root:is_valid: True,count: 1,reward:-0.04360586776952502
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:0.037609435336566466
+DEBUG:root:is_valid: True,count: 1,reward:-0.00017736132828538587
+DEBUG:root:is_valid: True,count: 2,reward:-0.03761267051137507
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:0.0004326355710042584
+DEBUG:root:is_valid: True,count: 0,reward:0.0006723391002337875
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 2,reward:-0.016068903855551264
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:bestR2: 0.5443299018170801,best_state: [42 43  7 45 54 20 37 48 32  7 16 18  2 14 33 13 23 18  8 10 56 34  7  4
+ 51 14  0  1  0  1  0  1  0  0  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.24931639618672108
+DEBUG:root:is_valid: True,count: 1,reward:-6.262765048437036e-05
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: True,count: 1,reward:-2.3983632869262195e-05
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:1.8044492204105644e-05
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.5071339695750363,best_state: [60 36 13  3 34 25 10 42  5 54  2 53 50 59 30  8 27 36 21 46 46 43 23 43
+ 15 39  0  0  0  1  0  1  1  0  0  0  0  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:1.6747258432370238e-05
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:bestR2: 0.5071752820597526,best_state: [60 36 13  3 34 25 10 42  5 54  2 53 50 59 30  8 27 36 21 46 46 43 23 43
+ 16 39  0  0  0  1  0  1  1  0  0  0  0  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:4.131248471628268e-05
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: 0.6249835513555955,best_state: [39 47 60  1 20 22 41 31 27 33  3 39 35 59 13 25 25 36 31 24 48 36 19 16
+  9  7  1  0  0  1  1  1  1  0  1  1  0  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:1.0896871311061318e-05
+DEBUG:root:is_valid: True,count: 1,reward:-0.0001600300201983762
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: True,count: 3,reward:-0.03362749162375189
+DEBUG:root:is_valid: True,count: 4,reward:-0.009642706198370377
+DEBUG:root:is_valid: True,count: 0,reward:0.00016542518516793336
+DEBUG:root:is_valid: True,count: 1,reward:-0.0005770783691503301
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:0.00010061846568598654
+DEBUG:root:is_valid: True,count: 0,reward:0.0003820485080485714
+DEBUG:root:is_valid: True,count: 0,reward:0.00012827601282405787
+DEBUG:root:is_valid: True,count: 1,reward:-9.935373840253003e-05
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: True,count: 3,reward:-0.00037392356341336974
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: 0.02633921449021792,best_state: [55 43 53  0 35  5 47 34 14 39  4 14 58  7 15 37 50 40 20 34 54 37 25 11
+ 35 22  0  1  1  0  1  0  0  1  0  1  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:1.8898228769437253e-05
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:bestR2: 0.07546354961597368,best_state: [55 43 53  0 35  5 47 34 14 39  4 14 58  7 15 37 50 40 20 34 54 37 25 11
+ 35 22  0  1  1  0  1  0  0  1  0  1  0  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.04912433512575576
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:bestR2: 0.07669255952763188,best_state: [55 43 53  0 35  5 47 34 14 39  4 14 58  7 15 38 50 40 20 34 54 37 25 11
+ 35 22  0  1  1  0  1  0  0  1  0  1  0  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.0012290099116581965
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 2,reward:-6.507064373217908e-06
+DEBUG:root:is_valid: True,count: 3,reward:-0.04790905953869329
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:7.081187344826212e-05
+DEBUG:root:is_valid: True,count: 1,reward:-5.6153765120581234e-05
+DEBUG:root:is_valid: True,count: 0,reward:1.948712366173222e-05
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:2.0302584350928576e-05
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:0.009098480873273362
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 2,reward:-0.032031733646859406
+DEBUG:root:is_valid: True,count: 3,reward:-2.1151735397739735e-05
+DEBUG:root:is_valid: True,count: 4,reward:-7.658993785408796e-06
+DEBUG:root:bestR2: 0.36749914373808257,best_state: [55 43 53  0 35  5 47 32 14 39  4 14 58  7 11 38 50 40 20 34 54 37 26 11
+ 35 22  0  1  0  0  1  1  0  0  0  1  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.36162976649994605
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:bestR2: 0.36773179314066007,best_state: [55 43 53  0 35  5 47 32 14 39  4 14 58  7 11 38 50 40 20 34 54 37 26 11
+ 35 22  0  1  1  0  1  1  0  0  0  1  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.00023264940257750055
+DEBUG:root:is_valid: True,count: 1,reward:-7.403418633811221e-06
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: 0.6152742235526532,best_state: [46  7 57  4 31  7  3 11 55 54 42 35 37 13 15 24 46 38 56 28 18 55 50 17
+ 29 13  1  1  1  0  0  0  1  1  1  1  1  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:9.402923902057658e-05
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 2,reward:-0.0003267752313947936
+DEBUG:root:is_valid: True,count: 3,reward:-0.0003488442197177033
+DEBUG:root:bestR2: 0.6193146430748091,best_state: [46  7 57  4 31  7  3 11 55 54 42 35 37 12 15 25 46 38 56 28 18 55 50 17
+ 29 13  1  1  1  0  0  0  1  1  1  1  1  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.004716038973268444
+DEBUG:root:bestR2: 0.6195425422818911,best_state: [46  7 57  4 31  7  3 11 54 54 42 35 37 12 15 25 46 38 56 28 18 55 50 17
+ 29 13  1  1  1  0  0  0  1  1  1  1  1  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.00022789920708199407
+DEBUG:root:is_valid: True,count: 1,reward:-0.00012024043097214054
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:bestR2: 0.619623858515508,best_state: [46  7 57  4 31  7  4 11 54 54 42 35 37 12 15 25 46 38 56 28 18 55 51 17
+ 29 13  1  1  1  0  0  0  1  1  1  1  1  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.0002015566645890976
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: True,count: 4,reward:-0.0007986329648437263
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:bestR2: 0.6196941362365556,best_state: [46  7 57  4 31  7  4 10 54 54 42 35 37 12 15 25 46 38 56 28 19 55 51 17
+ 29 13  1  1  1  0  0  0  1  1  1  1  1  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.0008689106858912332
+DEBUG:root:bestR2: 0.6197209583437308,best_state: [46  8 57  4 31  7  4 10 54 54 42 35 37 12 15 25 46 38 56 28 19 55 51 17
+ 29 13  1  1  1  0  0  0  1  1  1  1  1  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:2.6822107175195065e-05
+DEBUG:root:is_valid: True,count: 1,reward:-0.0003447555241584688
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:bestR2: 0.6202153761476625,best_state: [46  8 57  4 31  7  4 10 54 54 41 35 37 12 15 26 46 38 56 28 19 55 51 17
+ 29 13  1  1  1  0  0  0  1  1  1  1  1  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.000839173328090248
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 2,reward:-0.7046260245805369
+DEBUG:root:is_valid: True,count: 3,reward:-8.867296549031067e-06
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 2,reward:-1.5501860204825135e-05
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:bestR2: 0.6291272118893281,best_state: [ 9 33 22 60 58 29  7  4 10  4 40  2 16 24 16  8 16  6 10 23 21  9 31 15
+ 41 13  0  1  1  1  1  0  1  0  1  1  1  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.002119432006155053
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.6343677841618929,best_state: [ 9 33 22 60 58 29  7  4 10  4 40  2 16 24 16  8 16  6 10 23 21  9 31 15
+ 41 13  0  1  1  1  1  0  1  0  1  1  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.005240572272564803
+DEBUG:root:is_valid: True,count: 1,reward:-0.0005504517053340763
+DEBUG:root:bestR2: 0.6344187369806096,best_state: [ 9 33 22 60 58 29  7  4 10  4 40  2 16 24 16  7 16  6 10 23 21  9 32 15
+ 41 13  0  1  1  1  1  0  1  0  1  1  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.0006014045240507748
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.6960270625756725,best_state: [ 9 33 22 60 58 29  7  4 10  4 40  2 16 24 16  7 16  6 10 23 21  9 32 15
+ 41 13  0  1  1  1  1  1  1  0  1  1  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.06160832559506291
+DEBUG:root:is_valid: True,count: 1,reward:-1.2706916978189042e-05
+DEBUG:root:bestR2: 0.6984711578958016,best_state: [ 9 33 22 60 59 29  7  4 10  4 40  2 16 24 16  7 16  6 10 23 21  9 32 15
+ 41 13  0  1  1  1  1  1  1  1  1  1  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.002456802237107314
+DEBUG:root:bestR2: 0.6984755579647284,best_state: [ 9 33 22 60 60 29  7  4 10  4 40  2 16 24 16  7 16  6 10 23 21  9 32 15
+ 41 13  0  1  1  1  1  1  1  1  1  1  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:4.4000689267686965e-06
+DEBUG:root:bestR2: 0.6991120482516777,best_state: [ 9 33 22 60 60 29  7  4 10  4 40  2 16 24 16  7 16  6 10 23 21  9 32 15
+ 40 13  0  1  1  1  1  1  1  1  1  1  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.0006364902869493427
+DEBUG:root:bestR2: 0.6992061151212294,best_state: [ 9 33 22 60 60 29  7  4 10  4 40  2 16 24 15  7 16  6 10 23 21  9 32 15
+ 40 13  0  1  1  1  1  1  1  1  1  1  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:9.406686955171217e-05
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 2,reward:-6.223647343261973e-06
+DEBUG:root:bestR2: 0.7027294327656478,best_state: [ 9 32 22 60 60 29  7  4 10  4 40  2 16 24 15  7 16  6 10 23 21  9 32 15
+ 40 13  0  1  1  0  1  1  1  1  1  1  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.0035295412917616398
+DEBUG:root:bestR2: 0.7041694028071676,best_state: [ 9 32 22 60 60 29  7  4 10  4 40  2 16 24 15  7 16  6 10 23 21  9 33 15
+ 40 13  0  1  1  0  1  1  1  1  1  1  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.0014399700415197447
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:bestR2: 0.704196064172032,best_state: [ 9 32 22 60 60 29  7  3 10  4 40  2 16 24 15  7 16  6 10 23 21  9 33 15
+ 40 13  0  1  1  0  1  1  1  1  1  1  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:2.666136486439985e-05
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:bestR2: 0.7071696491185373,best_state: [ 9 32 22 60 60 29  7  3 10  4 40  2 16 24 15  7 16  6 10 23 21  9 34 15
+ 40 13  0  1  1  0  1  1  1  1  1  1  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.0029735849465053477
+DEBUG:root:is_valid: True,count: 1,reward:-1.888772236746661e-05
+DEBUG:root:is_valid: True,count: 2,reward:-9.671410357903198e-05
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: True,count: 4,reward:-0.0001106536512476275
+DEBUG:root:is_valid: True,count: 5,reward:-0.00041155758946898047
+DEBUG:root:bestR2: 0.7076147676397796,best_state: [ 9 32 22 60 60 28  8  3 10  4 40  2 16 24 13  7 16  6 10 23 21  9 34 15
+ 40 13  0  1  1  0  1  1  1  0  1  1  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.0010829315879054002
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 2,reward:-0.0010829315879054002
+DEBUG:root:is_valid: True,count: 3,reward:-7.330392277160591e-05
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: True,count: 5,reward:-0.0027602688948999976
+DEBUG:root:is_valid: True,count: 6,reward:-0.020539081720028385
+DEBUG:root:is_valid: True,count: 1,reward:-0.011018632769769332
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:bestR2: 0.1615233611063176,best_state: [ 7 16 27  1 39  8 32  9 27 30 10 22 32 39 41 26 30 60 58 42 35 28 11 29
+ 48 40  0  0  0  0  0  0  0  1  0  1  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.10680337463848522
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.16314583540656735,best_state: [ 7 16 27  1 39  8 32  9 27 30 10 22 32 39 41 26 30 60 58 42 35 28 11 28
+ 48 40  0  0  0  0  0  0  0  1  0  1  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.0016224743002497544
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 2,reward:-0.0014771284925064743
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: 0.6059705809854721,best_state: [47 59 21 47 17 46  6 47 37  5 22 12 55 57 50 37 53 27 55  9  3  6 42 50
+ 31 28  0  0  1  1  0  0  1  1  0  1  1  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:7.3738391447975e-05
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 2,reward:-0.038744111970624884
+DEBUG:root:is_valid: True,count: 0,reward:5.28328153510671e-05
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:7.072131829044537e-06
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.6131299762871005,best_state: [47 59 21 48 17 46  6 47 37  5 22 12 54 57 50 37 53 27 55  9  3  6 42 50
+ 31 28  0  0  1  1  0  0  1  0  0  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.04584360232507323
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.6152258119996286,best_state: [47 59 21 48 17 46  6 47 37  5 22 12 54 57 50 37 53 27 55  9  3  6 42 51
+ 31 28  0  0  1  1  0  0  1  0  0  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.002095835712528027
+DEBUG:root:bestR2: 0.6178260018426858,best_state: [47 59 21 48 17 46  6 47 37  5 22 12 54 57 50 37 53 27 55  9  3  6 41 51
+ 31 28  0  0  1  1  0  0  1  0  0  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00260018984305721
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 2,reward:-0.0019672142206252907
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.15898471904624134,best_state: [11 57 30 42 37 31 53 11 32 53 15  2 34 53  1  8 21 24 19 36 39 25  9 21
+ 42 38  0  1  1  1  0  1  0  0  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00016701041120614768
+DEBUG:root:bestR2: 0.19025303846159014,best_state: [11 57 30 42 37 31 53 11 32 53 15  2 34 53  1  8 21 24 19 36 39 25  9 22
+ 42 38  0  1  1  1  0  1  0  0  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0312683194153488
+DEBUG:root:is_valid: True,count: 1,reward:-0.1317688266180066
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:0.010792351721100601
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 2,reward:-9.551572955457388e-06
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: True,count: 6,reward:-6.974593565489684e-05
+DEBUG:root:bestR2: -0.11648564548321372,best_state: [19 22 51 26 20 20 24 50 42 41 53 14 15 33 15  5 21 41 54 59 34  7 41 34
+ 46 60  1  0  1  0  0  1  0  0  1  0  1  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.0007591669432129855
+DEBUG:root:bestR2: 0.005976597690600882,best_state: [19 22 51 26 20 20 24 50 42 41 53 14 15 33 15  5 21 41 54 59 34  7 41 34
+ 46 60  1  0  1  0  0  1  0  1  1  0  1  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.1224622431738146
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.006023368220516856,best_state: [19 22 52 26 20 20 24 50 42 41 53 14 15 33 15  5 21 41 54 59 34  7 41 34
+ 46 60  1  0  1  0  0  1  0  1  1  0  1  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:4.6770529915973746e-05
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.16884325437829073,best_state: [19 22 52 26 20 20 24 50 42 41 53 14 15 33 15  5 21 41 54 59 34  7 41 34
+ 46 60  1  0  1  0  0  1  0  1  1  0  1  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.16281988615777387
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 2,reward:-0.002089223964339082
+DEBUG:root:is_valid: True,count: 3,reward:-0.0009267666630438098
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:0.0002483003781240667
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 2,reward:-0.007900589839463734
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:bestR2: 0.4767227125917558,best_state: [19 22 52 26 20 20 24 50 43 41 53 14 14 32 15  5 21 41 53 59 34  7 41 34
+ 46 60  1  0  1  0  0  1  0  1  1  1  1  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.31854773830218763
+DEBUG:root:is_valid: True,count: 1,reward:-0.0025239953785224367
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: True,count: 3,reward:-0.003883653419527233
+DEBUG:root:bestR2: 0.48690571320065146,best_state: [19 22 52 26 20 20 24 50 43 41 52 14 14 32 15  5 21 41 53 59 34  7 41 33
+ 46 60  1  0  1  0  0  1  0  1  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.016590649406945324
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: True,count: 3,reward:-0.007571650308259903
+DEBUG:root:is_valid: True,count: 4,reward:-0.00010677359717714552
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: 0.5394168354641972,best_state: [44 57 57 13 59 41 34  9 28 45 43  8 25 55 44 24 25 21 11 57 39 38  7 20
+ 53  9  0  0  0  1  0  1  1  1  0  1  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.029815149128721297
+DEBUG:root:bestR2: 0.5394168621502176,best_state: [44 57 57 14 59 41 34  9 28 45 43  8 25 55 44 24 25 21 11 57 39 38  7 20
+ 53  9  0  0  0  1  0  1  1  1  0  1  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:2.6686020393462684e-08
+DEBUG:root:bestR2: 0.5397291883826723,best_state: [44 57 57 14 59 41 34  9 28 45 43  8 25 55 44 24 25 21 10 57 39 38  7 20
+ 53  9  0  0  0  1  0  1  1  1  0  1  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.00031232623245469604
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:bestR2: 0.5400587986377853,best_state: [44 57 57 14 59 41 34  9 28 45 43  8 25 55 44 24 25 21 10 57 39 38  6 20
+ 53  9  0  0  0  1  0  1  1  1  0  1  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.000329610255113022
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:bestR2: 0.5400588327230069,best_state: [44 57 57 15 59 41 34  9 28 45 43  8 25 55 44 24 25 21 10 57 39 38  6 20
+ 53  9  0  0  0  1  0  1  1  1  0  1  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:3.40852216451637e-08
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.5900642598748973,best_state: [44 57 57 15 59 41 34  9 28 45 43  8 25 55 44 24 25 21 10 57 39 38  6 20
+ 53  9  0  0  0  1  0  1  1  1  0  1  1  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.05000542715189038
+DEBUG:root:bestR2: 0.6654557626043927,best_state: [44 57 57 15 59 41 34  9 28 45 43  8 25 55 44 24 25 21 10 57 39 38  6 20
+ 53  9  0  0  0  1  0  1  1  1  0  1  1  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.07539150272949535
+DEBUG:root:is_valid: True,count: 1,reward:-0.07539150272949535
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: True,count: 1,reward:-2.3494347329400256e-05
+DEBUG:root:is_valid: True,count: 2,reward:-1.7178841620113516e-05
+DEBUG:root:is_valid: True,count: 0,reward:6.233443744729783e-06
+DEBUG:root:is_valid: True,count: 1,reward:-6.102970155463794e-05
+DEBUG:root:is_valid: True,count: 2,reward:-0.007517377809755477
+DEBUG:root:is_valid: True,count: 0,reward:6.134108519795234e-06
+DEBUG:root:is_valid: True,count: 1,reward:-4.1405085817736165e-05
+DEBUG:root:is_valid: True,count: 0,reward:7.532543036603556e-05
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:5.97223323461904e-07
+DEBUG:root:bestR2: -0.0314545468566676,best_state: [56 10 12 50  6 59  7 29 19 43 14 27 27 18  7  7 50 21  5 33 46 14 38 32
+ 43 35  1  1  1  1  1  0  0  0  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.010986370331885098
+DEBUG:root:is_valid: True,count: 1,reward:-0.009305381306592198
+DEBUG:root:is_valid: True,count: 2,reward:-1.297584281645392e-05
+DEBUG:root:bestR2: -0.01271460864369045,best_state: [56 10 12 50  6 59  7 29 19 43 13 27 27 18  7  7 50 21  5 33 46 14 38 32
+ 43 35  1  1  1  1  1  0  0  1  1  1  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.0280582953623858
+DEBUG:root:is_valid: True,count: 1,reward:-0.0280582953623858
+DEBUG:root:is_valid: True,count: 0,reward:7.491075131316194e-07
+DEBUG:root:is_valid: True,count: 0,reward:1.1696113719983359e-05
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:0.00045770549677448535
+DEBUG:root:is_valid: True,count: 1,reward:-0.03900545744183148
+DEBUG:root:bestR2: 0.6458105168269977,best_state: [56 10 13 50  7 59  7 29 19 43 13 27 27 18  7  7 51 21  5 33 46 14 38 32
+ 43 35  1  1  1  0  1  0  1  0  1  1  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.7251187275568979
+DEBUG:root:bestR2: 0.646280743444132,best_state: [56 10 13 50  7 59  7 29 19 43 13 27 27 18  6  7 51 21  5 33 46 14 38 32
+ 43 35  1  1  1  0  1  0  1  0  1  1  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.0004702266171342506
+DEBUG:root:bestR2: 0.6465740376553151,best_state: [56 10 13 50  7 59  7 29 19 43 13 27 27 17  6  7 51 21  5 33 46 14 38 32
+ 43 35  1  1  1  0  1  0  1  0  1  1  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.00029329421118307053
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 2,reward:-0.0002183485360494064
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: True,count: 4,reward:-0.0033494474776900596
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:0.0033494474776900596
+DEBUG:root:is_valid: True,count: 1,reward:-7.828428719602876e-05
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:bestR2: 0.6507868593889368,best_state: [56 10 13 50  7 59  7 29 19 43 13 27 27 17  6  7 51 21  5 33 46 14 40 32
+ 43 35  1  1  1  0  1  0  1  0  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.004509454556867132
+DEBUG:root:bestR2: 0.6510485638598895,best_state: [56 10 13 50  7 59  7 29 19 43 13 27 27 17  6  7 51 20  5 33 46 14 40 32
+ 43 35  1  1  1  0  1  0  1  0  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0002617044709527505
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.6514925960893025,best_state: [56 10 13 50  7 59  7 29 19 43 13 27 27 17  5  7 51 20  5 33 46 14 40 32
+ 43 35  1  1  1  0  1  0  1  0  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0004440322294130272
+DEBUG:root:bestR2: 0.6519394859895433,best_state: [56 10 13 50  7 59  7 29 19 43 13 27 27 17  4  7 51 20  5 33 46 14 40 32
+ 43 35  1  1  1  0  1  0  1  0  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0004468899002407767
+DEBUG:root:bestR2: 0.6519552040659515,best_state: [56 10 13 50  7 59  7 29 19 43 13 27 26 17  4  7 51 20  5 33 46 14 40 32
+ 43 35  1  1  1  0  1  0  1  0  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:1.571807640821099e-05
+DEBUG:root:bestR2: 0.6520737890099427,best_state: [56 10 13 50  7 59  7 29 19 43 13 27 26 17  4  7 51 20  5 33 46 14 40 31
+ 43 35  1  1  1  0  1  0  1  0  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00011858494399119568
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.6522040217696851,best_state: [56 10 13 50  7 59  7 29 19 43 13 27 26 16  4  7 51 20  5 33 46 14 40 31
+ 43 35  1  1  1  0  1  0  1  0  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0001302327597423325
+DEBUG:root:is_valid: True,count: 1,reward:-0.004285806678391624
+DEBUG:root:is_valid: True,count: 0,reward:0.0003775100476098858
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:0.00016307531169779121
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: True,count: 3,reward:-0.00010894201023892158
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:0.0005057052547536856
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:0.000180865820966436
+DEBUG:root:bestR2: 0.6565776520484592,best_state: [56 10 13 50  8 59  7 29 20 43 13 27 26 15  3  7 51 20  5 33 46 14 40 31
+ 42 35  1  1  1  0  1  0  1  1  1  1  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.007541222532376879
+DEBUG:root:bestR2: 0.6602530128406143,best_state: [56 10 13 50  8 59  7 29 20 43 13 27 26 15  3  7 51 20  5 33 46 14 40 31
+ 42 35  1  1  1  0  1  0  1  1  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0036753607921551357
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.6606270599076893,best_state: [56 10 13 50  8 59  7 29 20 43 13 27 26 15  2  7 51 20  5 33 46 14 40 31
+ 42 35  1  1  1  0  1  0  1  1  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0003740470670750007
+DEBUG:root:is_valid: True,count: 1,reward:-0.0005513706238974292
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:bestR2: 0.6610019890280282,best_state: [56 10 13 50  8 59  8 29 20 43 13 27 26 15  2  6 51 20  5 33 46 14 40 31
+ 42 35  1  1  1  0  1  0  1  1  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.000926299744236303
+DEBUG:root:bestR2: 0.6611970215290528,best_state: [56 10 13 50  8 59  8 29 20 43 14 27 26 15  2  6 51 20  5 33 46 14 40 31
+ 42 35  1  1  1  0  1  0  1  1  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00019503250102459457
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.6614489387637279,best_state: [56 10 13 50  8 59  8 29 20 43 14 27 26 15  1  6 51 20  5 33 46 14 40 31
+ 42 35  1  1  1  0  1  0  1  1  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0002519172346751031
+DEBUG:root:is_valid: True,count: 1,reward:-0.008336025309288786
+DEBUG:root:is_valid: True,count: 0,reward:4.8265492152754774e-05
+DEBUG:root:bestR2: 0.6724761194064163,best_state: [56 10 13 50  8 59  8 29 20 43 14 27 26 15  1  6 51 20  5 33 46 14 40 30
+ 42 35  1  1  1  0  1  1  1  0  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.019314940459824403
+DEBUG:root:is_valid: True,count: 1,reward:-0.00040049603614455975
+DEBUG:root:is_valid: True,count: 0,reward:5.819162645381848e-05
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 2,reward:-0.00034334426902993265
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: True,count: 4,reward:-5.126786935427674e-05
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:2.182439142073278e-05
+DEBUG:root:is_valid: True,count: 0,reward:0.00035551118932741765
+DEBUG:root:bestR2: 0.6786597376820158,best_state: [56 10 12 50  8 59  8 29 20 43 14 27 25 16  1  6 51 20  5 33 46 14 40 30
+ 41 35  1  1  1  0  0  1  1  0  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.006543199242926345
+DEBUG:root:is_valid: True,count: 1,reward:-0.00020458233310494123
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:0.00013166772778916425
+DEBUG:root:is_valid: True,count: 1,reward:-0.0006765079188597589
+DEBUG:root:is_valid: True,count: 2,reward:-0.000682715283678581
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:5.783773642464851e-06
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:1.3049049787827727e-05
+DEBUG:root:is_valid: True,count: 1,reward:-7.763631494517309e-05
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: True,count: 4,reward:-0.0006996961176309879
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:8.072221490118547e-05
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:0.001357442865392744
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 2,reward:-0.05629233869351147
+DEBUG:root:is_valid: True,count: 0,reward:0.016064192698014734
+DEBUG:root:is_valid: True,count: 0,reward:0.0002352059040136023
+DEBUG:root:is_valid: True,count: 1,reward:-0.0001437715903556125
+DEBUG:root:is_valid: True,count: 2,reward:-0.00033715589159666326
+DEBUG:root:is_valid: True,count: 0,reward:0.0004633918677189319
+DEBUG:root:is_valid: True,count: 1,reward:-0.0003641668292364564
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: True,count: 5,reward:-0.0004303440553395932
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.4812576923255737,best_state: [15 27  4 24 28 38 24 55 25 59 45 34 59 19  5 49 43 45 40 58 48 25 17 19
+ 23 12  0  1  1  0  0  1  0  0  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.44590455634971804
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: True,count: 5,reward:-0.0327968340421686
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: 0.6650085544062103,best_state: [ 1 22 14 45 10 20 33 35 12 22 50 13 13 40 50 37 35 48  5 44 14 23 16  5
+ 19 49  1  1  0  0  0  1  1  0  1  0  1  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.03432124345691234
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.6650850911333519,best_state: [ 1 22 14 45 10 20 33 35 12 22 50 13 13 40 49 37 35 48  5 44 14 23 16  5
+ 19 49  1  1  0  0  0  1  1  0  1  0  1  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:7.65367271415851e-05
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 2,reward:-0.0005501335486994829
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 2,reward:-0.029125325690164905
+DEBUG:root:is_valid: True,count: 3,reward:-0.010425785539491694
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: True,count: 5,reward:-0.0003890953200238467
+DEBUG:root:bestR2: 0.49928551970126656,best_state: [50 48 47 57 47 21 60 25 30 23 11 53 33 44 39 22 46  2 22 57 40 30  6 21
+ 37 28  1  1  0  1  1  1  0  0  1  1  1  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.44973857419964314
+DEBUG:root:is_valid: True,count: 1,reward:-3.413082411740653e-05
+DEBUG:root:is_valid: True,count: 2,reward:-0.012161225790974117
+DEBUG:root:is_valid: True,count: 0,reward:2.8793336420696036e-06
+DEBUG:root:is_valid: True,count: 1,reward:-0.0002346487390443297
+DEBUG:root:is_valid: True,count: 2,reward:-7.443647266502929e-05
+DEBUG:root:is_valid: True,count: 3,reward:-8.137124849072475e-05
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:0.0012387280794711186
+DEBUG:root:is_valid: True,count: 0,reward:5.340781215834589e-06
+DEBUG:root:is_valid: True,count: 0,reward:0.00022084338325234487
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 2,reward:-0.013386259353913688
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: True,count: 4,reward:-0.014633241984369993
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: True,count: 6,reward:-0.021917384753439406
+DEBUG:root:bestR2: 0.6141967051184485,best_state: [22 22 39 42 25 27 30 39 51 35  5  6 19 54 19 23 14 46 59  7 14 26 46 28
+ 42 20  0  0  0  0  1  1  1  0  1  1  0  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.009742597378827211
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.6146017462505449,best_state: [22 22 39 42 25 27 30 39 51 35  5  6 19 54 19 23 14 46 60  7 14 26 46 28
+ 42 20  0  0  0  0  1  1  1  0  1  1  0  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00040504113209638426
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 2,reward:-0.0016037254518947996
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: -0.06680647182921606,best_state: [10 59 51 45 26 21 51 17 31 28  9 54 19  1 27 29 55 46 14 36 23 19 17  6
+ 11 44  1  0  1  0  1  1  0  1  0  0  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:2.37157528122367e-05
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:bestR2: -0.06678310858522818,best_state: [10 59 52 45 26 21 51 17 31 28  9 54 19  1 27 29 55 46 14 36 23 19 17  6
+ 11 44  1  0  1  0  1  1  0  1  0  0  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:2.336324398788392e-05
+DEBUG:root:bestR2: -0.06664335628636464,best_state: [10 59 52 45 26 21 51 17 31 28  8 54 19  1 27 29 55 46 14 36 23 19 17  6
+ 11 44  1  0  1  0  1  1  0  1  0  0  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.00013975229886353802
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: True,count: 6,reward:-0.0004649318401415137
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:bestR2: -0.0029470319074300644,best_state: [15  6 49 39 35 19 52 39 36 57 43 56 22 26 10  3 53 51 38 51  7 38 45  3
+ 13 47  1  0  0  0  0  1  0  0  0  0  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.004506856449946417
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.044487780930448695,best_state: [15  6 49 39 35 19 52 39 36 57 43 56 22 26 10  3 53 51 38 51  7 38 45  3
+ 13 47  1  1  0  0  0  1  0  0  0  0  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.04743481283787876
+DEBUG:root:bestR2: 0.04514414884506335,best_state: [15  6 49 39 35 19 52 39 36 57 43 56 22 26  9  3 53 51 38 51  7 38 45  3
+ 13 47  1  1  0  0  0  1  0  0  0  0  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0006563679146146528
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:bestR2: -0.045732028419322335,best_state: [23 24 27 52 52 33 51 27 48 59 29 30 49 20 46 41  5 24 43 24 45  0 24 51
+  3 52  1  0  0  0  1  1  0  0  0  0  1  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.0003401676994232439
+DEBUG:root:is_valid: True,count: 1,reward:-0.00013222232511300724
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: True,count: 1,reward:-0.11636709823862734
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:0.09247853491367453
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: True,count: 4,reward:-8.089250992471264e-05
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: True,count: 6,reward:-0.006853273955662931
+DEBUG:root:bestR2: 0.3009202623351509,best_state: [51  6 38 26 29 60 34 19 22 32 34 19 43 31 58 18 46 54 49  8 10 32 35 27
+ 39 41  1  0  1  0  1  1  0  0  1  1  1  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.34163866542424903
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: True,count: 5,reward:-0.02122450145293142
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: 0.1802778722842674,best_state: [31 21  3 48 54 59 19 42  6 23  9 24  4 35 54 12 45 25 56 35  0 10  8 49
+  3 17  1  0  0  0  0  1  0  1  1  0  1  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.1294984328874641
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 2,reward:-0.0008288954552470029
+DEBUG:root:is_valid: True,count: 0,reward:4.455259597291317e-05
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: True,count: 1,reward:-0.002938294362285876
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: 0.6127487826354809,best_state: [ 2 51 18 14 53 45 12  5 53  4  7 17 41 44 41 32 45 30 12 33 58 16 39 34
+ 56 54  0  0  1  1  0  1  1  1  1  0  0  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0037605369580717696
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: 0.3812714245974441,best_state: [34 21  7 58 56 28 51 47 51 32 55 46 43 36 17 30 56 52 10 51 48 35 21 53
+ 25 28  0  1  0  1  0  1  0  0  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.31346872613295995
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: 0.4711754790936995,best_state: [56 40 19 23  3 29 48 22  2 38 18 53 17 16 23 31 47 17 48 45 22 21 47  2
+ 53 51  0  0  0  0  0  1  0  1  0  1  0  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.2862081998310607
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: 0.10415346258013547,best_state: [34 55 26 16  4 23 15 27 27 49 57  4 35 38 42 58 25 41 35 13  6 25 34 35
+ 15 51  1  1  1  0  0  1  0  1  0  1  0  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.060793681501591146
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.10465846855710059,best_state: [34 55 27 16  4 23 15 27 27 49 57  4 35 38 42 58 25 41 35 13  6 25 34 35
+ 15 51  1  1  1  0  0  1  0  1  0  1  0  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.0005050059769651227
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: 0.6439937145301864,best_state: [18 34 25  9 42 16 14  8  2 57 30 40 48  0 43  4  1 45 38 53 25 17 37  8
+ 14 43  0  1  1  1  0  1  1  1  1  1  0  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.03242813054284088
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: True,count: 1,reward:-0.015953402932167182
+DEBUG:root:is_valid: True,count: 2,reward:-4.935919389092991e-05
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: True,count: 1,reward:-0.02708930232981155
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: True,count: 1,reward:-0.04598650465735654
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: -0.008356933245196485,best_state: [ 5 14 50 19 42 15 47 30  7 28 28 13 51 30 25  6 21 25 42 36  2 23 44 19
+ 37 36  1  0  0  0  1  1  0  0  0  0  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.013128384379432534
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: 0.11867774080521887,best_state: [ 8 37 20 32  4 57 57  2 16 60 23 25 29 34 28 12 40 56 41 35 56 55 18 60
+ 36 14  1  1  1  0  0  1  0  1  1  0  0  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.1604276278789578
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: 0.07992769978679415,best_state: [30  4 46 42 37 54 29 26 46 33 56 49 20 28 32 31  4 53 16 51 44  5 47  4
+ 45 34  0  0  0  1  1  1  0  0  1  0  0  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.03209674352394443
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: True,count: 1,reward:-0.044979646828100295
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: 0.07000873745284752,best_state: [17 56 22 11  0 48 52 13 17 27 27 38  0 26 14 51  2 37 43 24  3 43 17 41
+  8 53  0  1  0  1  1  1  0  0  0  1  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.03626173229378549
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: 0.37290834641173876,best_state: [50 25 25 23 15  6 23 42  0 50 24 12 41  8 50 39 27 12 53  7 41  9 54  0
+ 49 48  0  0  0  1  0  1  0  1  0  1  0  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.17971686652158758
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: True,count: 1,reward:-0.002172206342424543
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: 0.6257232042492389,best_state: [37 12  3 20 53 27  3 10 44 40 15 37 18 27 27  6 20 34  1 57 16 40 48 58
+ 23 41  1  0  1  0  1  1  1  1  0  0  1  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.001775143371348653
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: True,count: 4,reward:-0.00010989096962610301
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: True,count: 1,reward:-0.02049359902588266
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: True,count: 1,reward:-0.022138638340095773
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: 0.5097279117132322,best_state: [34 28 40  3 44 40 16 45  4 37 34 12  6 48 17 47 45 32 16 32 16 30 19 37
+  0  8  1  1  1  1  0  1  0  0  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.5271784302157766
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: True,count: 1,reward:-0.0022630183822317518
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: 0.6635340331289528,best_state: [58 26 56 54 60 56  0 58 37 52 52 43 19 24 38 54 35 28  7 44 50 38 42 50
+ 23 25  0  0  1  0  1  1  1  1  0  1  1  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.03955955881270079
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: True,count: 5,reward:-7.012740057321665e-05
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: 0.19342708074561377,best_state: [31 24 41 20 42 25 41 27  5 48 21 34 17 38  9 27 35 10 35 56 48 33 44 42
+ 53 13  0  0  0  0  0  1  0  0  1  1  0  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.21866037475059863
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: 0.37232667563045985,best_state: [19 16 10 16 22  9 19 42 17  1 42 16 29 36 57 38 39 43 38 31 19 15 11  1
+ 18 44  1  0  0  1  1  1  0  0  1  1  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.3401891409644636
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: 0.4701221138924533,best_state: [31  2 14 16  3 38 52 52 41 31 25 17 30 55 17 34  3  1 13 38 59 24 13 17
+ 30 37  0  1  1  1  1  1  0  0  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.32150067790852166
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: True,count: 5,reward:-0.00044652025935210116
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: -0.039136213990641266,best_state: [21 36 55 40 34 36 57  2 26  6 46  6  2 23 50  4 33 54 19 54 11 25 22  3
+ 59 53  1  1  1  0  0  1  0  0  1  1  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.06426827497458687
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: 0.014588313827453736,best_state: [35 27  9 19 39 22 58 42 22 10 17  2 54 23 25 49 34 28 43 33 30 27 57 10
+  4 58  1  1  0  1  0  1  0  0  0  0  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.039259137116196885
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: True,count: 1,reward:-0.007884104167235062
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: 0.306884916286681,best_state: [32 39 30 42 23 52 10  3 54 51  7 58  3 37  5  8 51 49 43 10  0 29 45 39
+ 22  8  0  0  1  1  1  1  0  0  0  1  0  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.19164219725934284
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: 0.5993223384378132,best_state: [23 20 56 57 42 35 13 36 37 51 40 15 30  5 48  2 11 51 21 14 10 31 49 11
+ 18  8  1  0  0  0  0  1  1  0  1  1  1  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.006945547537194452
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: True,count: 1,reward:-0.005765012738640163
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: -0.02412131815594698,best_state: [ 7 60 39 15 29 43 49 46  4  9  5 52 12  5 42 11 44 10  9 12 46 59 47 24
+ 52 42  1  0  1  1  1  1  0  0  1  0  0  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.016824130721561303
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: 0.487264571318047,best_state: [29 11 50 25 45 33 25 34 33 22 39 50 10 45  5 38 52 17 56 45 46  7  6 23
+ 26 13  1  1  0  1  1  1  0  0  0  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.43254176998046256
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: True,count: 1,reward:-0.03401751617591098
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 2,reward:-0.020657832360268635
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: 0.671684353310546,best_state: [57  4  2  3 40 57  6 17 15 16 10 28 24 31 27 42 41 40 59 60 49 27 23 57
+ 35 27  0  1  1  0  0  1  1  0  1  1  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.06499475955615319
+DEBUG:root:is_valid: True,count: 1,reward:-0.00034727536669698633
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: True,count: 5,reward:-0.00033147840550218355
+DEBUG:root:is_valid: True,count: 6,reward:-0.00014276228151666182
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: True,count: 4,reward:-0.013830350504114297
+DEBUG:root:is_valid: True,count: 5,reward:-0.00020713318660159352
+DEBUG:root:is_valid: True,count: 0,reward:0.00023303282678055481
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 2,reward:-0.0013038049142184427
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: True,count: 5,reward:-0.00020522286731927686
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: 0.038402454875623104,best_state: [ 9 33 21 46 35 42 20 12 21 49 47  0 26 51 52 51 25 43 50 37  7 50 59 12
+ 24 42  0  0  1  1  0  0  0  0  0  1  1  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.00017041071952006437
+DEBUG:root:bestR2: 0.038552955402433975,best_state: [ 9 33 21 47 35 42 20 12 21 49 47  0 26 51 52 51 25 43 50 37  7 50 59 12
+ 24 42  0  0  1  1  0  0  0  0  0  1  1  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.00015050052681087056
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.07125578060266358,best_state: [ 9 33 21 47 35 42 20 12 21 49 47  0 26 51 52 51 25 43 50 37  7 50 59 12
+ 24 42  0  0  1  1  0  1  0  0  0  1  1  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.0327028252002296
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: True,count: 6,reward:-0.0028794592359350224
+DEBUG:root:bestR2: 0.6969288043107105,best_state: [44 32 21 55 19 48 33 52 14 29 47  0 55  8 18 24 53 40 57 42 57 32 10 26
+ 19 29  1  1  1  1  1  1  1  0  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0502913538351365
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: True,count: 4,reward:-0.00048590067011966553
+DEBUG:root:bestR2: 0.6285711240906744,best_state: [38 53 29 29 42 28 20 13  4  6 34  1 35 49 52 29 49 20 41  8 58 51 37 29
+  4 56  0  0  0  1  0  0  1  0  1  1  1  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.012912399522088114
+DEBUG:root:bestR2: 0.6624317879461836,best_state: [38 53 29 29 42 28 20 13  4  6 34  1 35 49 52 29 49 20 41  8 58 51 37 29
+  4 56  0  0  0  1  0  1  1  0  1  1  1  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.03386066385550923
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:bestR2: 0.6706951721490035,best_state: [38 53 29 29 42 28 20 13  4  6 34  1 35 49 52 29 49 20 41  8 58 51 37 29
+  4 56  1  0  0  1  0  1  1  0  1  1  1  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.008263384202819912
+DEBUG:root:bestR2: 0.676958359553304,best_state: [38 53 29 29 42 28 20 13  4  6 34  1 35 49 52 29 49 20 41  8 58 51 37 28
+  4 56  1  0  0  1  0  1  1  0  1  1  1  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.00626318740430043
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:bestR2: 0.6775735132108573,best_state: [38 53 29 29 42 28 20 13  4  6 34  1 35 48 52 29 49 20 41  8 58 51 37 28
+  4 56  1  0  0  1  0  1  1  0  1  1  1  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.00061515365755338
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:bestR2: 0.678178275914135,best_state: [38 53 29 29 42 28 19 13  4  6 34  1 35 48 52 29 49 20 41  8 58 51 37 28
+  4 56  1  0  0  1  0  1  1  0  1  1  1  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.0006047627032776948
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 2,reward:-0.0004477520148531422
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:bestR2: -0.004966074185838831,best_state: [ 9 56 42 38 40 28  9 45 33 15 36 17 16 60 18 51  1  1  3 15 54 34  4 13
+ 14 11  0  0  0  0  1  1  0  0  1  0  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.003437306512264815
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 2,reward:-0.00015920438051786334
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:0.00015920438051786334
+DEBUG:root:bestR2: 0.537014032708558,best_state: [ 9 56 42 38 40 28  9 45 33 15 36 17 16 60 18 51  1  1  3 15 54 34  4 13
+ 14 11  0  0  0  0  1  1  0  0  1  1  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.5419801068943968
+DEBUG:root:bestR2: 0.5524187457612779,best_state: [ 9 56 42 38 40 28  9 45 33 15 36 17 16 60 18 51  1  1  3 15 54 34  4 13
+ 14 11  0  0  0  0  1  1  0  0  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.015404713052719954
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: True,count: 5,reward:-0.0015743579738771718
+DEBUG:root:is_valid: True,count: 0,reward:0.0003111875813335274
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 2,reward:-0.008709028862446844
+DEBUG:root:is_valid: True,count: 3,reward:-0.0340962357957465
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: True,count: 6,reward:-0.01247880746825436
+DEBUG:root:bestR2: -0.05304586498961683,best_state: [34 55 56 43 55  9 56 29  6  2 33  2 34 16 25 51 47 19 22 50 50 10 29 32
+ 11 14  1  0  1  0  0  1  0  0  1  0  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.0007519790729564324
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:bestR2: 0.6542521422253509,best_state: [20 35 25 41 40 45 23  0 15 26 53  3 40 11 57 24 55 57 38 57  6 47 27  3
+ 46  8  0  1  1  0  0  1  1  1  0  0  1  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.1370745397752764
+DEBUG:root:bestR2: 0.6545523420667649,best_state: [20 35 25 41 40 45 23  0 15 26 53  3 39 11 57 24 55 57 38 57  6 47 27  3
+ 46  8  0  1  1  0  0  1  1  1  0  0  1  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00030019984141405054
+DEBUG:root:bestR2: 0.6549160138656781,best_state: [20 35 25 41 40 45 23  0 15 26 52  3 39 11 57 24 55 57 38 57  6 47 27  3
+ 46  8  0  1  1  0  0  1  1  1  0  0  1  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0003636717989131677
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: True,count: 4,reward:-0.04138055539075358
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.70933378907329,best_state: [ 0 19 30  5 14 20 17 31 29 16 31 20 56 40  0 16 37 41  2 45 40 39 42 45
+ 13 36  1  0  1  1  1  1  1  0  1  1  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.07755491251128155
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.7126117482916681,best_state: [ 0 19 30  5 14 20 17 31 29 16 31 20 56 41  0 16 37 41  2 45 40 39 42 45
+ 13 36  1  0  1  1  1  1  1  0  1  1  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.003277959218378035
+DEBUG:root:bestR2: 0.7130689636411374,best_state: [ 0 19 30  5 14 20 17 31 29 16 32 20 56 41  0 16 37 41  2 45 40 39 42 45
+ 13 36  1  0  1  1  1  1  1  0  1  1  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.00045721534946929765
+DEBUG:root:is_valid: True,count: 1,reward:-0.003252589370578818
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:0.00024066501644970373
+DEBUG:root:is_valid: True,count: 1,reward:-1.1181521041958575e-05
+DEBUG:root:is_valid: True,count: 0,reward:0.0011308979481341463
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 2,reward:-0.00018068702733975428
+DEBUG:root:is_valid: True,count: 0,reward:0.000188091796505363
+DEBUG:root:is_valid: True,count: 1,reward:-8.05704207816893e-05
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: True,count: 4,reward:-0.00011972774371060702
+DEBUG:root:is_valid: True,count: 5,reward:-0.11302326702275944
+DEBUG:root:is_valid: True,count: 6,reward:-0.001727928895285058
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:bestR2: 0.6445494612474659,best_state: [56  1 19 42 12 43 54 53 59 30  3 48 12 28 45  0 30 25 44 22 48 45  4 48
+ 49 14  0  0  1  0  0  1  1  1  0  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0002450982928322576
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:bestR2: 0.6445597731116177,best_state: [56  1 19 42 12 43 55 53 59 30  3 48 12 28 45  0 30 25 44 22 48 45  4 48
+ 49 14  0  0  1  0  0  1  1  1  0  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:1.031186415179075e-05
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:bestR2: 0.6614702050607286,best_state: [56  1 19 42 12 43 55 53 59 30  3 48 12 28 45  0 30 25 44 22 48 45  4 48
+ 49 14  0  0  1  0  1  1  1  1  0  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.016910431949110905
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: True,count: 4,reward:-0.0002654523566585354
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: True,count: 6,reward:-0.000266225084346261
+DEBUG:root:is_valid: True,count: 1,reward:-0.06879999664629188
+DEBUG:root:bestR2: 0.4877549512238628,best_state: [32 18 15 25 24 31 10 11 19 13 21 19  5  7 37 36 55 17 26 39 24 12 44 21
+ 42 16  0  0  0  0  1  1  0  1  0  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.4209080220141559
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.48967915861136035,best_state: [32 18 15 25 24 31 10 11 19 13 21 19  6  7 37 36 55 17 26 39 24 12 44 21
+ 42 16  0  0  0  0  1  1  0  1  0  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0019242073874975452
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:bestR2: 0.49019913582762076,best_state: [32 18 15 25 24 31 10 11 19 13 21 19  6  7 37 36 55 17 26 39 24 12 44 21
+ 42 16  0  1  0  0  1  1  0  1  0  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0005199772162604033
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:bestR2: 0.4902385176456462,best_state: [32 18 15 25 24 31 10 11 19 13 21 19  6  7 37 36 55 17 26 39 23 12 44 21
+ 42 16  0  1  0  0  1  1  0  1  0  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:3.938181802543017e-05
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:bestR2: 0.5597912835820784,best_state: [22 26 59 45 27 52 12 39 40 15 53 48 33  2  2 10 37 48 34 23  9 36 30 39
+  0 31  0  0  1  0  0  1  1  0  0  1  1  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.004715272570916529
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: 0.5921431126151275,best_state: [45 31 51 17 17 26 39 51 25 17  7 51 15 34 13 47 48 56 30 38 51  8 18 55
+ 28 53  0  0  0  1  0  0  1  1  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0014877394981251957
+DEBUG:root:bestR2: 0.6201577315606359,best_state: [45 31 51 17 17 26 39 51 25 17  7 51 15 34 13 47 48 56 30 38 51  8 18 55
+ 28 53  0  0  0  1  0  1  1  1  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.028014618945508385
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 2,reward:-0.0003616690807629608
+DEBUG:root:is_valid: True,count: 3,reward:-0.01567116421221626
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: True,count: 1,reward:-0.022122170622917103
+DEBUG:root:is_valid: True,count: 2,reward:-0.004008793880217798
+DEBUG:root:bestR2: 0.6842246521874529,best_state: [40 43 15 24 32 31 54 33  6 60 38 17 35 45 60  7 25 39 38  7 58 32 21 29
+ 35 28  0  1  0  0  1  1  1  1  0  1  0  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.027990735474985318
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 2,reward:-0.03443360967485398
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: 0.6446771391351269,best_state: [16 30 32 17 27 10  5 31 14 49 13  8 22  5 19  3 15  7 40 43 57 14  1 27
+ 14 33  0  0  1  0  1  0  1  1  1  0  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.0003162703402135314
+DEBUG:root:bestR2: 0.6449545832138834,best_state: [16 30 32 17 27 10  5 31 14 49 13  8 22  5 19  3 15  7 40 43 57 14  1 28
+ 14 33  0  0  1  0  1  0  1  1  1  0  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.0002774440787565169
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:bestR2: 0.6456685917561423,best_state: [16 30 32 17 27 10  5 31 14 49 13  8 22  5 19  3 15  7 40 43 56 14  1 28
+ 14 33  0  0  1  0  1  0  1  1  1  0  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.0007140085422588927
+DEBUG:root:bestR2: 0.645684764730529,best_state: [16 30 32 17 27 10  5 31 14 49 13  8 22  5 19  2 15  7 40 43 56 14  1 28
+ 14 33  0  0  1  0  1  0  1  1  1  0  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:1.617297438671894e-05
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: True,count: 3,reward:-0.013684996773988267
+DEBUG:root:is_valid: True,count: 0,reward:0.006198362585270845
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:0.00025169186193785276
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:0.0009166720974079778
+DEBUG:root:is_valid: True,count: 1,reward:-0.00021082819601536684
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:0.0005145441013940655
+DEBUG:root:is_valid: True,count: 0,reward:0.00015061616518696752
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.49169896106030087,best_state: [21 52 15 31 59 10 11 55 50 18  7  0 17 12 59 51 54 32 47 23 51  4  4 43
+ 36  2  1  1  1  1  0  0  1  0  0  0  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00010543174953436818
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.4950411243847421,best_state: [21 52 15 31 59 10 11 55 50 18  7  0 17 12 59 51 54 32 47 23 51  4  4 43
+ 36  2  1  1  1  1  0  1  1  0  0  0  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0033421633244412607
+DEBUG:root:bestR2: 0.5748657498403655,best_state: [21 52 15 31 59 10 11 55 50 18  7  0 17 12 59 51 54 32 47 23 51  4  4 43
+ 36  2  1  1  1  1  0  1  1  0  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.07982462545562341
+DEBUG:root:is_valid: True,count: 1,reward:-0.0001007128771137733
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:3.0902274148481013e-06
+DEBUG:root:bestR2: 0.5928151986144004,best_state: [21 52 15 31 59 10 11 55 50 18  7  0 17 12 58 51 53 32 47 23 51  4  4 43
+ 36  2  1  1  1  0  0  1  1  0  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.01804707142373374
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: True,count: 1,reward:-2.3619111823025563e-05
+DEBUG:root:bestR2: 0.6542186521750307,best_state: [ 5 13  8 18 35 21  4 34  3 52 33 15 14 14 54 34 12 37 16 31 44 19  4  6
+ 50 24  1  1  1  0  1  1  1  0  1  1  1  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0010944098265891489
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: True,count: 6,reward:-8.920759225317099e-06
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:bestR2: 0.6120012270604976,best_state: [23 24 25 44  2 17 30 55 50 50 10 40  1 55 24 32 40  1 12  1 28  9 47  4
+ 25 43  1  1  1  1  0  1  1  1  1  1  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.0002266659860978848
+DEBUG:root:bestR2: 0.6131259052496933,best_state: [23 24 25 44  2 17 30 55 50 50 10 40  1 56 24 32 40  1 12  1 28  9 47  4
+ 25 43  1  1  1  1  0  1  1  1  1  1  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.0011246781891957047
+DEBUG:root:is_valid: True,count: 1,reward:-0.021037590201267498
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:0.0006854132783026268
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: True,count: 1,reward:-0.008583092434699457
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: True,count: 3,reward:-0.00043185871660311737
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: True,count: 1,reward:-0.030469720076186646
+DEBUG:root:bestR2: 0.28534814858395985,best_state: [44 32 31  3 25 20 12 54 10  9 60 42  1 36 46 29 13 56 13 17 22 44 45 12
+ 49 25  0  0  1  0  1  1  0  1  1  1  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.29428656219613203
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.28676274431635274,best_state: [44 32 31  3 25 20 12 54 11  9 60 42  1 36 46 29 13 56 13 17 22 44 45 12
+ 49 25  0  0  1  0  1  1  0  1  1  1  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.001414595732392887
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:bestR2: 0.2873914675671141,best_state: [44 32 31  3 25 20 12 54 11  9 60 42  1 36 46 29 13 56 13 17 21 44 45 12
+ 49 25  0  0  1  0  1  1  0  1  1  1  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.0006287232507613538
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:bestR2: 0.2880541503934142,best_state: [44 32 31  3 25 20 12 54 11  9 60 42  1 36 46 29 13 56 13 17 20 44 45 12
+ 49 25  0  0  1  0  1  1  0  1  1  1  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.0006626828263001094
+DEBUG:root:bestR2: 0.28872194048214705,best_state: [44 32 31  3 25 20 12 54 11  9 60 42  1 36 46 29 13 56 13 17 19 44 45 12
+ 49 25  0  0  1  0  1  1  0  1  1  1  1  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.0006677900887328558
+DEBUG:root:bestR2: 0.5271166108820349,best_state: [44 32 31  3 25 20 12 54 11  9 60 42  1 36 46 29 13 56 13 17 19 44 45 12
+ 49 25  0  0  1  0  1  1  0  1  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.23839467039988782
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: True,count: 3,reward:-0.0005123122315981998
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: 0.558881514445593,best_state: [60  2 11 27 21 35  1 56 35 12 33 32 17 16  0 45 58 14  0 51 51 54 12 16
+ 48 21  1  0  0  0  0  0  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0003982106929283358
+DEBUG:root:bestR2: 0.5724436627552913,best_state: [60  2 11 27 21 35  1 56 35 12 33 32 17 16  0 45 58 14  0 51 51 54 12 16
+ 48 21  1  0  0  0  0  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.013562148309698374
+DEBUG:root:bestR2: 0.5735928807680899,best_state: [60  2 11 27 21 35  1 56 35 12 33 32 17 16  0 45 58 14  0 51 50 54 12 16
+ 48 21  1  0  0  0  0  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0011492180127985474
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.5747549192688981,best_state: [60  2 11 27 21 35  1 56 35 12 33 32 17 16  0 45 58 14  0 51 49 54 12 16
+ 48 21  1  0  0  0  0  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0011620385008082046
+DEBUG:root:bestR2: 0.5758281293612874,best_state: [60  2 11 27 21 35  1 56 35 12 33 32 17 16  0 45 58 14  0 51 48 54 12 16
+ 48 21  1  0  0  0  0  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.001073210092389254
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:bestR2: 0.5780417951179884,best_state: [60  2 11 27 21 35  2 56 35 12 33 32 17 16  0 45 58 14  0 51 48 54 12 16
+ 48 21  1  0  0  0  0  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.002213665756701011
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.5791487858270128,best_state: [60  2 11 27 21 35  2 56 35 12 33 32 17 16  0 45 58 14  0 51 47 54 12 16
+ 48 21  1  0  0  0  0  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0011069907090244246
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: True,count: 6,reward:-0.0003589261340186667
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.3198231999164155,best_state: [60 44 49 47  1 28 33 26 11 26  1  0 13 26  0 23 22 50 12 57 28 23 26 29
+ 45 14  0  1  1  1  0  1  0  1  1  1  0  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.21548811758355546
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: True,count: 3,reward:-0.03563742162432515
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: True,count: 6,reward:-0.06295121335488019
+DEBUG:root:bestR2: 0.0795576393087104,best_state: [ 7 18 29 26 54 29 10 31 17 30  8 57 32 51 49 12 43 60 38 55 34 30  0 10
+ 26 29  0  0  0  1  0  1  0  1  0  0  0  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.01640064562550081
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.34734432350873845,best_state: [ 7 18 29 26 54 29 10 31 17 30  8 57 32 51 49 12 43 60 38 55 34 30  0 10
+ 26 29  0  0  0  1  0  1  0  1  0  1  0  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.26778668420002805
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: 0.01527287369992436,best_state: [33 21 53 56 53 45  8 25 36 27 40 33  7 26 19 60 59 12 59 52 25  9 12 39
+  7 17  1  0  1  1  1  1  0  1  0  0  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.02710332479260269
+DEBUG:root:is_valid: True,count: 1,reward:-0.012039900185135788
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:bestR2: 0.021431312382094947,best_state: [33 21 53 56 53 45  8 25 36 27 40 33  7 26 19 60 59 12 59 52 25  9 12 39
+  7 17  1  0  1  0  1  1  0  1  0  1  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.018198338867306374
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: True,count: 5,reward:-0.05334067187764735
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: 0.5687200475687082,best_state: [12 29 33 39  3 53 47 42 37  6  5 17 28 51 15 59 13 45 28 15 32 39 26 19
+ 27 22  1  0  1  0  0  0  1  1  0  0  0  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0006604493340192086
+DEBUG:root:is_valid: True,count: 1,reward:-0.02097177633763847
+DEBUG:root:is_valid: True,count: 0,reward:0.0005843686496520561
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:0.0005767000900849251
+DEBUG:root:is_valid: True,count: 0,reward:0.0005691434851772259
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:0.0005616972070189297
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:0.0003272414778039412
+DEBUG:root:is_valid: True,count: 0,reward:0.0003488720732572892
+DEBUG:root:bestR2: 0.5974860101211789,best_state: [12 29 33 39  3 53 51 42 37  6  5 17 28 51 15 59 13 45 28 15 30 39 26 19
+ 27 22  1  0  1  0  0  1  1  1  0  1  0  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.04676971590711476
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.5978486870668724,best_state: [12 29 33 39  3 53 52 42 37  6  5 17 28 51 15 59 13 45 28 15 30 39 26 19
+ 27 22  1  0  1  0  0  1  1  1  0  1  0  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0003626769456935852
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.5982129906781004,best_state: [12 29 33 39  3 53 53 42 37  6  5 17 28 51 15 59 13 45 28 15 30 39 26 19
+ 27 22  1  0  1  0  0  1  1  1  0  1  0  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0003643036112279674
+DEBUG:root:is_valid: True,count: 1,reward:-0.0001390999950975358
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:bestR2: 0.5984402599235001,best_state: [12 29 34 39  3 53 54 42 37  6  5 17 28 51 15 59 13 45 28 15 30 39 26 19
+ 27 22  1  0  1  0  0  1  1  1  0  1  0  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00036636924049726627
+DEBUG:root:bestR2: 0.5988079826745714,best_state: [12 29 34 39  3 53 55 42 37  6  5 17 28 51 15 59 13 45 28 15 30 39 26 19
+ 27 22  1  0  1  0  0  1  1  1  0  1  0  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00036772275107122
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.5991769330909077,best_state: [12 29 34 39  3 53 56 42 37  6  5 17 28 51 15 59 13 45 28 15 30 39 26 19
+ 27 22  1  0  1  0  0  1  1  1  0  1  0  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0003689504163363333
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:bestR2: 0.5995469875015409,best_state: [12 29 34 39  3 53 57 42 37  6  5 17 28 51 15 59 13 45 28 15 30 39 26 19
+ 27 22  1  0  1  0  0  1  1  1  0  1  0  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00037005441063320266
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:bestR2: 0.5999180245449189,best_state: [12 29 34 39  3 53 58 42 37  6  5 17 28 51 15 59 13 45 28 15 30 39 26 19
+ 27 22  1  0  1  0  0  1  1  1  0  1  0  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0003710370433780419
+DEBUG:root:bestR2: 0.6002899252837353,best_state: [12 29 34 39  3 53 59 42 37  6  5 17 28 51 15 59 13 45 28 15 30 39 26 19
+ 27 22  1  0  1  0  0  1  1  1  0  1  0  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.000371900738816322
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:bestR2: 0.6006625733015507,best_state: [12 29 34 39  3 53 60 42 37  6  5 17 28 51 15 59 13 45 28 15 30 39 26 19
+ 27 22  1  0  1  0  0  1  1  1  0  1  0  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00037264801781544676
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:bestR2: 0.6024061647931253,best_state: [12 29 34 39  3 53 60 42 37  6  5 17 28 51 15 59 13 45 28 15 30 39 26 19
+ 27 22  1  0  1  0  0  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0017435914915745476
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.5589112407133143,best_state: [13 27  6  4 26 43 29  1 18 30 59 44  1 52 46 45  6 26 15 12 40 37 26 44
+ 13 53  0  1  1  0  1  0  1  0  0  0  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:7.662423510090832e-05
+DEBUG:root:is_valid: True,count: 1,reward:-0.05717490024260918
+DEBUG:root:is_valid: True,count: 0,reward:0.0002373045463419654
+DEBUG:root:bestR2: 0.5623987260346304,best_state: [13 27  6  4 26 43 30  1 18 30 59 44  1 52 46 45  6 26 15 12 40 37 26 44
+ 13 53  0  1  1  0  1  1  1  0  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.06042508101758326
+DEBUG:root:bestR2: 0.5627606748865173,best_state: [13 27  6  4 26 43 31  1 18 30 59 44  1 52 46 45  6 26 15 12 40 37 26 44
+ 13 53  0  1  1  0  1  1  1  0  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0003619488518868952
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:bestR2: 0.563121113707189,best_state: [13 27  6  4 26 43 32  1 18 30 59 44  1 52 46 45  6 26 15 12 40 37 26 44
+ 13 53  0  1  1  0  1  1  1  0  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00036043882067171573
+DEBUG:root:bestR2: 0.5634799719787752,best_state: [13 27  6  4 26 43 33  1 18 30 59 44  1 52 46 45  6 26 15 12 40 37 26 44
+ 13 53  0  1  1  0  1  1  1  0  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0003588582715862154
+DEBUG:root:bestR2: 0.5638371801330666,best_state: [13 27  6  4 26 43 34  1 18 30 59 44  1 52 46 45  6 26 15 12 40 37 26 44
+ 13 53  0  1  1  0  1  1  1  0  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00035720815429141073
+DEBUG:root:bestR2: 0.5641926698253548,best_state: [13 27  6  4 26 43 35  1 18 30 59 44  1 52 46 45  6 26 15 12 40 37 26 44
+ 13 53  0  1  1  0  1  1  1  0  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00035548969228815785
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:bestR2: 0.5645463742512864,best_state: [13 27  6  4 26 43 36  1 18 30 59 44  1 52 46 45  6 26 15 12 40 37 26 44
+ 13 53  0  1  1  0  1  1  1  0  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00035370442593163354
+DEBUG:root:is_valid: True,count: 1,reward:-2.9732575731022948e-05
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:bestR2: 0.5648709467880939,best_state: [13 27  6  4 26 42 37  1 18 30 59 44  1 52 46 45  6 26 15 12 40 37 26 44
+ 13 53  0  1  1  0  1  1  1  0  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00035430511253853325
+DEBUG:root:bestR2: 0.5652232827757613,best_state: [13 27  6  4 26 42 38  1 18 30 59 44  1 52 46 45  6 26 15 12 40 37 26 44
+ 13 53  0  1  1  0  1  1  1  0  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00035233598766737373
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.56557359013822,best_state: [13 27  6  4 26 42 39  1 18 30 59 44  1 52 46 45  6 26 15 12 40 37 26 44
+ 13 53  0  1  1  0  1  1  1  0  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00035030736245866834
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.5659218121266136,best_state: [13 27  6  4 26 42 40  1 18 30 59 44  1 52 46 45  6 26 15 12 40 37 26 44
+ 13 53  0  1  1  0  1  1  1  0  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0003482219883936821
+DEBUG:root:bestR2: 0.5662678949363076,best_state: [13 27  6  4 26 42 41  1 18 30 59 44  1 52 46 45  6 26 15 12 40 37 26 44
+ 13 53  0  1  1  0  1  1  1  0  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00034608280969394833
+DEBUG:root:bestR2: 0.5666117878589886,best_state: [13 27  6  4 26 42 42  1 18 30 59 44  1 52 46 45  6 26 15 12 40 37 26 44
+ 13 53  0  1  1  0  1  1  1  0  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00034389292268099947
+DEBUG:root:bestR2: 0.5669534433963956,best_state: [13 27  6  4 26 42 43  1 18 30 59 44  1 52 46 45  6 26 15 12 40 37 26 44
+ 13 53  0  1  1  0  1  1  1  0  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00034165553740705956
+DEBUG:root:bestR2: 0.5672928173371168,best_state: [13 27  6  4 26 42 44  1 18 30 59 44  1 52 46 45  6 26 15 12 40 37 26 44
+ 13 53  0  1  1  0  1  1  1  0  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0003393739407211438
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.5676298688007781,best_state: [13 27  6  4 26 42 45  1 18 30 59 44  1 52 46 45  6 26 15 12 40 37 26 44
+ 13 53  0  1  1  0  1  1  1  0  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0003370514636613642
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: True,count: 4,reward:-0.0011464379715520057
+DEBUG:root:is_valid: True,count: 0,reward:3.4868574461111024e-06
+DEBUG:root:is_valid: True,count: 0,reward:0.0003172075255040152
+DEBUG:root:is_valid: True,count: 0,reward:0.00031551851960975874
+DEBUG:root:is_valid: True,count: 1,reward:-0.01318286638080668
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:0.00037729401655228756
+DEBUG:root:is_valid: True,count: 0,reward:0.00037492677390238427
+DEBUG:root:is_valid: True,count: 0,reward:0.0003725011247979193
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:0.00037002247036643787
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:bestR2: 0.5683639170991811,best_state: [13 27  6  4 26 41 51  1 18 30 59 44  1 52 46 45  6 26 15 12 40 37 26 44
+ 14 53  0  1  1  0  1  1  1  0  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.012932395362582727
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.5686703364686231,best_state: [13 27  6  4 26 41 52  1 18 30 59 44  1 52 46 45  6 26 15 12 40 37 26 44
+ 14 53  0  1  1  0  1  1  1  0  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00030641936944197923
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:bestR2: 0.5689748278752489,best_state: [13 27  6  4 26 41 53  1 18 30 59 44  1 52 46 45  6 26 15 12 40 37 26 44
+ 14 53  0  1  1  0  1  1  1  0  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0003044914066258064
+DEBUG:root:is_valid: True,count: 1,reward:-0.00013226028541413193
+DEBUG:root:bestR2: 0.5691450089094705,best_state: [13 27  6  4 26 41 54  1 18 30 59 44  1 52 45 45  6 26 15 12 40 37 26 44
+ 14 53  0  1  1  0  1  1  1  0  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00030244131963574894
+DEBUG:root:bestR2: 0.5694454676346571,best_state: [13 27  6  4 26 41 55  1 18 30 59 44  1 52 45 45  6 26 15 12 40 37 26 44
+ 14 53  0  1  1  0  1  1  1  0  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0003004587251865809
+DEBUG:root:bestR2: 0.5697439206730196,best_state: [13 27  6  4 26 41 56  1 18 30 59 44  1 52 45 45  6 26 15 12 40 37 26 44
+ 14 53  0  1  1  0  1  1  1  0  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0002984530383625117
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:bestR2: 0.5700403475762874,best_state: [13 27  6  4 26 41 57  1 18 30 59 44  1 52 45 45  6 26 15 12 40 37 26 44
+ 14 53  0  1  1  0  1  1  1  0  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0002964269032678102
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:bestR2: 0.5703347304240436,best_state: [13 27  6  4 26 41 58  1 18 30 59 44  1 52 45 45  6 26 15 12 40 37 26 44
+ 14 53  0  1  1  0  1  1  1  0  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0002943828477561805
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:bestR2: 0.5706270537058723,best_state: [13 27  6  4 26 41 59  1 18 30 59 44  1 52 45 45  6 26 15 12 40 37 26 44
+ 14 53  0  1  1  0  1  1  1  0  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00029232328182871026
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 2,reward:-8.223850657806953e-05
+DEBUG:root:bestR2: 0.5708349165379001,best_state: [13 27  6  4 26 41 60  1 18 30 59 44  1 52 44 45  6 26 15 12 40 37 26 44
+ 14 53  0  1  1  0  1  1  1  0  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00029010133860585263
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 2,reward:-4.166158188634306e-05
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: True,count: 4,reward:-9.370557515064881e-05
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: -0.04684038239432109,best_state: [30 58  6 33 48  2 33  7 30 41 17 47  2 60 23 36 52 60 12  4 54 11 21  1
+ 52 59  1  0  1  0  1  1  0  1  0  0  0  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.01005543025363842
+DEBUG:root:bestR2: -0.02434685767504985,best_state: [30 58  6 33 48  2 33  7 30 41 17 47  2 60 23 36 52 60 12  4 54 11 21  1
+ 52 59  1  0  1  0  1  1  0  1  0  0  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.02249352471927124
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: True,count: 5,reward:-0.03119359089423046
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: True,count: 1,reward:-0.030964505803630304
+DEBUG:root:is_valid: True,count: 2,reward:-1.2222656427085532e-05
+DEBUG:root:is_valid: True,count: 3,reward:-8.109867729921838e-06
+DEBUG:root:is_valid: True,count: 4,reward:-4.098237309291264e-06
+DEBUG:root:is_valid: True,count: 5,reward:-1.8900136866673023e-07
+DEBUG:root:is_valid: True,count: 0,reward:3.711493111524522e-05
+DEBUG:root:is_valid: True,count: 0,reward:2.843373570926566e-06
+DEBUG:root:is_valid: True,count: 0,reward:6.574976182838199e-06
+DEBUG:root:is_valid: True,count: 0,reward:1.0211453763453449e-05
+DEBUG:root:is_valid: True,count: 0,reward:1.3756173857903953e-05
+DEBUG:root:is_valid: True,count: 0,reward:1.7212123302745574e-05
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:2.0581723054302614e-05
+DEBUG:root:is_valid: True,count: 0,reward:2.3866754017443093e-05
+DEBUG:root:is_valid: True,count: 0,reward:2.706835967536403e-05
+DEBUG:root:is_valid: True,count: 0,reward:3.0187096901834742e-05
+DEBUG:root:bestR2: 0.674591037578648,best_state: [23 21 32 38 21 39 33 32 53 11 40 25 26 13 22 58 33 41 34 44  4 55 24 28
+  0 15  0  0  1  1  1  1  1  1  0  1  1  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.13113342976287456
+DEBUG:root:bestR2: 0.6747765928742653,best_state: [23 21 32 38 21 39 34 32 53 11 40 25 26 13 22 58 33 41 34 44  4 55 24 28
+  0 15  0  0  1  1  1  1  1  1  0  1  1  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0001855552956172568
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:bestR2: 0.6749688279603527,best_state: [23 21 32 38 21 39 35 32 53 11 40 25 26 13 22 58 33 41 34 44  4 55 24 28
+  0 15  0  0  1  1  1  1  1  1  0  1  1  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00019223508608745554
+DEBUG:root:bestR2: 0.6751673631273564,best_state: [23 21 32 38 21 39 36 32 53 11 40 25 26 13 22 58 33 41 34 44  4 55 24 28
+  0 15  0  0  1  1  1  1  1  1  0  1  1  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00019853516700363283
+DEBUG:root:bestR2: 0.6753718326865186,best_state: [23 21 32 38 21 39 37 32 53 11 40 25 26 13 22 58 33 41 34 44  4 55 24 28
+  0 15  0  0  1  1  1  1  1  1  0  1  1  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00020446955916220144
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.6755818849093272,best_state: [23 21 32 38 21 39 38 32 53 11 40 25 26 13 22 58 33 41 34 44  4 55 24 28
+  0 15  0  0  1  1  1  1  1  1  0  1  1  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00021005222280867653
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:bestR2: 0.6764140825988851,best_state: [23 21 32 38 21 39 38 32 53 11 40 25 26 13 22 58 33 41 34 44  4 55 24 28
+  0 15  0  0  1  0  1  1  1  1  0  1  1  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0008321976895578898
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:bestR2: 0.6766217635900922,best_state: [23 21 32 38 21 39 39 32 53 11 40 25 26 13 22 58 33 41 34 44  4 55 24 28
+  0 15  0  0  1  0  1  1  1  1  0  1  1  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00020768099120704875
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: True,count: 4,reward:-0.00028664892859542324
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: True,count: 6,reward:-0.00018021565460413225
+DEBUG:root:bestR2: 0.5278961098644634,best_state: [42 15 12 14 22 32 54 46 25 32 20 19 29 19 53 44 50 37  7 26 32 26 26  9
+ 13 31  1  0  1  0  1  1  1  0  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0006166101542616209
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: True,count: 3,reward:-0.00023382385256109917
+DEBUG:root:bestR2: 0.5281450726862217,best_state: [42 15 12 14 22 32 55 46 25 32 20 19 29 18 53 44 50 37  7 26 32 26 26  9
+ 13 31  1  0  1  0  1  1  1  0  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0004827866743193354
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.6130014095931708,best_state: [42 15 12 14 22 32 55 46 25 32 20 19 29 18 53 44 50 37  7 26 32 26 26  9
+ 13 31  1  0  1  0  1  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.08485633690694916
+DEBUG:root:bestR2: 0.6139838733160228,best_state: [42 15 12 14 22 32 56 46 25 32 20 19 29 18 53 44 50 37  7 26 32 26 26  9
+ 13 31  1  0  1  0  1  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.000982463722851934
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.614075856760891,best_state: [42 15 12 14 22 32 56 46 25 32 20 19 29 17 53 44 50 37  7 26 32 26 26  9
+ 13 31  1  0  1  0  1  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:9.198344486827104e-05
+DEBUG:root:bestR2: 0.615050750911406,best_state: [42 15 12 14 22 32 57 46 25 32 20 19 29 17 53 44 50 37  7 26 32 26 26  9
+ 13 31  1  0  1  0  1  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0009748941505149933
+DEBUG:root:bestR2: 0.6160162447664752,best_state: [42 15 12 14 22 32 58 46 25 32 20 19 29 17 53 44 50 37  7 26 32 26 26  9
+ 13 31  1  0  1  0  1  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0009654938550691661
+DEBUG:root:bestR2: 0.6169724415279676,best_state: [42 15 12 14 22 32 59 46 25 32 20 19 29 17 53 44 50 37  7 26 32 26 26  9
+ 13 31  1  0  1  0  1  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0009561967614923894
+DEBUG:root:bestR2: 0.6179194428995057,best_state: [42 15 12 14 22 32 60 46 25 32 20 19 29 17 53 44 50 37  7 26 32 26 26  9
+ 13 31  1  0  1  0  1  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0009470013715381365
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:bestR2: 0.6186577280261261,best_state: [42 15 12 14 22 32 60 46 25 32 20 19 29 17 53 44 50 37  7 26 31 26 26  9
+ 13 31  1  0  1  0  1  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0007382851266203305
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: 0.5189599821385911,best_state: [37 27 11 10 21 17 26 24 25  5 35 39 32 23 42 15 24 32 43 33 26 10 11  4
+ 36 20  1  1  1  0  0  0  1  0  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00047519136149021257
+DEBUG:root:is_valid: True,count: 1,reward:-0.00016580277307098878
+DEBUG:root:bestR2: 0.5277155253287025,best_state: [37 27 11 10 21 17 26 24 25  5 35 39 32 23 42 15 24 32 43 33 26 10 11  4
+ 35 20  1  1  1  0  0  1  1  0  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.008921345963182392
+DEBUG:root:bestR2: 0.6214785378696819,best_state: [37 27 11 10 21 17 26 24 25  5 35 39 32 23 42 15 24 32 43 33 26 10 11  4
+ 35 20  1  1  1  0  0  1  1  1  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0937630125409794
+DEBUG:root:bestR2: 0.6220647418255946,best_state: [37 27 11 10 21 17 27 24 25  5 35 39 32 23 42 15 24 32 43 33 26 10 11  4
+ 35 20  1  1  1  0  0  1  1  1  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0005862039559126897
+DEBUG:root:is_valid: True,count: 1,reward:-0.013127817364800953
+DEBUG:root:is_valid: True,count: 0,reward:0.0005539985321025842
+DEBUG:root:is_valid: True,count: 0,reward:0.006909786491616332
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 2,reward:-0.0004791842246387734
+DEBUG:root:is_valid: True,count: 0,reward:0.000542363920317146
+DEBUG:root:is_valid: True,count: 0,reward:7.4716731592539e-05
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: True,count: 5,reward:-0.0004444069837332698
+DEBUG:root:is_valid: True,count: 0,reward:0.0005343408992218857
+DEBUG:root:is_valid: True,count: 0,reward:0.00026648849676591535
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:0.0005220822130168612
+DEBUG:root:is_valid: True,count: 0,reward:0.0005115093577098273
+DEBUG:root:is_valid: True,count: 0,reward:0.0005011767677738366
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:0.0005702132527154458
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:0.0004846498443609182
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:0.0005070653607326392
+DEBUG:root:is_valid: True,count: 1,reward:-0.00039262299838660475
+DEBUG:root:is_valid: True,count: 0,reward:0.00047653925989998847
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:0.00046701144795280314
+DEBUG:root:is_valid: True,count: 0,reward:0.00045771539749484
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 2,reward:-3.122237877295486e-05
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: True,count: 5,reward:-0.00035699873585626207
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: True,count: 3,reward:-0.040955250101083696
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: True,count: 1,reward:-0.0036367486565043183
+DEBUG:root:is_valid: True,count: 2,reward:-0.00036997012848993815
+DEBUG:root:is_valid: True,count: 3,reward:-0.00046039080783366604
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: True,count: 5,reward:-0.00043859169788562635
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: 0.6467689362916376,best_state: [ 9 54 35 39 57 22 45 57  3  0 27 10 50 60  2 24 28 50 24  3 57 50 48 33
+ 20 15  1  1  0  1  1  1  1  1  1  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00012306250753824077
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.6469018083628086,best_state: [ 9 54 35 39 57 22 46 57  3  0 27 10 50 60  2 24 28 50 24  3 57 50 48 33
+ 20 15  1  1  0  1  1  1  1  1  1  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00013287207117107513
+DEBUG:root:bestR2: 0.6470442666113924,best_state: [ 9 54 35 39 57 22 47 57  3  0 27 10 50 60  2 24 28 50 24  3 57 50 48 33
+ 20 15  1  1  0  1  1  1  1  1  1  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00014245824858372114
+DEBUG:root:bestR2: 0.6471960843242621,best_state: [ 9 54 35 39 57 22 48 57  3  0 27 10 50 60  2 24 28 50 24  3 57 50 48 33
+ 20 15  1  1  0  1  1  1  1  1  1  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00015181771286976176
+DEBUG:root:bestR2: 0.6473570320283992,best_state: [ 9 54 35 39 57 22 49 57  3  0 27 10 50 60  2 24 28 50 24  3 57 50 48 33
+ 20 15  1  1  0  1  1  1  1  1  1  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00016094770413710435
+DEBUG:root:bestR2: 0.6475268780446655,best_state: [ 9 54 35 39 57 22 50 57  3  0 27 10 50 60  2 24 28 50 24  3 57 50 48 33
+ 20 15  1  1  0  1  1  1  1  1  1  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00016984601626623963
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.6477053890239313,best_state: [ 9 54 35 39 57 22 51 57  3  0 27 10 50 60  2 24 28 50 24  3 57 50 48 33
+ 20 15  1  1  0  1  1  1  1  1  1  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00017851097926580017
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.6478923304611566,best_state: [ 9 54 35 39 57 22 52 57  3  0 27 10 50 60  2 24 28 50 24  3 57 50 48 33
+ 20 15  1  1  0  1  1  1  1  1  1  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00018694143722530754
+DEBUG:root:bestR2: 0.6480874671857697,best_state: [ 9 54 35 39 57 22 53 57  3  0 27 10 50 60  2 24 28 50 24  3 57 50 48 33
+ 20 15  1  1  0  1  1  1  1  1  1  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00019513672461313192
+DEBUG:root:bestR2: 0.6482905638250198,best_state: [ 9 54 35 39 57 22 54 57  3  0 27 10 50 60  2 24 28 50 24  3 57 50 48 33
+ 20 15  1  1  0  1  1  1  1  1  1  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.000203096639250111
+DEBUG:root:bestR2: 0.6485013852402131,best_state: [ 9 54 35 39 57 22 55 57  3  0 27 10 50 60  2 24 28 50 24  3 57 50 48 33
+ 20 15  1  1  0  1  1  1  1  1  1  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00021082141519324082
+DEBUG:root:bestR2: 0.6487196969339069,best_state: [ 9 54 35 39 57 22 56 57  3  0 27 10 50 60  2 24 28 50 24  3 57 50 48 33
+ 20 15  1  1  0  1  1  1  1  1  1  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00021831169369379566
+DEBUG:root:bestR2: 0.6489452654286347,best_state: [ 9 54 35 39 57 22 57 57  3  0 27 10 50 60  2 24 28 50 24  3 57 50 48 33
+ 20 15  1  1  0  1  1  1  1  1  1  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0002255684947278791
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.6491778586169545,best_state: [ 9 54 35 39 57 22 58 57  3  0 27 10 50 60  2 24 28 50 24  3 57 50 48 33
+ 20 15  1  1  0  1  1  1  1  1  1  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00023259318831980735
+DEBUG:root:bestR2: 0.6494172460825113,best_state: [ 9 54 35 39 57 22 59 57  3  0 27 10 50 60  2 24 28 50 24  3 57 50 48 33
+ 20 15  1  1  0  1  1  1  1  1  1  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00023938746555673962
+DEBUG:root:bestR2: 0.6496631993944326,best_state: [ 9 54 35 39 57 22 60 57  3  0 27 10 50 60  2 24 28 50 24  3 57 50 48 33
+ 20 15  1  1  0  1  1  1  1  1  1  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00024595331192134307
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: 0.6444787553674745,best_state: [ 7 25 17 43 25 44 58 18 48 52 60 19 33 40  6 28 13 54  4 41 51 38 30 43
+ 53 41  1  0  1  0  1  1  1  1  1  1  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.000513840464441806
+DEBUG:root:bestR2: 0.6449908052971896,best_state: [ 7 25 17 43 25 44 59 18 48 52 60 19 33 40  6 28 13 54  4 41 51 38 30 43
+ 53 41  1  0  1  0  1  1  1  1  1  1  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.0005120499297150971
+DEBUG:root:bestR2: 0.6455008823550401,best_state: [ 7 25 17 43 25 44 60 18 48 52 60 19 33 40  6 28 13 54  4 41 51 38 30 43
+ 53 41  1  0  1  0  1  1  1  1  1  1  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.0005100770578505553
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: 0.7335537986447414,best_state: [ 3 55 37 53 60 24 29 51  3 22 11 27 32 13 46  5 57 13 59 29 11 14 33 21
+ 37 45  1  1  0  0  0  1  1  0  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:9.42340237016781e-05
+DEBUG:root:bestR2: 0.7336441095587592,best_state: [ 3 55 37 53 60 24 30 51  3 22 11 27 32 13 46  5 57 13 59 29 11 14 33 21
+ 37 45  1  1  0  0  0  1  1  0  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:9.031091401789926e-05
+DEBUG:root:bestR2: 0.7337321557079708,best_state: [ 3 55 37 53 60 24 31 51  3 22 11 27 32 13 46  5 57 13 59 29 11 14 33 21
+ 37 45  1  1  0  0  0  1  1  0  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:8.80461492115403e-05
+DEBUG:root:bestR2: 0.7338188828115907,best_state: [ 3 55 37 53 60 24 32 51  3 22 11 27 32 13 46  5 57 13 59 29 11 14 33 21
+ 37 45  1  1  0  0  0  1  1  0  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:8.67271036198991e-05
+DEBUG:root:bestR2: 0.7339048455232171,best_state: [ 3 55 37 53 60 24 33 51  3 22 11 27 32 13 46  5 57 13 59 29 11 14 33 21
+ 37 45  1  1  0  0  0  1  1  0  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:8.596271162641944e-05
+DEBUG:root:bestR2: 0.7339903710927562,best_state: [ 3 55 37 53 60 24 34 51  3 22 11 27 32 13 46  5 57 13 59 29 11 14 33 21
+ 37 45  1  1  0  0  0  1  1  0  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:8.552556953911328e-05
+DEBUG:root:bestR2: 0.7340756485270107,best_state: [ 3 55 37 53 60 24 35 51  3 22 11 27 32 13 46  5 57 13 59 29 11 14 33 21
+ 37 45  1  1  0  0  0  1  1  0  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:8.527743425446044e-05
+DEBUG:root:bestR2: 0.7341607798976673,best_state: [ 3 55 37 53 60 24 36 51  3 22 11 27 32 13 46  5 57 13 59 29 11 14 33 21
+ 37 45  1  1  0  0  0  1  1  0  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:8.513137065657705e-05
+DEBUG:root:is_valid: True,count: 1,reward:-0.08317859594918153
+DEBUG:root:is_valid: True,count: 0,reward:0.0003401658246887651
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:0.0003463802727990961
+DEBUG:root:is_valid: True,count: 0,reward:0.00035232900295179004
+DEBUG:root:is_valid: True,count: 0,reward:0.0003578820204749311
+DEBUG:root:is_valid: True,count: 0,reward:0.00036308099603998834
+DEBUG:root:is_valid: True,count: 0,reward:0.0003132195454227382
+DEBUG:root:is_valid: True,count: 0,reward:0.0003695540254666785
+DEBUG:root:is_valid: True,count: 0,reward:0.00037400353904404326
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 0,reward:0.0003781345169719952
+DEBUG:root:is_valid: True,count: 0,reward:0.00038195721651290704
+DEBUG:root:is_valid: True,count: 0,reward:0.000385481747491756
+DEBUG:root:is_valid: True,count: 0,reward:0.0003887180639750021
+DEBUG:root:is_valid: True,count: 0,reward:0.0003916759519830837
+DEBUG:root:is_valid: True,count: 0,reward:0.0003943650146807087
+DEBUG:root:is_valid: True,count: 0,reward:0.00039679464906794415
+DEBUG:root:is_valid: True,count: 0,reward:0.00039897400759036916
+DEBUG:root:is_valid: True,count: 0,reward:0.0004009119264177796
+DEBUG:root:is_valid: True,count: 0,reward:0.0004026167760324828
+DEBUG:root:is_valid: True,count: 0,reward:0.000404096110017349
+DEBUG:root:is_valid: True,count: 0,reward:0.00040535570330191284
+DEBUG:root:is_valid: True,count: 0,reward:0.00040639633952788135
+DEBUG:root:is_valid: True,count: 0,reward:0.00040719922068965797
+DEBUG:root:is_valid: True,count: 0,reward:0.0004076065129823281
+DEBUG:root:is_valid: True,count: 0,reward:0.00043439765642572237
+DEBUG:root:is_valid: True,count: 0,reward:0.0003845127266279835
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: 0.5745890319752109,best_state: [26 49 46 42 32 31 29 56 51 14 45 42  7 33 23 60 47 53 55 54 37 48  2  0
+  0 18  1  0  1  1  1  1  1  1  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0008703957808704477
+DEBUG:root:bestR2: 0.575454174322868,best_state: [26 49 46 42 32 31 30 56 51 14 45 42  7 33 23 60 47 53 55 54 37 48  2  0
+  0 18  1  0  1  1  1  1  1  1  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0008651423476571107
+DEBUG:root:bestR2: 0.576313781898675,best_state: [26 49 46 42 32 31 31 56 51 14 45 42  7 33 23 60 47 53 55 54 37 48  2  0
+  0 18  1  0  1  1  1  1  1  1  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0008596075758069421
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.5771676340271394,best_state: [26 49 46 42 32 31 32 56 51 14 45 42  7 33 23 60 47 53 55 54 37 48  2  0
+  0 18  1  0  1  1  1  1  1  1  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0008538521284644496
+DEBUG:root:bestR2: 0.5780155610585811,best_state: [26 49 46 42 32 31 33 56 51 14 45 42  7 33 23 60 47 53 55 54 37 48  2  0
+  0 18  1  0  1  1  1  1  1  1  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0008479270314416532
+DEBUG:root:bestR2: 0.57885743601007,best_state: [26 49 46 42 32 31 34 56 51 14 45 42  7 33 23 60 47 53 55 54 37 48  2  0
+  0 18  1  0  1  1  1  1  1  1  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0008418749514889079
+DEBUG:root:bestR2: 0.5796931673681056,best_state: [26 49 46 42 32 31 35 56 51 14 45 42  7 33 23 60 47 53 55 54 37 48  2  0
+  0 18  1  0  1  1  1  1  1  1  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0008357313580356074
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.5805226929345083,best_state: [26 49 46 42 32 31 36 56 51 14 45 42  7 33 23 60 47 53 55 54 37 48  2  0
+  0 18  1  0  1  1  1  1  1  1  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0008295255664027001
+DEBUG:root:bestR2: 0.5813459745976188,best_state: [26 49 46 42 32 31 37 56 51 14 45 42  7 33 23 60 47 53 55 54 37 48  2  0
+  0 18  1  0  1  1  1  1  1  1  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00082328166311052
+DEBUG:root:bestR2: 0.5821629939153103,best_state: [26 49 46 42 32 31 38 56 51 14 45 42  7 33 23 60 47 53 55 54 37 48  2  0
+  0 18  1  0  1  1  1  1  1  1  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0008170193176915141
+DEBUG:root:bestR2: 0.5829737484053752,best_state: [26 49 46 42 32 31 39 56 51 14 45 42  7 33 23 60 47 53 55 54 37 48  2  0
+  0 18  1  0  1  1  1  1  1  1  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0008107544900648467
+DEBUG:root:bestR2: 0.5837782484450091,best_state: [26 49 46 42 32 31 40 56 51 14 45 42  7 33 23 60 47 53 55 54 37 48  2  0
+  0 18  1  0  1  1  1  1  1  1  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0008045000396339486
+DEBUG:root:bestR2: 0.5845765146934516,best_state: [26 49 46 42 32 31 41 56 51 14 45 42  7 33 23 60 47 53 55 54 37 48  2  0
+  0 18  1  0  1  1  1  1  1  1  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0007982662484424807
+DEBUG:root:bestR2: 0.5853685759583966,best_state: [26 49 46 42 32 31 42 56 51 14 45 42  7 33 23 60 47 53 55 54 37 48  2  0
+  0 18  1  0  1  1  1  1  1  1  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0007920612649450209
+DEBUG:root:bestR2: 0.586154467438902,best_state: [26 49 46 42 32 31 43 56 51 14 45 42  7 33 23 60 47 53 55 54 37 48  2  0
+  0 18  1  0  1  1  1  1  1  1  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0007858914805053407
+DEBUG:root:bestR2: 0.5869342292831213,best_state: [26 49 46 42 32 31 44 56 51 14 45 42  7 33 23 60 47 53 55 54 37 48  2  0
+  0 18  1  0  1  1  1  1  1  1  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.000779761844219351
+DEBUG:root:bestR2: 0.587707905411087,best_state: [26 49 46 42 32 31 45 56 51 14 45 42  7 33 23 60 47 53 55 54 37 48  2  0
+  0 18  1  0  1  1  1  1  1  1  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.000773676127965639
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.5884755425563923,best_state: [26 49 46 42 32 31 46 56 51 14 45 42  7 33 23 60 47 53 55 54 37 48  2  0
+  0 18  1  0  1  1  1  1  1  1  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0007676371453053665
+DEBUG:root:bestR2: 0.5892371894898185,best_state: [26 49 46 42 32 31 47 56 51 14 45 42  7 33 23 60 47 53 55 54 37 48  2  0
+  0 18  1  0  1  1  1  1  1  1  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0007616469334261744
+DEBUG:root:bestR2: 0.5899928963924769,best_state: [26 49 46 42 32 31 48 56 51 14 45 42  7 33 23 60 47 53 55 54 37 48  2  0
+  0 18  1  0  1  1  1  1  1  1  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0007557069026583596
+DEBUG:root:bestR2: 0.5907427143517225,best_state: [26 49 46 42 32 31 49 56 51 14 45 42  7 33 23 60 47 53 55 54 37 48  2  0
+  0 18  1  0  1  1  1  1  1  1  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0007498179592456689
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.5914866949569819,best_state: [26 49 46 42 32 31 50 56 51 14 45 42  7 33 23 60 47 53 55 54 37 48  2  0
+  0 18  1  0  1  1  1  1  1  1  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0007439806052593756
+DEBUG:root:bestR2: 0.5922248899778189,best_state: [26 49 46 42 32 31 51 56 51 14 45 42  7 33 23 60 47 53 55 54 37 48  2  0
+  0 18  1  0  1  1  1  1  1  1  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0007381950208369403
+DEBUG:root:bestR2: 0.5929573511068169,best_state: [26 49 46 42 32 31 52 56 51 14 45 42  7 33 23 60 47 53 55 54 37 48  2  0
+  0 18  1  0  1  1  1  1  1  1  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.000732461128998052
+DEBUG:root:bestR2: 0.5936841297567803,best_state: [26 49 46 42 32 31 53 56 51 14 45 42  7 33 23 60 47 53 55 54 37 48  2  0
+  0 18  1  0  1  1  1  1  1  1  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0007267786499633999
+DEBUG:root:bestR2: 0.5944052769002821,best_state: [26 49 46 42 32 31 54 56 51 14 45 42  7 33 23 60 47 53 55 54 37 48  2  0
+  0 18  1  0  1  1  1  1  1  1  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0007211471435017991
+DEBUG:root:bestR2: 0.5951208429440003,best_state: [26 49 46 42 32 31 55 56 51 14 45 42  7 33 23 60 47 53 55 54 37 48  2  0
+  0 18  1  0  1  1  1  1  1  1  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.000715566043718141
+DEBUG:root:bestR2: 0.5958308776302631,best_state: [26 49 46 42 32 31 56 56 51 14 45 42  7 33 23 60 47 53 55 54 37 48  2  0
+  0 18  1  0  1  1  1  1  1  1  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0007100346862628504
+DEBUG:root:bestR2: 0.5965354299612128,best_state: [26 49 46 42 32 31 57 56 51 14 45 42  7 33 23 60 47 53 55 54 37 48  2  0
+  0 18  1  0  1  1  1  1  1  1  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0007045523309496815
+DEBUG:root:bestR2: 0.5972345481404076,best_state: [26 49 46 42 32 31 58 56 51 14 45 42  7 33 23 60 47 53 55 54 37 48  2  0
+  0 18  1  0  1  1  1  1  1  1  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0006991181791947687
+DEBUG:root:bestR2: 0.5979282795286451,best_state: [26 49 46 42 32 31 59 56 51 14 45 42  7 33 23 60 47 53 55 54 37 48  2  0
+  0 18  1  0  1  1  1  1  1  1  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.000693731388237584
+DEBUG:root:bestR2: 0.59861667061148,best_state: [26 49 46 42 32 31 60 56 51 14 45 42  7 33 23 60 47 53 55 54 37 48  2  0
+  0 18  1  0  1  1  1  1  1  1  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.000688391082834916
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.6349740315089124,best_state: [34 37 22  0  5 10 22 22 27 60 20 44 54 25 13 53 29 10  5 58 46 31  6 44
+ 11 38  1  1  0  1  0  1  1  1  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0004248037956596784
+DEBUG:root:bestR2: 0.6353925118405211,best_state: [34 37 22  0  5 10 23 22 27 60 20 44 54 25 13 53 29 10  5 58 46 31  6 44
+ 11 38  1  1  0  1  0  1  1  1  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0004184803316087393
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.6358045194334039,best_state: [34 37 22  0  5 10 24 22 27 60 20 44 54 25 13 53 29 10  5 58 46 31  6 44
+ 11 38  1  1  0  1  0  1  1  1  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0004120075928827349
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.6362099751002497,best_state: [34 37 22  0  5 10 25 22 27 60 20 44 54 25 13 53 29 10  5 58 46 31  6 44
+ 11 38  1  1  0  1  0  1  1  1  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0004054556668457998
+DEBUG:root:bestR2: 0.6366088556055195,best_state: [34 37 22  0  5 10 26 22 27 60 20 44 54 25 13 53 29 10  5 58 46 31  6 44
+ 11 38  1  1  0  1  0  1  1  1  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00039888050526981633
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: True,count: 2,reward:-6.251730379047693e-05
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: True,count: 5,reward:-0.00010683344732342892
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: 0.1455469112349489,best_state: [25 54  2 43 39 10  5 37 35  6 47 51  4 16 35  5 31 19 27 48 60  8 51 54
+ 45 17  0  1  0  0  0  1  0  1  1  0  0  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.11698652615387262
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.28067599907553187,best_state: [39 60 13 47 20 22 28 10  5 19 43 58 16  7 58 19 36 13  6 29 47  7 53 34
+  9 10  0  0  1  0  0  1  0  1  1  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.19814395276373253
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: 0.031053534156518237,best_state: [22  8  8 56 41 14 60 23 30 21 43 56  6 10 55 45 42  6 55  3 31  9 38 21
+ 53 35  0  1  1  0  0  1  0  0  0  0  1  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.09178795173259735
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:bestR2: 0.0563216816345351,best_state: [22  8  9 56 41 14 60 23 30 21 43 56  6 10 55 45 42  6 55  3 31  9 38 21
+ 53 35  0  1  1  0  0  1  0  0  0  0  1  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.025268147478016867
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:bestR2: 0.655975843758712,best_state: [60  8 12 50 40 35 28 51 38 43 47 11 43 33 25 15  5 30 30 32 22 51  0 56
+ 39 16  0  0  1  0  0  1  1  1  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:2.5696531811725265e-05
+DEBUG:root:bestR2: 0.6560097964017436,best_state: [60  8 12 50 40 35 29 51 38 43 47 11 43 33 25 15  5 30 30 32 22 51  0 56
+ 39 16  0  0  1  0  0  1  1  1  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:3.39526430316317e-05
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:bestR2: 0.6560517616629447,best_state: [60  8 12 50 40 35 30 51 38 43 47 11 43 33 25 15  5 30 30 32 22 51  0 56
+ 39 16  0  0  1  0  0  1  1  1  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:4.196526120103794e-05
+DEBUG:root:bestR2: 0.656101491308445,best_state: [60  8 12 50 40 35 31 51 38 43 47 11 43 33 25 15  5 30 30 32 22 51  0 56
+ 39 16  0  0  1  0  0  1  1  1  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:4.972964550031822e-05
+DEBUG:root:bestR2: 0.6561587346378044,best_state: [60  8 12 50 40 35 32 51 38 43 47 11 43 33 25 15  5 30 30 32 22 51  0 56
+ 39 16  0  0  1  0  0  1  1  1  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:5.724332935941323e-05
+DEBUG:root:bestR2: 0.6562232402961714,best_state: [60  8 12 50 40 35 33 51 38 43 47 11 43 33 25 15  5 30 30 32 22 51  0 56
+ 39 16  0  0  1  0  0  1  1  1  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:6.450565836702005e-05
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.6562947577111752,best_state: [60  8 12 50 40 35 34 51 38 43 47 11 43 33 25 15  5 30 30 32 22 51  0 56
+ 39 16  0  0  1  0  0  1  1  1  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:7.151741500377451e-05
+DEBUG:root:bestR2: 0.6563730382265687,best_state: [60  8 12 50 40 35 35 51 38 43 47 11 43 33 25 15  5 30 30 32 22 51  0 56
+ 39 16  0  0  1  0  0  1  1  1  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:7.828051539349179e-05
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.6564578359920417,best_state: [60  8 12 50 40 35 36 51 38 43 47 11 43 33 25 15  5 30 30 32 22 51  0 56
+ 39 16  0  0  1  0  0  1  1  1  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:8.479776547298812e-05
+DEBUG:root:bestR2: 0.6565489086578404,best_state: [60  8 12 50 40 35 37 51 38 43 47 11 43 33 25 15  5 30 30 32 22 51  0 56
+ 39 16  0  0  1  0  0  1  1  1  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:9.107266579877482e-05
+DEBUG:root:bestR2: 0.6566460179139206,best_state: [60  8 12 50 40 35 38 51 38 43 47 11 43 33 25 15  5 30 30 32 22 51  0 56
+ 39 16  0  0  1  0  0  1  1  1  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:9.710925608019672e-05
+DEBUG:root:bestR2: 0.6567489299047458,best_state: [60  8 12 50 40 35 39 51 38 43 47 11 43 33 25 15  5 30 30 32 22 51  0 56
+ 39 16  0  0  1  0  0  1  1  1  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00010291199082512748
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.6568574155456445,best_state: [60  8 12 50 40 35 40 51 38 43 47 11 43 33 25 15  5 30 30 32 22 51  0 56
+ 39 16  0  0  1  0  0  1  1  1  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00010848564089871449
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.6569712507606056,best_state: [60  8 12 50 40 35 41 51 38 43 47 11 43 33 25 15  5 30 30 32 22 51  0 56
+ 39 16  0  0  1  0  0  1  1  1  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00011383521496111104
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:bestR2: 0.6570902166572671,best_state: [60  8 12 50 40 35 42 51 38 43 47 11 43 33 25 15  5 30 30 32 22 51  0 56
+ 39 16  0  0  1  0  0  1  1  1  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00011896589666149371
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:bestR2: 0.6572140996521074,best_state: [60  8 12 50 40 35 43 51 38 43 47 11 43 33 25 15  5 30 30 32 22 51  0 56
+ 39 16  0  0  1  0  0  1  1  1  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00012388299484034082
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.6573426915549301,best_state: [60  8 12 50 40 35 44 51 38 43 47 11 43 33 25 15  5 30 30 32 22 51  0 56
+ 39 16  0  0  1  0  0  1  1  1  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0001285919028226612
+DEBUG:root:bestR2: 0.6574757896214516,best_state: [60  8 12 50 40 35 45 51 38 43 47 11 43 33 25 15  5 30 30 32 22 51  0 56
+ 39 16  0  0  1  0  0  1  1  1  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00013309806652150868
+DEBUG:root:bestR2: 0.657613196578339,best_state: [60  8 12 50 40 35 46 51 38 43 47 11 43 33 25 15  5 30 30 32 22 51  0 56
+ 39 16  0  0  1  0  0  1  1  1  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00013740695688746474
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:bestR2: 0.6577547206274659,best_state: [60  8 12 50 40 35 47 51 38 43 47 11 43 33 25 15  5 30 30 32 22 51  0 56
+ 39 16  0  0  1  0  0  1  1  1  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0001415240491268177
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:bestR2: 0.6579001754311846,best_state: [60  8 12 50 40 35 48 51 38 43 47 11 43 33 25 15  5 30 30 32 22 51  0 56
+ 39 16  0  0  1  0  0  1  1  1  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00014545480371874753
+DEBUG:root:bestR2: 0.6580493800827057,best_state: [60  8 12 50 40 35 49 51 38 43 47 11 43 33 25 15  5 30 30 32 22 51  0 56
+ 39 16  0  0  1  0  0  1  1  1  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00014920465152112872
+DEBUG:root:bestR2: 0.6582021590632754,best_state: [60  8 12 50 40 35 50 51 38 43 47 11 43 33 25 15  5 30 30 32 22 51  0 56
+ 39 16  0  0  1  0  0  1  1  1  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00015277898056964556
+DEBUG:root:bestR2: 0.6583583421884937,best_state: [60  8 12 50 40 35 51 51 38 43 47 11 43 33 25 15  5 30 30 32 22 51  0 56
+ 39 16  0  0  1  0  0  1  1  1  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0001561831252182566
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:bestR2: 0.6585177645446999,best_state: [60  8 12 50 40 35 52 51 38 43 47 11 43 33 25 15  5 30 30 32 22 51  0 56
+ 39 16  0  0  1  0  0  1  1  1  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00015942235620625134
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:bestR2: 0.6586802664172511,best_state: [60  8 12 50 40 35 53 51 38 43 47 11 43 33 25 15  5 30 30 32 22 51  0 56
+ 39 16  0  0  1  0  0  1  1  1  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00016250187255117954
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.658845693211322,best_state: [60  8 12 50 40 35 54 51 38 43 47 11 43 33 25 15  5 30 30 32 22 51  0 56
+ 39 16  0  0  1  0  0  1  1  1  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00016542679407094418
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.6590138953663076,best_state: [60  8 12 50 40 35 55 51 38 43 47 11 43 33 25 15  5 30 30 32 22 51  0 56
+ 39 16  0  0  1  0  0  1  1  1  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0001682021549855861
+DEBUG:root:bestR2: 0.6591847282647703,best_state: [60  8 12 50 40 35 56 51 38 43 47 11 43 33 25 15  5 30 30 32 22 51  0 56
+ 39 16  0  0  1  0  0  1  1  1  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00017083289846264726
+DEBUG:root:bestR2: 0.6593580521363998,best_state: [60  8 12 50 40 35 57 51 38 43 47 11 43 33 25 15  5 30 30 32 22 51  0 56
+ 39 16  0  0  1  0  0  1  1  1  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0001733238716294938
+DEBUG:root:bestR2: 0.6595337319579443,best_state: [60  8 12 50 40 35 58 51 38 43 47 11 43 33 25 15  5 30 30 32 22 51  0 56
+ 39 16  0  0  1  0  0  1  1  1  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00017567982154453876
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:bestR2: 0.6597116373493024,best_state: [60  8 12 50 40 35 59 51 38 43 47 11 43 33 25 15  5 30 30 32 22 51  0 56
+ 39 16  0  0  1  0  0  1  1  1  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0001779053913580908
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.6598916424670891,best_state: [60  8 12 50 40 35 60 51 38 43 47 11 43 33 25 15  5 30 30 32 22 51  0 56
+ 39 16  0  0  1  0  0  1  1  1  1  1  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0001800051177867079
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: True,count: 1,reward:-3.851969939316913e-05
+DEBUG:root:bestR2: 0.5411979489550808,best_state: [20 47 19 38 17 58 17 31 39  8 29  9 16 12 57 58 12 10 47 27 46 31 56 52
+  7 45  0  0  1  0  0  0  1  1  0  1  0  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.00030906928119689425
+DEBUG:root:bestR2: 0.542790217633946,best_state: [20 47 19 38 17 58 18 31 39  8 29  9 16 12 57 58 12 10 47 27 46 31 56 52
+  7 45  0  0  1  0  0  0  1  1  0  1  0  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.001592268678865194
+DEBUG:root:bestR2: 0.5661829598802375,best_state: [20 47 19 38 17 58 18 31 39  8 29  9 16 12 57 58 12 10 47 27 46 31 56 52
+  7 45  0  0  1  0  0  1  1  1  0  1  0  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.02339274224629151
+DEBUG:root:bestR2: 0.566352953375437,best_state: [20 47 19 38 17 58 19 31 39  8 29  9 16 12 57 58 12 10 47 27 46 31 56 52
+  7 45  0  0  1  0  0  1  1  1  0  1  0  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.00016999349519952744
+DEBUG:root:bestR2: 0.5665165302798382,best_state: [20 47 19 38 17 58 20 31 39  8 29  9 16 12 57 58 12 10 47 27 46 31 56 52
+  7 45  0  0  1  0  0  1  1  1  0  1  0  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.00016357690440116368
+DEBUG:root:bestR2: 0.5666739972982249,best_state: [20 47 19 38 17 58 21 31 39  8 29  9 16 12 57 58 12 10 47 27 46 31 56 52
+  7 45  0  0  1  0  0  1  1  1  0  1  0  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.0001574670183867033
+DEBUG:root:bestR2: 0.5668256434717504,best_state: [20 47 19 38 17 58 22 31 39  8 29  9 16 12 57 58 12 10 47 27 46 31 56 52
+  7 45  0  0  1  0  0  1  1  1  0  1  0  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.00015164617352547705
+DEBUG:root:bestR2: 0.5669717368094842,best_state: [20 47 19 38 17 58 23 31 39  8 29  9 16 12 57 58 12 10 47 27 46 31 56 52
+  7 45  0  0  1  0  0  1  1  1  0  1  0  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.0001460933377338547
+DEBUG:root:bestR2: 0.5671125223244496,best_state: [20 47 19 38 17 58 24 31 39  8 29  9 16 12 57 58 12 10 47 27 46 31 56 52
+  7 45  0  0  1  0  0  1  1  1  0  1  0  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.0001407855149654358
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.56724822122323,best_state: [20 47 19 38 17 58 25 31 39  8 29  9 16 12 57 58 12 10 47 27 46 31 56 52
+  7 45  0  0  1  0  0  1  1  1  0  1  0  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.00013569889878040087
+DEBUG:root:bestR2: 0.5673790309949263,best_state: [20 47 19 38 17 58 26 31 39  8 29  9 16 12 57 58 12 10 47 27 46 31 56 52
+  7 45  0  0  1  0  0  1  1  1  0  1  0  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.00013080977169621644
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.5675051261675133,best_state: [20 47 19 38 17 58 27 31 39  8 29  9 16 12 57 58 12 10 47 27 46 31 56 52
+  7 45  0  0  1  0  0  1  1  1  0  1  0  1  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.000126095172586993
+DEBUG:root:bestR2: 0.6121910458136197,best_state: [20 47 19 38 17 58 27 31 39  8 29  9 16 12 57 58 12 10 47 27 46 31 56 52
+  7 45  0  0  1  0  0  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.044685919646106464
+DEBUG:root:bestR2: 0.6123012830425172,best_state: [20 47 19 38 17 58 28 31 39  8 29  9 16 12 57 58 12 10 47 27 46 31 56 52
+  7 45  0  0  1  0  0  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00011023722889746956
+DEBUG:root:bestR2: 0.6125479330539321,best_state: [20 47 19 38 17 58 28 31 39  8 29  9 16 12 57 58 12 10 47 28 46 31 56 52
+  7 45  0  0  1  0  0  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00024665001141488396
+DEBUG:root:bestR2: 0.6126499594082622,best_state: [20 47 19 38 17 58 29 31 39  8 29  9 16 12 57 58 12 10 47 28 46 31 56 52
+  7 45  0  0  1  0  0  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0001020263543300981
+DEBUG:root:bestR2: 0.6127487319898135,best_state: [20 47 19 38 17 58 30 31 39  8 29  9 16 12 57 58 12 10 47 28 46 31 56 52
+  7 45  0  0  1  0  0  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:9.877258155133184e-05
+DEBUG:root:bestR2: 0.6128443069313428,best_state: [20 47 19 38 17 58 31 31 39  8 29  9 16 12 57 58 12 10 47 28 46 31 56 52
+  7 45  0  0  1  0  0  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:9.557494152934165e-05
+DEBUG:root:bestR2: 0.6129367319002426,best_state: [20 47 19 38 17 58 32 31 39  8 29  9 16 12 57 58 12 10 47 28 46 31 56 52
+  7 45  0  0  1  0  0  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:9.242496889971807e-05
+DEBUG:root:bestR2: 0.613026047478914,best_state: [20 47 19 38 17 58 33 31 39  8 29  9 16 12 57 58 12 10 47 28 46 31 56 52
+  7 45  0  0  1  0  0  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:8.931557867142281e-05
+DEBUG:root:bestR2: 0.6131122884545663,best_state: [20 47 19 38 17 58 34 31 39  8 29  9 16 12 57 58 12 10 47 28 46 31 56 52
+  7 45  0  0  1  0  0  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:8.624097565235189e-05
+DEBUG:root:bestR2: 0.6131954849896648,best_state: [20 47 19 38 17 58 35 31 39  8 29  9 16 12 57 58 12 10 47 28 46 31 56 52
+  7 45  0  0  1  0  0  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:8.319653509847313e-05
+DEBUG:root:bestR2: 0.6132756636598677,best_state: [20 47 19 38 17 58 36 31 39  8 29  9 16 12 57 58 12 10 47 28 46 31 56 52
+  7 45  0  0  1  0  0  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:8.017867020293501e-05
+DEBUG:root:bestR2: 0.6133528483577229,best_state: [20 47 19 38 17 58 37 31 39  8 29  9 16 12 57 58 12 10 47 28 46 31 56 52
+  7 45  0  0  1  0  0  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:7.718469785511495e-05
+DEBUG:root:bestR2: 0.6134270610668762,best_state: [20 47 19 38 17 58 38 31 39  8 29  9 16 12 57 58 12 10 47 28 46 31 56 52
+  7 45  0  0  1  0  0  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:7.421270915330958e-05
+DEBUG:root:bestR2: 0.613498322515099,best_state: [20 47 19 38 17 58 39 31 39  8 29  9 16 12 57 58 12 10 47 28 46 31 56 52
+  7 45  0  0  1  0  0  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:7.126144822278135e-05
+DEBUG:root:bestR2: 0.6135666527178036,best_state: [20 47 19 38 17 58 40 31 39  8 29  9 16 12 57 58 12 10 47 28 46 31 56 52
+  7 45  0  0  1  0  0  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:6.83302027046917e-05
+DEBUG:root:bestR2: 0.6136320714231709,best_state: [20 47 19 38 17 58 41 31 39  8 29  9 16 12 57 58 12 10 47 28 46 31 56 52
+  7 45  0  0  1  0  0  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:6.541870536724836e-05
+DEBUG:root:bestR2: 0.6136945984708162,best_state: [20 47 19 38 17 58 42 31 39  8 29  9 16 12 57 58 12 10 47 28 46 31 56 52
+  7 45  0  0  1  0  0  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:6.252704764531103e-05
+DEBUG:root:bestR2: 0.6137542540758982,best_state: [20 47 19 38 17 58 43 31 39  8 29  9 16 12 57 58 12 10 47 28 46 31 56 52
+  7 45  0  0  1  0  0  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:5.9655605082031826e-05
+DEBUG:root:bestR2: 0.6138110590478725,best_state: [20 47 19 38 17 58 44 31 39  8 29  9 16 12 57 58 12 10 47 28 46 31 56 52
+  7 45  0  0  1  0  0  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:5.680497197424472e-05
+DEBUG:root:bestR2: 0.6138650349552873,best_state: [20 47 19 38 17 58 45 31 39  8 29  9 16 12 57 58 12 10 47 28 46 31 56 52
+  7 45  0  0  1  0  0  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:5.397590741484937e-05
+DEBUG:root:bestR2: 0.6139162042432422,best_state: [20 47 19 38 17 58 46 31 39  8 29  9 16 12 57 58 12 10 47 28 46 31 56 52
+  7 45  0  0  1  0  0  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:5.116928795489972e-05
+DEBUG:root:bestR2: 0.6139645903126933,best_state: [20 47 19 38 17 58 47 31 39  8 29  9 16 12 57 58 12 10 47 28 46 31 56 52
+  7 45  0  0  1  0  0  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:4.838606945112289e-05
+DEBUG:root:bestR2: 0.6140102175672215,best_state: [20 47 19 38 17 58 48 31 39  8 29  9 16 12 57 58 12 10 47 28 46 31 56 52
+  7 45  0  0  1  0  0  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:4.562725452816885e-05
+DEBUG:root:bestR2: 0.6140531114334744,best_state: [20 47 19 38 17 58 49 31 39  8 29  9 16 12 57 58 12 10 47 28 46 31 56 52
+  7 45  0  0  1  0  0  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:4.2893866252891044e-05
+DEBUG:root:bestR2: 0.6140932983597706,best_state: [20 47 19 38 17 58 50 31 39  8 29  9 16 12 57 58 12 10 47 28 46 31 56 52
+  7 45  0  0  1  0  0  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:4.0186926296148506e-05
+DEBUG:root:bestR2: 0.6141308057978256,best_state: [20 47 19 38 17 58 51 31 39  8 29  9 16 12 57 58 12 10 47 28 46 31 56 52
+  7 45  0  0  1  0  0  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:3.7507438055084386e-05
+DEBUG:root:bestR2: 0.6141656621704344,best_state: [20 47 19 38 17 58 52 31 39  8 29  9 16 12 57 58 12 10 47 28 46 31 56 52
+  7 45  0  0  1  0  0  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:3.48563726088047e-05
+DEBUG:root:bestR2: 0.6141978968283396,best_state: [20 47 19 38 17 58 53 31 39  8 29  9 16 12 57 58 12 10 47 28 46 31 56 52
+  7 45  0  0  1  0  0  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:3.223465790513913e-05
+DEBUG:root:bestR2: 0.6142275399994488,best_state: [20 47 19 38 17 58 54 31 39  8 29  9 16 12 57 58 12 10 47 28 46 31 56 52
+  7 45  0  0  1  0  0  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:2.9643171109206e-05
+DEBUG:root:bestR2: 0.6142546227312616,best_state: [20 47 19 38 17 58 55 31 39  8 29  9 16 12 57 58 12 10 47 28 46 31 56 52
+  7 45  0  0  1  0  0  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:2.7082731812844152e-05
+DEBUG:root:bestR2: 0.6142791768296472,best_state: [20 47 19 38 17 58 56 31 39  8 29  9 16 12 57 58 12 10 47 28 46 31 56 52
+  7 45  0  0  1  0  0  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:2.455409838553191e-05
+DEBUG:root:bestR2: 0.6143012347946755,best_state: [20 47 19 38 17 58 57 31 39  8 29  9 16 12 57 58 12 10 47 28 46 31 56 52
+  7 45  0  0  1  0  0  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:2.2057965028299265e-05
+DEBUG:root:bestR2: 0.6143208297548026,best_state: [20 47 19 38 17 58 58 31 39  8 29  9 16 12 57 58 12 10 47 28 46 31 56 52
+  7 45  0  0  1  0  0  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:1.9594960127156114e-05
+DEBUG:root:bestR2: 0.6143379954004866,best_state: [20 47 19 38 17 58 59 31 39  8 29  9 16 12 57 58 12 10 47 28 46 31 56 52
+  7 45  0  0  1  0  0  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:1.7165645683991926e-05
+DEBUG:root:bestR2: 0.6143527659182212,best_state: [20 47 19 38 17 58 60 31 39  8 29  9 16 12 57 58 12 10 47 28 46 31 56 52
+  7 45  0  0  1  0  0  1  1  1  0  1  0  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:1.4770517734574717e-05
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: 0.615709091942584,best_state: [ 1 29  4 37  7 48 42 60 23 17 45 24 59 30 23 16 60 56 19  0 35 17  6 15
+  7  3  0  1  1  0  1  1  1  0  1  1  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.00019311389474718776
+DEBUG:root:bestR2: 0.6159048106527305,best_state: [ 1 29  4 37  7 48 43 60 23 17 45 24 59 30 23 16 60 56 19  0 35 17  6 15
+  7  3  0  1  1  0  1  1  1  0  1  1  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.00019571871014645303
+DEBUG:root:is_valid: True,count: 1,reward:-4.465833717626211e-05
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:bestR2: 0.6160592372327226,best_state: [ 1 29  5 37  7 48 44 60 23 17 45 24 59 30 23 16 60 56 19  0 35 17  6 15
+  7  3  0  1  1  0  1  1  1  0  1  1  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.0001990849171683573
+DEBUG:root:bestR2: 0.6162605581505081,best_state: [ 1 29  5 37  7 48 45 60 23 17 45 24 59 30 23 16 60 56 19  0 35 17  6 15
+  7  3  0  1  1  0  1  1  1  0  1  1  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.00020132091778546357
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.6164639424516227,best_state: [ 1 29  5 37  7 48 46 60 23 17 45 24 59 30 23 16 60 56 19  0 35 17  6 15
+  7  3  0  1  1  0  1  1  1  0  1  1  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.00020338430111466188
+DEBUG:root:bestR2: 0.6166692267408257,best_state: [ 1 29  5 37  7 48 47 60 23 17 45 24 59 30 23 16 60 56 19  0 35 17  6 15
+  7  3  0  1  1  0  1  1  1  0  1  1  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.00020528428920296715
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.616876256261394,best_state: [ 1 29  5 37  7 48 48 60 23 17 45 24 59 30 23 16 60 56 19  0 35 17  6 15
+  7  3  0  1  1  0  1  1  1  0  1  1  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.0002070295205682804
+DEBUG:root:is_valid: True,count: 1,reward:-0.00010753761772686055
+DEBUG:root:bestR2: 0.6169781422171872,best_state: [ 1 29  6 37  7 48 49 60 23 17 45 24 59 30 23 16 60 56 19  0 35 17  6 15
+  7  3  0  1  1  0  1  1  1  0  1  1  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.00020942357352005114
+DEBUG:root:bestR2: 0.6171890344131059,best_state: [ 1 29  6 37  7 48 50 60 23 17 45 24 59 30 23 16 60 56 19  0 35 17  6 15
+  7  3  0  1  1  0  1  1  1  0  1  1  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.00021089219591874375
+DEBUG:root:bestR2: 0.6174012627722614,best_state: [ 1 29  6 37  7 48 51 60 23 17 45 24 59 30 23 16 60 56 19  0 35 17  6 15
+  7  3  0  1  1  0  1  1  1  0  1  1  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.00021222835915546412
+DEBUG:root:bestR2: 0.6176147015366038,best_state: [ 1 29  6 37  7 48 52 60 23 17 45 24 59 30 23 16 60 56 19  0 35 17  6 15
+  7  3  0  1  1  0  1  1  1  0  1  1  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.00021343876434243292
+DEBUG:root:bestR2: 0.6178292312441256,best_state: [ 1 29  6 37  7 48 53 60 23 17 45 24 59 30 23 16 60 56 19  0 35 17  6 15
+  7  3  0  1  1  0  1  1  1  0  1  1  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.00021452970752178224
+DEBUG:root:bestR2: 0.6180447383521785,best_state: [ 1 29  6 37  7 48 54 60 23 17 45 24 59 30 23 16 60 56 19  0 35 17  6 15
+  7  3  0  1  1  0  1  1  1  0  1  1  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.00021550710805295914
+DEBUG:root:bestR2: 0.6182611148893118,best_state: [ 1 29  6 37  7 48 55 60 23 17 45 24 59 30 23 16 60 56 19  0 35 17  6 15
+  7  3  0  1  1  0  1  1  1  0  1  1  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.0002163765371332449
+DEBUG:root:bestR2: 0.6184782581314989,best_state: [ 1 29  6 37  7 48 56 60 23 17 45 24 59 30 23 16 60 56 19  0 35 17  6 15
+  7  3  0  1  1  0  1  1  1  0  1  1  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.00021714324218713443
+DEBUG:root:bestR2: 0.6186960703022883,best_state: [ 1 29  6 37  7 48 57 60 23 17 45 24 59 30 23 16 60 56 19  0 35 17  6 15
+  7  3  0  1  1  0  1  1  1  0  1  1  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.00021781217078942205
+DEBUG:root:bestR2: 0.6189144582945485,best_state: [ 1 29  6 37  7 48 58 60 23 17 45 24 59 30 23 16 60 56 19  0 35 17  6 15
+  7  3  0  1  1  0  1  1  1  0  1  1  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.0002183879922601495
+DEBUG:root:bestR2: 0.6191333334117426,best_state: [ 1 29  6 37  7 48 59 60 23 17 45 24 59 30 23 16 60 56 19  0 35 17  6 15
+  7  3  0  1  1  0  1  1  1  0  1  1  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.00021887511719409503
+DEBUG:root:bestR2: 0.6193526111277989,best_state: [ 1 29  6 37  7 48 60 60 23 17 45 24 59 30 23 16 60 56 19  0 35 17  6 15
+  7  3  0  1  1  0  1  1  1  0  1  1  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.00021927771605634305
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: 0.5991903526545191,best_state: [14 11 44 48 58 52 13  8 22 23 60  5 32  5 35 21 47 33 58  8  2 25 10 53
+  2  2  1  0  1  0  1  1  1  1  1  1  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.0006785249628004086
+DEBUG:root:bestR2: 0.5996522990750249,best_state: [14 11 44 48 58 52 14  8 22 23 60  5 32  5 35 21 47 33 58  8  2 25 10 53
+  2  2  1  0  1  0  1  1  1  1  1  1  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.0004619464205057877
+DEBUG:root:bestR2: 0.6031123483871733,best_state: [14 11 44 48 58 52 15  8 22 23 60  5 32  5 35 21 47 33 58  8  2 25 10 53
+  2  2  1  0  1  0  1  1  1  1  1  1  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.0034600493121483833
+DEBUG:root:bestR2: 0.6083480612698418,best_state: [14 11 44 48 58 52 16  8 22 23 60  5 32  5 35 21 47 33 58  8  2 25 10 53
+  2  2  1  0  1  0  1  1  1  1  1  1  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.005235712882668442
+DEBUG:root:bestR2: 0.613306612041696,best_state: [14 11 44 48 58 52 17  8 22 23 60  5 32  5 35 21 47 33 58  8  2 25 10 53
+  2  2  1  0  1  0  1  1  1  1  1  1  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.004958550771854253
+DEBUG:root:bestR2: 0.6177916155870185,best_state: [14 11 44 48 58 52 18  8 22 23 60  5 32  5 35 21 47 33 58  8  2 25 10 53
+  2  2  1  0  1  0  1  1  1  1  1  1  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.004485003545322441
+DEBUG:root:bestR2: 0.6216625053725509,best_state: [14 11 44 48 58 52 19  8 22 23 60  5 32  5 35 21 47 33 58  8  2 25 10 53
+  2  2  1  0  1  0  1  1  1  1  1  1  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.0038708897855324054
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:bestR2: 0.6248456924397433,best_state: [14 11 44 48 58 52 20  8 22 23 60  5 32  5 35 21 47 33 58  8  2 25 10 53
+  2  2  1  0  1  0  1  1  1  1  1  1  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.00318318706719245
+DEBUG:root:bestR2: 0.6273310084654857,best_state: [14 11 44 48 58 52 21  8 22 23 60  5 32  5 35 21 47 33 58  8  2 25 10 53
+  2  2  1  0  1  0  1  1  1  1  1  1  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.0024853160257424234
+DEBUG:root:bestR2: 0.6291580289513532,best_state: [14 11 44 48 58 52 22  8 22 23 60  5 32  5 35 21 47 33 58  8  2 25 10 53
+  2  2  1  0  1  0  1  1  1  1  1  1  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.00182702048586747
+DEBUG:root:bestR2: 0.629212249610424,best_state: [14 11 44 48 58 52 22  8 22 23 60  5 32  5 35 21 47 33 58  8  1 25 10 53
+  2  2  1  0  1  0  1  1  1  1  1  1  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:5.4220659070791655e-05
+DEBUG:root:bestR2: 0.630494465956521,best_state: [14 11 44 48 58 52 23  8 22 23 60  5 32  5 35 21 47 33 58  8  1 25 10 53
+  2  2  1  0  1  0  1  1  1  1  1  1  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.0012822163460970426
+DEBUG:root:bestR2: 0.6312717620078452,best_state: [14 11 44 48 58 52 24  8 22 23 60  5 32  5 35 21 47 33 58  8  1 25 10 53
+  2  2  1  0  1  0  1  1  1  1  1  1  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.00077729605132415
+DEBUG:root:bestR2: 0.6316344592275097,best_state: [14 11 44 48 58 52 25  8 22 23 60  5 32  5 35 21 47 33 58  8  1 25 10 53
+  2  2  1  0  1  0  1  1  1  1  1  1  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:0.0003626972196645317
+DEBUG:root:bestR2: 0.6316682812161358,best_state: [14 11 44 48 58 52 26  8 22 23 60  5 32  5 35 21 47 33 58  8  1 25 10 53
+  2  2  1  0  1  0  1  1  1  1  1  1  0  0  0]
+DEBUG:root:is_valid: True,count: 0,reward:3.382198862611485e-05
+DEBUG:root:is_valid: True,count: 1,reward:-0.0002187561737136967
+DEBUG:root:is_valid: True,count: 2,reward:-0.0004064141483850481
+DEBUG:root:is_valid: True,count: 3,reward:-0.0005406311726559032
+DEBUG:root:is_valid: True,count: 4,reward:-0.0006319603618651914
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: True,count: 6,reward:-0.0006895658848153907
+DEBUG:root:bestR2: 0.6767414111294816,best_state: [51 60 43 10 27 52 56 25 43 45  1 21  9 57 51 48  4 26 16 28 17 44 45 15
+ 22 50  1  1  0  0  1  0  1  1  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00048608547196327123
+DEBUG:root:bestR2: 0.6772283471150569,best_state: [51 60 43 10 27 52 57 25 43 45  1 21  9 57 51 48  4 26 16 28 17 44 45 15
+ 22 50  1  1  0  0  1  0  1  1  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0004869359855752542
+DEBUG:root:bestR2: 0.677715959196824,best_state: [51 60 43 10 27 52 58 25 43 45  1 21  9 57 51 48  4 26 16 28 17 44 45 15
+ 22 50  1  1  0  0  1  0  1  1  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00048761208176717474
+DEBUG:root:bestR2: 0.6782040775721827,best_state: [51 60 43 10 27 52 59 25 43 45  1 21  9 57 51 48  4 26 16 28 17 44 45 15
+ 22 50  1  1  0  0  1  0  1  1  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0004881183753586704
+DEBUG:root:bestR2: 0.67869253709051,best_state: [51 60 43 10 27 52 60 25 43 45  1 21  9 57 51 48  4 26 16 28 17 44 45 15
+ 22 50  1  1  0  0  1  0  1  1  0  0  1  1  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0004884595183273222
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:is_valid: False,count: 1,reward:0
+DEBUG:root:is_valid: False,count: 2,reward:0
+DEBUG:root:is_valid: False,count: 3,reward:0
+DEBUG:root:is_valid: False,count: 4,reward:0
+DEBUG:root:is_valid: False,count: 5,reward:0
+DEBUG:root:is_valid: False,count: 6,reward:0
+DEBUG:root:bestR2: 0.6728816462445779,best_state: [ 7 16 50  1 55  1 16 12 16 46 54 45 59 51 37 40 45 22  9 56 40 31 37 39
+ 24 58  1  1  0  0  1  0  1  1  0  1  0  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0002830787520502476
+DEBUG:root:bestR2: 0.6731778561409589,best_state: [ 7 16 50  1 55  1 17 12 16 46 54 45 59 51 37 40 45 22  9 56 40 31 37 39
+ 24 58  1  1  0  0  1  0  1  1  0  1  0  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.0002962098963810167
+DEBUG:root:bestR2: 0.6734856793624975,best_state: [ 7 16 50  1 55  1 18 12 16 46 54 45 59 51 37 40 45 22  9 56 40 31 37 39
+ 24 58  1  1  0  0  1  0  1  1  0  1  0  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00030782322153855013
+DEBUG:root:bestR2: 0.6738038438595054,best_state: [ 7 16 50  1 55  1 19 12 16 46 54 45 59 51 37 40 45 22  9 56 40 31 37 39
+ 24 58  1  1  0  0  1  0  1  1  0  1  0  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.00031816449700794447
+DEBUG:root:bestR2: 0.6808130197742508,best_state: [ 7 16 50  1 55  1 19 12 16 46 54 45 59 51 37 40 45 22  9 56 40 31 37 39
+ 24 58  1  1  0  0  1  1  1  1  0  1  0  0  1]
+DEBUG:root:is_valid: True,count: 0,reward:0.007009175914745369
+DEBUG:root:is_valid: True,count: 1,reward:-0.013470145085733187
+DEBUG:root:is_valid: True,count: 0,reward:0.00027733089345016726
+DEBUG:root:is_valid: True,count: 0,reward:0.0002915203968291147
