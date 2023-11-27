@@ -87,7 +87,8 @@ def PPO_learn(df_class,directory):
     env = FSEnv(df_class=df_class, state_size=state_size, action_size=action_size,
                 invalid_action_reward=0,  # 违反约束时的奖励
                 min_score=0,  # 视为有提升的最小阈值
-                max_stop_step=15,  # 最大停滞步数 智能体n步都不提升时停止
+                min_step_size= 2 , # 最小步长 参数每次更新得步长
+                max_stop_step=5,  # 最大停滞步数 智能体n步都不提升时停止
                 )
     # env.seed(0)
     torch.manual_seed(2023)
@@ -98,7 +99,7 @@ def PPO_learn(df_class,directory):
 
     try :
         return_list, r2_list, state_list = rl_utils.train_on_policy_agent(env, agent, num_episodes, epochs)
-        plot_PPO(np.array(return_list),name='Returns')
+        plot_PPO(np.array(return_list),name='Returns',directory=directory)
         save_result(return_list, r2_list, state_list, directory)
     except KeyboardInterrupt:
         save_result(return_list, r2_list, state_list,directory)

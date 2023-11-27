@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from rl_utils import moving_average
 import os
-def plot_PPO(file_path,name):
+def plot_PPO(file_path,name,directory=None):
 
     if isinstance(file_path, np.ndarray):
         return_list = file_path
@@ -33,7 +33,8 @@ def plot_PPO(file_path,name):
 
     # 显示图例
     plt.legend()
-
+    if directory is not  None:
+        plt.savefig(directory+'/'+name+'.png')
     # 显示图表
     plt.show()
 
@@ -72,6 +73,6 @@ if __name__ == "__main__":
     # 绘制PPO训练结果
 
     return_list = np.loadtxt('./result/2023-11-25_10_19/r2.txt', dtype=float)
-    plot_PPO(return_list,name='R2')
+    plot_PPO(return_list,name='R2',directory='./result/2023-11-25_10_19')
 
 
