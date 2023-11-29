@@ -27,13 +27,13 @@ def moving_average(a, window_size):
     end = (np.cumsum(a[:-window_size:-1])[::2] / r)[::-1]
     return np.concatenate((begin, middle, end))
 
-def save_sample(transition_dict,state,action,next_state,reward,done):
+def save_sample(transition_dict,state,action,next_state,reward,done,mask):
     transition_dict['states'].append(state)
     transition_dict['actions'].append(action)
     transition_dict['next_states'].append(next_state)
     transition_dict['rewards'].append(reward)
     transition_dict['dones'].append(done)
-
+    transition_dict['masks'].append(mask)
 
 
 def train_on_policy_agent(env, agent, num_episodes,epochs):
@@ -45,18 +45,16 @@ def train_on_policy_agent(env, agent, num_episodes,epochs):
         with tqdm(total=int(num_episodes/epochs), desc='Iteration %d' % i) as pbar:
             for i_episode in range(int(num_episodes/epochs)):
 
-                transition_dict = {'states': [], 'actions': [], 'next_states': [], 'rewards': [], 'dones': []}
+                transition_dict = {'states': [], 'actions': [], 'next_states': [], 'rewards': [], 'dones': [],'masks':[]}
                 state = env.reset(mode = 'random')
                 episode_return = env.best_R2
                 done = False
                 while not done:
                     scale_state  = state/env.ub# 防止输入差别过大神经网络出现错误，因此对输入做归一化
-                    action = agent.take_action(scale_state)
-                    # while env.is_valid_action(action,state) is False:
-                    #     action = agent.take_action(state)
-                    # logging.debug(f"action: {action}")
+                    invalid_action_mask = env.get_action_mask()
+                    action = agent.take_action(scale_state,torch.from_numpy(invalid_action_mask).to(agent.device))
                     next_state, reward, done,info= env.step(action)
-                    save_sample(transition_dict,scale_state,action,next_state/env.ub,reward,done)
+                    save_sample(transition_dict,scale_state,action,next_state/env.ub,reward,done,invalid_action_mask)
                     state = next_state
                     episode_return += reward
                 return_list.append(episode_return)
@@ -103,4 +101,4 @@ def compute_advantage(gamma, lmbda, td_delta):
         advantage_list.append(advantage)
     advantage_list.reverse()
     return torch.tensor(np.array(advantage_list), dtype=torch.float)
-                
+

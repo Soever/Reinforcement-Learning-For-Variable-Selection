@@ -11,6 +11,7 @@ import torch
 import random
 import matplotlib.pyplot as plt
 from AGENT_PPO import PPO
+from AGENT_PPO_MASK import PPO_MASK
 from ENV2 import FSEnv
 from plot import plot_PPO
 import logging
@@ -76,7 +77,7 @@ def PPO_learn(df_class,directory):
     action_size = df_class.feature_num * 6  # 每个参数有两个动作，增或减
     actor_lr = 1e-3
     critic_lr = 1e-2
-    num_episodes = 500
+    num_episodes = 2000
     hidden_dim = 128
     gamma = 0.98
     lmbda = 0.95
@@ -87,14 +88,15 @@ def PPO_learn(df_class,directory):
     env = FSEnv(df_class=df_class, state_size=state_size, action_size=action_size,
                 invalid_action_reward=0,  # 违反约束时的奖励
                 min_score=0,  # 视为有提升的最小阈值
-                min_step_size=2 ,
-                max_stop_step=5,  # 最大停滞步数 智能体n步都不提升时停止
+                min_step_size=3 ,
+                max_stop_step=3,  # 最大停滞步数 智能体n步都不提升时停止
+                device=device
                 )
     # env.seed(0)
     torch.manual_seed(2023)
     state_dim = state_size
     action_dim = action_size
-    agent = PPO(state_dim, hidden_dim, action_dim, actor_lr, critic_lr, lmbda,
+    agent = PPO_MASK(state_dim, hidden_dim, action_dim, actor_lr, critic_lr, lmbda,
                 epochs, eps, gamma, device)
 
     try :

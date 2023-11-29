@@ -13,7 +13,7 @@ from joblib import Parallel, delayed
 
 
 class FSEnv():
-    def __init__(self, df_class, state_size, action_size,invalid_action_reward=0, min_score=0,min_step_size = 1,max_stop_step=None):
+    def __init__(self, df_class, state_size, action_size,invalid_action_reward=0, min_score=0,min_step_size = 1,max_stop_step=None,device =None):
         self.df_class = df_class
         self.invalid_action_reward = invalid_action_reward
         self.min_score = min_score
@@ -27,7 +27,7 @@ class FSEnv():
         self.acc_new = 0
         self.acc_old = 0
         self.best_R2 = 0
-
+        self.device = device
         self.best_state = None
 
         self.lb = [0] * self.feature_num + [0] * self.feature_num + [0] * self.feature_num  # 决策变量下界
@@ -211,6 +211,15 @@ class FSEnv():
                 return False  # 动作无效
 
         return True  # 动作有效
+
+    def get_action_mask(self):
+        mask = np.zeros_like(self.action, dtype=np.float32)
+        for i in range(self.feature_num):
+            if self.state[i-self.feature_num] == 0 :
+                mask[2*self.feature_num+i] = mask[2*i] = mask[2*i + 1] = mask[self.feature_num + 2*i] = mask[self.feature_num + 2*i + 1] = -np.inf
+            elif self.state[i-self.feature_num] == 1 :
+                mask[2 * self.feature_num + 2*i+1] = -np.inf
+        return  mask
 
     def step(self, action):
         """
