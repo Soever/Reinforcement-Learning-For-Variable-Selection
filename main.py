@@ -77,19 +77,20 @@ def PPO_learn(df_class,directory):
     action_size = df_class.feature_num * 6  # 每个参数有两个动作，增或减
     actor_lr = 1e-3
     critic_lr = 1e-2
-    num_episodes = 2000
+    num_episodes = 1000
     hidden_dim = 128
-    gamma = 0.98
+    gamma = 1
     lmbda = 0.95
     epochs = 10
     eps = 0.2
     device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
 
     env = FSEnv(df_class=df_class, state_size=state_size, action_size=action_size,
+                init_mode=0,
                 invalid_action_reward=0,  # 违反约束时的奖励
                 min_score=0,  # 视为有提升的最小阈值
-                min_step_size=3 ,
-                max_stop_step=3,  # 最大停滞步数 智能体n步都不提升时停止
+                min_step_size=2,
+                max_stop_step=10,  # 最大停滞步数 智能体n步都不提升时停止
                 device=device
                 )
     # env.seed(0)

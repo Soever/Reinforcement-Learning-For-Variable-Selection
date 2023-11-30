@@ -73,13 +73,6 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="/to_csv/data05_T35111A.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
       </map>
     </option>
   </component>

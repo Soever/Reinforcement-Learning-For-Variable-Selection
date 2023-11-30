@@ -13,7 +13,7 @@ from joblib import Parallel, delayed
 
 
 class FSEnv():
-    def __init__(self, df_class, state_size, action_size,invalid_action_reward=0, min_score=0,min_step_size = 1,max_stop_step=None,device =None):
+    def __init__(self, df_class, state_size, action_size,init_mode = 0,invalid_action_reward=0, min_score=0,min_step_size = 1,max_stop_step=None,device =None):
         self.df_class = df_class
         self.invalid_action_reward = invalid_action_reward
         self.min_score = min_score
@@ -29,9 +29,9 @@ class FSEnv():
         self.best_R2 = 0
         self.device = device
         self.best_state = None
-
+        self.mode = init_mode
         self.lb = [0] * self.feature_num + [0] * self.feature_num + [0] * self.feature_num  # 决策变量下界
-        self.ub = [60] * self.feature_num + [60] * self.feature_num + [1] * self.feature_num  # 决策变量上界
+        self.ub = [120] * self.feature_num + [120] * self.feature_num + [1] * self.feature_num  # 决策变量上界
 
 
         self.done_count = 0
@@ -113,11 +113,11 @@ class FSEnv():
         return bestR2
 
 
-    def reset(self,mode ):
+    def reset(self):
         """
         重置环境到初始状态
         """
-        if mode == 'zero':
+        if self.mode== 0:
             self.state = self.init_state_to_zero()
         else :
             self.state = self.init_state_random()
@@ -216,9 +216,9 @@ class FSEnv():
         mask = np.zeros_like(self.action, dtype=np.float32)
         for i in range(self.feature_num):
             if self.state[i-self.feature_num] == 0 :
-                mask[2*self.feature_num+i] = mask[2*i] = mask[2*i + 1] = mask[self.feature_num + 2*i] = mask[self.feature_num + 2*i + 1] = -np.inf
+                mask[4*self.feature_num+i] = mask[2*i] = mask[2*i + 1] = mask[2*self.feature_num + 2*i] = mask[2*self.feature_num + 2*i + 1] = -np.inf
             elif self.state[i-self.feature_num] == 1 :
-                mask[2 * self.feature_num + 2*i+1] = -np.inf
+                mask[4 * self.feature_num + 2*i+1] = -np.inf
         return  mask
 
     def step(self, action):

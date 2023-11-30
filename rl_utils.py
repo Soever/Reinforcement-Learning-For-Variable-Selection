@@ -46,7 +46,7 @@ def train_on_policy_agent(env, agent, num_episodes,epochs):
             for i_episode in range(int(num_episodes/epochs)):
 
                 transition_dict = {'states': [], 'actions': [], 'next_states': [], 'rewards': [], 'dones': [],'masks':[]}
-                state = env.reset(mode = 'random')
+                state = env.reset()
                 episode_return = env.best_R2
                 done = False
                 while not done:
